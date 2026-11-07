@@ -1,0 +1,26 @@
+{
+  "initial_environment": {
+    "python": "3.12.14",
+    "executable": "/workspace/scratch/2592d19f4bb5/work/repro_runtime/.venv/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.7.1+cpu",
+    "torch_cuda_build": null,
+    "torch_threads": 1
+  },
+  "clean_environment": {
+    "python": "3.12.14",
+    "executable": "/workspace/scratch/2592d19f4bb5/work/repro_runtime/.clean_venv/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.7.1+cpu",
+    "torch_cuda_build": null,
+    "torch_threads": 1
+  },
+  "predictions_exactly_equal": true,
+  "maximum_absolute_difference": 0.0
+}

@@ -1,0 +1,32 @@
+{
+  "checkpoint_sha256": "f05222a6df77cf7c2a4013d3e25bbc3047264c2ffa3a39addf23ff28d7a6cd9f",
+  "development_trials": 10951005,
+  "freeze_sha256": "0b946c468d77aab6d3a8ad40a737a66155a16e3700d1875a86fdbe5a455ea2f7",
+  "fresh_interpreter": {
+    "bit_identical": 288,
+    "checks": 288,
+    "max_abs_delta": 0.0
+  },
+  "members": {
+    "model.py": "76ae5ac5b52ba5519f379f174c263bae9a89a70f22b85cd8340e21a2f76eb827",
+    "requires-state.json": "348088f33fb8080229f5475b95735719a43008a00af8a26b798831a138197eec"
+  },
+  "real_cases": 192,
+  "refit_sha256": "d0ac3ada0487a14856a1077fabbc837f27f59acf7d3ec1c7367c134e5551220c",
+  "selected": "caimira/offset/all",
+  "starting_kit": {
+    "kit_sha256": "a870970a7b9e82385929db37435aac29e3f0ee648cce7df143787b88ac4770f6",
+    "tools": {
+      "check_submission_zip.py": {
+        "exit_code": 0,
+        "stdout_sha256": "82f95c92929d37f34ed0834a8df77e48466afb572be4c8955e3171ca87c817bd"
+      },
+      "run_smoke_test.py": {
+        "exit_code": 0,
+        "stdout_sha256": "8934deb64be7f4fe4b530de8279e5f23a3de175a4b8e14fb945db9d649a03d69"
+      }
+    }
+  },
+  "training_trials": 10951005,
+  "zip_sha256": "6ae60cd5c9b7bedd8384a092f398f3bd7fea05d05c5a48e12c7c85c32e0327fc"
+}

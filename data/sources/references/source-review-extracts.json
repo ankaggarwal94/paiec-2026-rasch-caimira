@@ -1,0 +1,6 @@
+{
+  "source_file": "archives.md",
+  "source_sha256": "55713d43b52e5c6d995557ab5618d6a588ea1fa02064fdaf90e26ae95bcd520b",
+  "extraction": "AndroidWorld source review paragraph, verbatim",
+  "text": "The original AndroidWorld project's public leaderboard links GBOX's Apache-2.0 trajectory release at Git commit `f788f4eb3cb91213b532112c9874e7d1d7eb796a`. The source stores the instantiated goal and the individual app-state success result for each of 116 attempts. Exactly 100 succeeded and 16 failed. The visible subject fields include the primary model, refusal-triggered fallback, harness and actual access date. The three dates contribute 35, 73 and eight trials. Each configuration falls below the 80-item scoring threshold, so these observations can supply training data. The old 348-cell archive inferred some outcomes from missing task names. Those inferred outcomes contribute zero rows. [Benchmark authors' leaderboard](https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit#gid=0) \u00b7 [Participant's pinned release](https://github.com/babelcloud/android_world_benchmark/tree/f788f4eb3cb91213b532112c9874e7d1d7eb796a/GBOX) \u00b7 [Receipt](archives-androidworld.json)"
+}

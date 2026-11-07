@@ -1,0 +1,143 @@
+{
+  "archive_sha256": "4365be9a9fea48b312f0a5046fea45c6fe6f5e5219ba5035cf9383d45211ca05",
+  "benchmarks": {
+    "abstract_reason": {
+      "groups": 86,
+      "items": 144,
+      "subjects": 1,
+      "trials": 144
+    },
+    "afrimedqa": {
+      "groups": 160,
+      "items": 160,
+      "subjects": 15,
+      "trials": 2400
+    },
+    "agentdojo": {
+      "groups": 120,
+      "items": 120,
+      "subjects": 15,
+      "trials": 1800
+    },
+    "babilong": {
+      "groups": 5,
+      "items": 144,
+      "subjects": 1,
+      "trials": 145
+    },
+    "bertaqa": {
+      "groups": 133,
+      "items": 160,
+      "subjects": 4,
+      "trials": 640
+    },
+    "bfcl": {
+      "groups": 240,
+      "items": 240,
+      "subjects": 10,
+      "trials": 2709
+    },
+    "cellverse": {
+      "groups": 160,
+      "items": 160,
+      "subjects": 1,
+      "trials": 160
+    },
+    "clasheval": {
+      "groups": 151,
+      "items": 160,
+      "subjects": 4,
+      "trials": 640
+    },
+    "livecodebench": {
+      "groups": 240,
+      "items": 240,
+      "subjects": 10,
+      "trials": 6720
+    },
+    "mmlupro": {
+      "groups": 160,
+      "items": 160,
+      "subjects": 15,
+      "trials": 2415
+    },
+    "real_webagents": {
+      "groups": 218,
+      "items": 218,
+      "subjects": 3,
+      "trials": 685
+    },
+    "researchcodebench": {
+      "groups": 20,
+      "items": 212,
+      "subjects": 3,
+      "trials": 636
+    },
+    "swebench": {
+      "groups": 240,
+      "items": 240,
+      "subjects": 10,
+      "trials": 2400
+    }
+  },
+  "bytes": 101700524,
+  "sources": {
+    "five-candidate-local-20261029/data-prep/source-v1/ADMISSION.json": {
+      "bytes": 2959,
+      "sha256": "3250a5f0dcb909b1b8ef425d9a7900933abf589856496d14cad1cf686be67b01"
+    },
+    "five-candidate-local-20261029/data-prep/source-v1/RAW-JOIN-PROVENANCE.json": {
+      "bytes": 4901434,
+      "sha256": "5f40658e0c6a0972fbc53bb795abe5e2b7ab42ec17c7e971c8b66480669c78b0"
+    },
+    "five-candidate-local-20261029/data-prep/source-v1/groups.json": {
+      "bytes": 146544,
+      "sha256": "0bb9df5f3c9fe50dc27cae681914c9e7ce6aaf0b99c37f3a4f26df478ad99857"
+    },
+    "five-candidate-local-20261029/data-prep/source-v1/source.jsonl": {
+      "bytes": 16380363,
+      "sha256": "10bcffd1ebf9136ac7e98a8f88fb0b5aacce67ea75d22208de1fb42eac3fccd4"
+    },
+    "neurips-roadmap-20261025/run/confirmation-grade-admission-v2/grades.json": {
+      "bytes": 20850,
+      "sha256": "5ce7478418bb94f1307cd71356e6da5bdd3c14606ea9a05a346888816bc5d097"
+    },
+    "neurips-roadmap-20261025/run/confirmation-grade-admission-v2/receipt.json": {
+      "bytes": 31443,
+      "sha256": "852f1a7c54ca4548219dc5fb333f0fab611a37ee1bc1f16f50d83c93da4bdde8"
+    },
+    "neurips-roadmap-20261025/run/confirmation-input-admission-v2/inputs.json": {
+      "bytes": 2007423,
+      "sha256": "338d5fdc87990d72f8315d42b452bb3928d3bb4af80b9819d9bf1dfaa088a732"
+    },
+    "neurips-roadmap-20261025/run/confirmation-input-admission-v2/receipt.json": {
+      "bytes": 34351,
+      "sha256": "5f3fcff5244c4099ec4daebb3f7687507c3e8d923b72fd280cebd52dccbfc5fb"
+    },
+    "neurips-roadmap-20261025/run/development-admission-v1/admission.json": {
+      "bytes": 4495,
+      "sha256": "0bd597ce9e306ac9ec57ed102fdc4cddf45d26bd8e12bf58f8b7fb29820e0550"
+    },
+    "neurips-roadmap-20261025/run/development-admission-v1/protocol/source.jsonl": {
+      "bytes": 6394896,
+      "sha256": "07ccbb56921929ab9b8231d41dae4bbe9f2963d8cd1601d9c09a375bf26e667d"
+    },
+    "neurips-roadmap-20261025/run/development-admission-v1/source-groups.json": {
+      "bytes": 91594,
+      "sha256": "08f0a5c4ec8d70037e3ed6da91e88fa914c0479895f89cd569f5101b7a5a0ac8"
+    },
+    "neurips-roadmap-20261025/run/verification/p0-source-mapping-fresh/mapping-audit.json": {
+      "bytes": 590341,
+      "sha256": "e1ea9610feb64e2fc0bf7a7ab742e25d7d3c83231d82bcfcf9d84d63c7a7fc97"
+    },
+    "proxy-matched-iteration-20261030/run-v2/inputs/cohort.jsonl": {
+      "bytes": 67732026,
+      "sha256": "7afa38601ef9697e5a86bb138f1eb325b3a1a57f15efcf4f8b41deb7a533be58"
+    },
+    "proxy-matched-iteration-20261030/run-v2/inputs/materialization.json": {
+      "bytes": 983,
+      "sha256": "97404dd3be4ce1dcbbf09d39bff8a966757b0ed635e182253c5f7a3b3126c0a5"
+    }
+  },
+  "trials": 21494
+}

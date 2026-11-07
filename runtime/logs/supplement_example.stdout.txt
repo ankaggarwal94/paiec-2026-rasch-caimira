@@ -1,0 +1,7 @@
+{
+  "example": "synthetic interface demonstration",
+  "probabilities_by_budget": {
+    "0": 0.43542760610580444,
+    "1": 0.5321305488696426
+  }
+}

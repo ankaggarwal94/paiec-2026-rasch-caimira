@@ -1,0 +1,303 @@
+{
+  "source_sha256": "f18cdcf84e84e2427c598d29a7bd1c8fe943bc9e508dce80f8643b7dbe81c103",
+  "extraction": "Selected fields for the exact 44-suite training corpus; source content and unrelated catalog entries omitted.",
+  "benchmarks": {
+    "abstract_reason": {
+      "organizer_row_id": "biMO2gWsWS",
+      "organizer_slug": "symbol_remapping_abstract_reasoning",
+      "status": "materialized_archive"
+    },
+    "agentdojo": {
+      "organizer_row_id": "m1YYAQjO3w",
+      "organizer_slug": "agentdojo",
+      "status": "materialized_archive"
+    },
+    "algotune": {
+      "organizer_row_id": "dF1tD9hjvn",
+      "organizer_slug": "algotune",
+      "original_terms": "MIT",
+      "retained_trials": 2772,
+      "source_url": "https://github.com/oripress/AlgoTune",
+      "status": "materialized_catalog"
+    },
+    "androidworld": {},
+    "atmossci_bench": {
+      "organizer_row_id": "vDm8VWYYuX",
+      "organizer_slug": "atmossci_bench",
+      "original_terms": "Dataset: CC-BY-NC-4.0, as declared in the upstream Croissant metadata. Code: MIT. Model outputs remain subject to the providers' terms identified in doc/sources_license.md.",
+      "retained_trials": 31064,
+      "source_url": "https://github.com/Relaxed-System-Lab/AtmosSci-Bench",
+      "status": "materialized_catalog"
+    },
+    "babilong": {
+      "organizer_row_id": "u7m2CG84BQ",
+      "organizer_slug": "babilong",
+      "original_terms": "Upstream code and PG-19: Apache-2.0. Underlying bAbI tasks: BSD; see the captured upstream license statements.",
+      "retained_trials": 2020251,
+      "source_url": "https://huggingface.co/datasets/RMT-team/babilong_evals",
+      "status": "materialized_catalog"
+    },
+    "bertaqa": {
+      "organizer_row_id": "QocjHRR31U",
+      "organizer_slug": "bertaqa",
+      "status": "materialized_archive"
+    },
+    "brace": {
+      "organizer_row_id": "MdEkxa6PV9",
+      "organizer_slug": "brace",
+      "original_terms": "Apache-2.0 for the BRACE repository; MIT for the CAF-Score repository; audio retains its AudioCaps/Clotho source terms",
+      "retained_trials": 202096,
+      "source_url": "https://github.com/inseong00/CAF-Score",
+      "status": "materialized_catalog"
+    },
+    "cellverse": {
+      "organizer_row_id": "FpxIViTl3C",
+      "organizer_slug": "cellverse",
+      "status": "materialized_archive"
+    },
+    "clasheval": {
+      "organizer_row_id": "WGoCZl2itU",
+      "organizer_slug": "clasheval",
+      "status": "materialized_archive"
+    },
+    "cruxeval": {
+      "organizer_row_id": "Ffpg52swvg",
+      "organizer_slug": "cruxeval",
+      "original_terms": "MIT",
+      "retained_trials": 992000,
+      "source_url": "https://github.com/facebookresearch/cruxeval",
+      "status": "materialized_catalog"
+    },
+    "cybench": {},
+    "disco": {
+      "organizer_row_id": "q0P4rrDImq",
+      "organizer_slug": "movietection",
+      "original_terms": "MovieTection frames and captions: CC-BY-NC-SA-4.0. DIS-CO code and result repository: Apache-2.0, as declared upstream.",
+      "retained_trials": 111906,
+      "source_url": "https://github.com/avduarte333/DIS-CO",
+      "status": "materialized_catalog"
+    },
+    "editbench": {
+      "organizer_row_id": "FtL9eEmU6v",
+      "organizer_slug": "edit_bench",
+      "original_terms": "Apache-2.0",
+      "retained_trials": 23328,
+      "source_url": "https://github.com/waynchi/editbench/tree/b406cc5143feb91e9bda1edd01cbe37d84d185fd",
+      "status": "materialized_catalog"
+    },
+    "fgbench": {
+      "organizer_row_id": "VIsPHMMiW8",
+      "organizer_slug": "fgbench",
+      "original_terms": "MIT",
+      "retained_trials": 45568,
+      "source_url": "https://huggingface.co/datasets/xuan-liu/FGBench",
+      "status": "materialized_catalog"
+    },
+    "finegrain_t2i": {
+      "organizer_row_id": "qlZI9Bgxpy",
+      "organizer_slug": "finegrain",
+      "original_terms": "MIT as declared in the upstream dataset README and dataset card. The separate Croissant metadata declares CC-BY-4.0; preserve this source inconsistency.",
+      "retained_trials": 3750,
+      "source_url": "https://huggingface.co/datasets/KevinDavidHayes/t2i-finegrain",
+      "status": "materialized_catalog"
+    },
+    "goodai_ltm_benchmark": {
+      "organizer_row_id": "twFlD3C9Rt",
+      "organizer_slug": "ltm_benchmark",
+      "original_terms": "The repository declares MIT. Constituent datasets retain their original attribution and terms; the upstream README also states usage restrictions for GPT-generated tests. Capturing these files does not establish additional permissions.",
+      "retained_trials": 972,
+      "source_url": "https://github.com/GoodAI/goodai-ltm-benchmark",
+      "status": "materialized_catalog"
+    },
+    "jetts": {
+      "organizer_row_id": "CgJEHynkJt",
+      "organizer_slug": "jetts",
+      "original_terms": "Apache-2.0 for the JETTS code. Original component datasets retain their own terms.",
+      "retained_trials": 201080,
+      "source_url": "https://github.com/SalesforceAIResearch/jetts-benchmark",
+      "status": "materialized_catalog"
+    },
+    "kernelbench": {
+      "organizer_row_id": "yeoN1iQT1x",
+      "organizer_slug": "kernelbench",
+      "original_terms": "Apache-2.0 for the released kernelbench-samples dataset; task definitions and harness retain their respective upstream licenses.",
+      "retained_trials": 73984,
+      "source_url": "https://huggingface.co/datasets/ScalingIntelligence/kernelbench-samples",
+      "status": "materialized_catalog"
+    },
+    "lexeval": {
+      "organizer_row_id": "8RaxRs5VDf",
+      "organizer_slug": "lexeval",
+      "original_terms": "MIT",
+      "retained_trials": 868801,
+      "source_url": "https://github.com/CSHaitao/LexEval",
+      "status": "materialized_catalog"
+    },
+    "liveaopsbench": {
+      "organizer_row_id": "cZi1njoRT6",
+      "organizer_slug": "liveaopsbench",
+      "original_terms": "Task dataset: Apache-2.0 (author HF card); website result/source release: CC-BY-SA-4.0; evaluator code: Apache-2.0. Original notices are captured.",
+      "retained_trials": 69264,
+      "source_url": "https://github.com/LiveMathBench/LiveMathBench.github.io",
+      "status": "materialized_catalog"
+    },
+    "llm_uncertainty_bench": {
+      "organizer_row_id": "L0oSfTroNE",
+      "organizer_slug": "llm_uncertainty_bench",
+      "original_terms": "MIT source repository; adapted task content retains its applicable original dataset terms.",
+      "retained_trials": 4080000,
+      "source_url": "https://github.com/smartyfh/LLM-Uncertainty-Bench",
+      "status": "materialized_catalog"
+    },
+    "matharena": {
+      "organizer_row_id": "y0zL9IZxZ7",
+      "organizer_slug": "matharena",
+      "original_terms": "CC-BY-NC-SA-4.0 AND CC-BY-SA-4.0",
+      "retained_trials": 89482,
+      "source_url": "https://github.com/eth-sri/matharena",
+      "status": "materialized_catalog"
+    },
+    "mathvista_mini": {
+      "organizer_row_id": "KUNzEQMWU7",
+      "organizer_slug": "mathvista",
+      "original_terms": "MathVista task/image collection: CC-BY-SA-4.0. OpenVLMRecords and VLMEvalKit code: Apache-2.0, as declared in captured upstream cards and code license.",
+      "retained_trials": 268820,
+      "source_url": "https://huggingface.co/datasets/VLMEval/OpenVLMRecords",
+      "status": "materialized_catalog"
+    },
+    "medagentboard": {
+      "organizer_row_id": "BPpG4qQaNj",
+      "organizer_slug": "medagentboard",
+      "original_terms": "Zenodo declares CC-BY-4.0 for the captured release. Incorporated datasets retain their original terms. The original archive unexpectedly contains processed MIMIC task records despite its description; these are excluded from tables, and the complete archive is held locally rather than republished.",
+      "retained_trials": 7214,
+      "source_url": "https://zenodo.org/records/22299495",
+      "status": "materialized_catalog"
+    },
+    "medhelm_medcalc_bench": {
+      "organizer_row_id": "VXohja0vrQ",
+      "organizer_slug": "medcalc_bench",
+      "original_terms": "unknown",
+      "retained_trials": 13000,
+      "source_url": "https://crfm.stanford.edu/helm/medhelm/",
+      "status": "materialized_catalog"
+    },
+    "mir_bench": {},
+    "mmlupro": {
+      "organizer_row_id": "y10DM6R2r3",
+      "organizer_slug": "mmlu_pro",
+      "status": "materialized_archive"
+    },
+    "moe_cap": {
+      "organizer_row_id": "k2fWVhG0u5",
+      "organizer_slug": "moe_cap",
+      "original_terms": "Apache-2.0 (original HF dataset card and author repository LICENSE); constituent tasks retain their upstream terms.",
+      "retained_trials": 58088,
+      "source_url": "https://huggingface.co/datasets/auto-cap/results",
+      "status": "materialized_catalog"
+    },
+    "multi_swebench": {
+      "organizer_row_id": "MhBZzkz4h9",
+      "organizer_slug": "multi_swe_bench",
+      "original_terms": "Apache-2.0",
+      "retained_trials": 57975,
+      "source_url": "https://github.com/multi-swe-bench/experiments",
+      "status": "materialized_catalog"
+    },
+    "radar": {
+      "organizer_row_id": "pJcPhHHlVY",
+      "organizer_slug": "radar",
+      "original_terms": "Apache-2.0, as declared in the captured author repository LICENSE.",
+      "retained_trials": 1,
+      "source_url": "https://github.com/codeKgu/RADAR",
+      "status": "materialized_catalog"
+    },
+    "real_webagents": {
+      "organizer_row_id": "Un1sWxmZuI",
+      "organizer_slug": "real",
+      "status": "materialized_archive"
+    },
+    "researchcodebench": {
+      "organizer_row_id": "3k70Vt0YFS",
+      "organizer_slug": "researchcodebench",
+      "status": "materialized_archive"
+    },
+    "statqa": {
+      "organizer_row_id": "j4CRWz418M",
+      "organizer_slug": "statqa",
+      "original_terms": "GPL-3.0 as declared by the original repository LICENSE. This capture includes the released benchmark definitions and outputs, not unrelated upstream Kaggle datasets.",
+      "retained_trials": 44194,
+      "source_url": "https://github.com/HKUSTDial/StatQA",
+      "status": "materialized_catalog"
+    },
+    "subjective_qa": {
+      "organizer_row_id": "f5XZEROoGb",
+      "organizer_slug": "subjective_qa",
+      "original_terms": "CC-BY-4.0",
+      "retained_trials": 16164,
+      "source_url": "https://github.com/gtfintechlab/SubjECTive-QA",
+      "status": "materialized_catalog"
+    },
+    "swe_bench_pro": {},
+    "swe_rebench": {
+      "organizer_row_id": "nMpJoVmRy1",
+      "organizer_slug": "swe_rebench",
+      "status": "materialized_archive"
+    },
+    "tau2_bench": {
+      "organizer_row_id": "OC2z7iSQKa",
+      "organizer_slug": "tau2_bench",
+      "original_terms": "MIT",
+      "retained_trials": 23210,
+      "source_url": "https://github.com/sierra-research/tau2-bench",
+      "status": "materialized_catalog"
+    },
+    "taubench": {
+      "organizer_row_id": "roNSXZpUDN",
+      "organizer_slug": "tau_bench",
+      "original_terms": "Original Sierra code and tasks: MIT. HAL traces: public analysis release; no separate data license found in the captured export repository.",
+      "retained_trials": 1980,
+      "source_url": "https://github.com/sierra-research/tau-bench",
+      "status": "materialized_catalog"
+    },
+    "vhelm": {
+      "organizer_row_id": "TuMnKFKPho",
+      "organizer_slug": "vhelm",
+      "original_terms": "The captured HELM code is Apache-2.0. Underlying visual datasets retain their own source licenses; the public run exports do not supply a single replacement license for all inputs.",
+      "retained_trials": 405790,
+      "source_url": "https://storage.googleapis.com/crfm-helm-public/vhelm/benchmark_output/runs/v2.0.1/",
+      "status": "materialized_catalog"
+    },
+    "visual_riddles": {
+      "organizer_row_id": "hwbRjslR5N",
+      "organizer_slug": "visual_riddles",
+      "original_terms": "Apache-2.0 declared; see upstream card for commercial-training restriction and retained image rights",
+      "retained_trials": 3186,
+      "source_url": "https://huggingface.co/datasets/visual-riddles/visual_riddles",
+      "status": "materialized_catalog"
+    },
+    "wonderbread": {
+      "organizer_row_id": "rZlLfa81D8",
+      "organizer_slug": "wonderbread",
+      "original_terms": "CC-BY-4.0 for the versioned Zenodo dataset. The captured upstream code has no separate license file at the pinned commit.",
+      "retained_trials": 14460,
+      "source_url": "https://github.com/HazyResearch/wonderbread",
+      "status": "materialized_catalog"
+    },
+    "workarena": {
+      "organizer_row_id": "BRfqYrikdo",
+      "organizer_slug": "workarena",
+      "original_terms": "AgentRewardBench custom dataset terms: use must be lawful and respect third-party rights and applicable third-party conditions; the source describes research use under applicable fair-use provisions. Derivatives must retain those terms, captured in raw/README.md. The WorkArena code's Apache-2.0 license is not asserted to license these separately released trajectories.",
+      "retained_trials": 475,
+      "source_url": "https://huggingface.co/datasets/McGill-NLP/agent-reward-bench",
+      "status": "materialized_catalog"
+    },
+    "worldcentralbanks": {
+      "organizer_row_id": "cU5W9Z3r8p",
+      "organizer_slug": "world_central_banks",
+      "original_terms": "CC-BY-NC-SA-4.0",
+      "retained_trials": 405558,
+      "source_url": "https://github.com/gtfintechlab/WorldCentralBanks",
+      "status": "materialized_catalog"
+    }
+  }
+}

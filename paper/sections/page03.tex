@@ -1,0 +1,50 @@
+\section{Two complementary views of ability}
+\label{sec:models}
+\paragraph{A common lexical encoder.}
+The encoder case-folds text, extracts words and individual punctuation tokens using \code{\textbackslash w+|[\textasciicircum\textbackslash w\textbackslash s]}, and counts occurrences. Each token receives a deterministic signed bucket through BLAKE2b, with an eight-byte digest and personalization string \code{roadmap.lex.v1}. The first four digest bytes select one of 384 coordinates; a bit in the fifth byte selects the sign. The resulting vector is normalized to unit Euclidean length, with an all-zero vector for empty token input. This is a fixed feature map, without a fitted vocabulary~\citep{release,weinberger2009}.
+
+Write $x_i\in\R^{384}$ for item features and $z_s\in\R^{384}$ for features of the subject dictionary's canonical JSON string. Canonical serialization sorts keys and uses compact separators. Each branch learns item effects and a prior ability from these features. Frozen forward computations use CPU tensors in float32; adaptation uses float64 arrays. Both states retain centering constants. The formulas below apply to nonzero metadata features; an all-zero vector receives prior ability zero.
+
+\subsection{Rasch branch: one overall ability dimension}
+The Rasch model assigns each item a difficulty and each subject an initial ability:
+\begin{equation}
+ d_i^{R}=x_i^\top w_d^{R}-c_d^{R},\qquad
+ \mu_s^{R}=(z_s-\bar z^{R})^\top w_\mu^{R},\qquad
+ \eta_{si}^{R}=b_R+\mu_s^{R}-d_i^{R}.
+ \label{eq:rasch}
+\end{equation}
+The initial probability is $\sigmoid(\eta_{si}^{R})$. Every item shares the same slope with respect to ability, so increasing ability shifts every item's log odds by the same amount. The metadata map gives a prior for a subject from its attributes, rather than requiring a subject-index lookup. The state includes 769 fitted coefficients: one intercept and two 384-dimensional weight vectors~\citep{release}.
+
+\subsection{CAIMIRA-style branch: two ability coordinates}
+For two latent coordinates, the second branch computes a difficulty vector and relevance weights:
+\begin{align}
+ d_i^{C}&=x_i^\top W_d^{C}-c_d^{C}, &
+ r_i&=\softmax(x_i^\top W_r+c_r), \\
+ \mu_s^{C}&=(z_s-\bar z^{C})^\top W_\mu^{C}, &
+ \eta_{si}^{C}(a)&=b_C+r_i^\top(a-d_i^{C}).
+ \label{eq:caimira}
+\end{align}
+Here $r_i\in\R^2$ has positive entries that sum to one. An item can emphasize one ability coordinate or distribute its relevance across both. At zero labels, $a=\mu_s^{C}$. This follows CAIMIRA's content-dependent relevance and difficulty idea~\citep{gor2024}; the candidate instantiates it with lexical hashes, a learned metadata prior, rank two, and a Gaussian-prior update. Those implementation choices define the variant studied here.
+
+\begin{table}[H]
+\centering
+\caption{Active components of the submitted artifact. Counts exclude frozen centering constants.}
+\label{tab:implementation}
+\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Property & Rasch branch & CAIMIRA-style branch \\
+\midrule
+Item / metadata feature width & 384 / 384 & 384 / 384 \\
+Latent ability dimension & 1 & 2 \\
+Fitted coefficient count & 769 & 2,307 \\
+Adaptation & Scalar MAP offset & Native ability MAP \\
+Prior precision for adaptation & 1 & Identity matrix \\
+Prediction mixture weight & 0.5 & 0.5 \\
+State-declared ridge setting & 0.01 & 0.01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{What the two coordinates mean.}
+These coordinates are fitted directions of ability, and each item's relevance weights determine its position between them. This gives the model a direct mechanism for transferring evidence selectively. Items with similar relevance profiles receive similar ability corrections, while items emphasizing different coordinates can respond differently to the same support set. The scalar branch supplies a complementary global correction. Together, the branches use a common input representation while expressing two distinct assumptions about transfer.

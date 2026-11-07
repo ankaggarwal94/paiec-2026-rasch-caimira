@@ -1,0 +1,22 @@
+{
+  "archive": "18-s44-rasch-caimira(1).zip",
+  "size_bytes": 55644,
+  "sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b",
+  "members": [
+    {
+      "name": "caimira-requires-state.json",
+      "size_bytes": 70999,
+      "sha256": "348088f33fb8080229f5475b95735719a43008a00af8a26b798831a138197eec"
+    },
+    {
+      "name": "model.py",
+      "size_bytes": 53370,
+      "sha256": "a246beb1d96745d00094483bf86ef0ed585cc713dc46c805f15fd445b19dc21e"
+    },
+    {
+      "name": "rasch-requires-state.json",
+      "size_bytes": 35785,
+      "sha256": "477130aaf555b872320f320c69458d91c38f877024163b10f5f887d2fcbc1ef7"
+    }
+  ]
+}

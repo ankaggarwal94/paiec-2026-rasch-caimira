@@ -1,0 +1,58 @@
+{
+  "repository": "maharshi95/paiec-2026-report",
+  "commit": "23a5fc8007c42950d3f0c96b7c0980b54ef8883f",
+  "tree": "9bde9b1025ce2dc7f3cb380010e4fd3dd7ad9e20",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "d082bf3eba0d096e1572b5243041bdc3e19b1a4f",
+      "bytes": 39
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "e937f92509082517bf2340e61da4204840db0763",
+      "bytes": 5112
+    },
+    {
+      "path": "generated/fig_results.pdf",
+      "git_blob_sha": "2d326e3f65137ba81c455142d09070b2081d7700",
+      "bytes": 22443
+    },
+    {
+      "path": "generated/numbers.tex",
+      "git_blob_sha": "73b594e482eaa847f5fa5c153176a8c4c7366f4a",
+      "bytes": 1511
+    },
+    {
+      "path": "generated/tab_ablation.tex",
+      "git_blob_sha": "22ccc2e6fa818b25b5f82b443d15a7ec196e0891",
+      "bytes": 692
+    },
+    {
+      "path": "generated/tab_main.tex",
+      "git_blob_sha": "510b5d57ffb21c6dfc41aa9ebe7c4b4cdb015abb",
+      "bytes": 1238
+    },
+    {
+      "path": "main.tex",
+      "git_blob_sha": "be962bd5f21352ad0d88e5ef1e80c2e778c11ece",
+      "bytes": 37521
+    },
+    {
+      "path": "make_numbers.py",
+      "git_blob_sha": "ebf1fa0a3f51fb558f554a3cf6f1f7e634c9f84b",
+      "bytes": 10572
+    },
+    {
+      "path": "neurips_2025.sty",
+      "git_blob_sha": "55b8fd44abd3343d0e39dbc4fb4b8503d430ef1c",
+      "bytes": 13024
+    },
+    {
+      "path": "refs.bib",
+      "git_blob_sha": "bbec564ad57daeeec2b5677851c1a0082155b8e5",
+      "bytes": 3533
+    }
+  ],
+  "scope": "Source snapshot, committed generated outputs, and generator inspected; raw parent-repository runs remain unavailable. External Rasch-plus-rank-2 comparison lacks an archive hash."
+}

@@ -1,0 +1,91 @@
+{
+  "scope": "Local Git with mocked GitHub API and mocked push; remote mutations zero",
+  "helper_sha256": "239c6e5ce8516d40f048b09d5cfb493d6e8957d649dbe55194367a22c6654b3c",
+  "checks": [
+    {
+      "check": "wrong_owner",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "wrong_account",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "populated_target",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "private_target",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "dry_run",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "check": "pending_invitation",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "check": "accepted_access",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "check": "readme_environment_exclusion",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "check": "virtual_environment_source",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "raw_data_cache_and_build_exclusion",
+      "passed": true,
+      "returncode": 0
+    }
+  ],
+  "environment_fixture_names": [
+    ".venv-inference",
+    ".venv-report",
+    ".clean_venv",
+    "venv-extra",
+    ".clean_venv_previous",
+    "runtime/custom-python-environment/pyvenv.cfg"
+  ],
+  "environment_check": "Manifest and actual Git commit exclude every environment file, including interpreter symlinks.",
+  "excluded_raw_cache_build_fixtures": [
+    "data/raw/native_items.csv",
+    "data/materialized/responses.csv",
+    "nested/data/raw/native_items.csv",
+    "nested/data/materialized/derived.csv",
+    ".hf-cache/restricted-data.json",
+    ".cache/huggingface/record.json",
+    "nested/.hf-cache/record.json",
+    "nested/.cache/huggingface/record.json",
+    "development/outputs/local-fit.json",
+    "runtime/results/smoke_results.json",
+    "runtime/results/fresh_cli_trial.jsonl",
+    "paper/main.aux",
+    "paper/main.log",
+    "paper/main.fls",
+    "paper/main.fdb_latexmk",
+    "paper/main.synctex.gz",
+    "publication-receipt.json"
+  ],
+  "retained_evidence_fixtures": [
+    "data/source_manifest.json",
+    "runtime/results/reference_smoke_results.json",
+    "runtime/results/frozen_feedback.json",
+    "paper/figures/curve.pdf"
+  ],
+  "raw_data_check": "Every raw-data fixture is below 100 MiB. The manifest and actual Git commit omit all 17 excluded files and retain all four selected evidence assets."
+}

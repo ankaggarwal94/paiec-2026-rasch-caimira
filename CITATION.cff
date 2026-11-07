@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this report and the precise release commit used."
+title: "From Overall Ability to Item-Sensitive Adaptation: Rasch-CAIMIRA for Predictive Evaluation"
+type: software
+authors:
+  - family-names: Aggarwal
+    given-names: Ankit
+    affiliation: Stanford University
+  - family-names: Gor
+    given-names: Maharshi
+    affiliation: University of Maryland
+repository-code: "https://github.com/ankaggarwal94/paiec-2026-rasch-caimira"
+keywords:
+  - predictive evaluation
+  - item response theory
+  - Rasch
+  - CAIMIRA
+  - test-time adaptation
+  - calibration
+abstract: "Reproduction materials for the selected PAIEC 2026 candidate, Codabench submission 1033935, with frozen inference, reported score tables, recovered training source, and provenance."

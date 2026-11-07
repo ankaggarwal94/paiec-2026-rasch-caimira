@@ -1,0 +1,46 @@
+{
+  "adapter_sha256": "bb9dbe494dc4aa867476fda8563804956fa418172bd932c3a8065afeb23ba0f4",
+  "checkpoint_sha256": "5aa3c484e328f51fa6fa0439bf85131e4b4421cabcb4f6add5c0619a0dabd9e8",
+  "distinct_inputs": 24,
+  "distinct_subject_strings": 3,
+  "execution_scope": "new fit on supplied normalized trials; source-corpus projection is external",
+  "fit": {
+    "device": "cpu",
+    "diagnostics": {
+      "bce": 0.6147319078445435,
+      "convergence": "CONVERGED",
+      "gradient_inf": 3.921333700418472e-05,
+      "nuisance_prior": 0.0059376005083322525,
+      "objective": 0.635295033454895,
+      "optimizer": "Adam",
+      "rank": 1,
+      "ridge": 0.014625526033341885,
+      "step": 300,
+      "steps": 300,
+      "structured_penalties": 0.0
+    },
+    "fit_seconds": 1.1642149870021967,
+    "input_rows": 24,
+    "method": "rasch",
+    "pairs": 6,
+    "seed": 17,
+    "trials": 48
+  },
+  "input_sha256": "5c347ac0ad9c04e94636464a4a24cff962df6316e4b7c7aacdc0f4b019614f22",
+  "normalization": "exact supplied subject and text strings; repeated benchmark/subject/item identities consolidated",
+  "pairs": 6,
+  "record_count": 48,
+  "runtime": {
+    "device": "cpu",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "schema": "paiec-normalized-jsonl-adapter-v1",
+  "source_manifest_sha256": "4ed150a860ae05e7043b05e22c15ac0c0bef00ab050dbfcb7ee1070e2fe97273",
+  "state_sha256": "c7a75350c60276adb98d286feeb1ba1b78f85c08f2efef75ce9af36402fe8135",
+  "total_pair_weight": 1.0
+}

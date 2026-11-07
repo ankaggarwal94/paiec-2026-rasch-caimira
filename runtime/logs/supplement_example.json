@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/workspace/scratch/2592d19f4bb5/work/repro_runtime/.venv/bin/python",
+    "/workspace/scratch/2592d19f4bb5/work/openreview_supplement/examples/predict_example.py"
+  ],
+  "cwd": "/workspace/scratch/2592d19f4bb5/work/openreview_supplement",
+  "example_sha256": "493ea7b1e16150cd1be3a3dd760a7020ff1b12ea4ef6e548c27f608664ba3ace",
+  "exit_code": 0,
+  "elapsed_seconds": 1.928506851196289,
+  "stdout": "{\n  \"example\": \"synthetic interface demonstration\",\n  \"probabilities_by_budget\": {\n    \"0\": 0.43542760610580444,\n    \"1\": 0.5321305488696426\n  }\n}\n",
+  "stderr": ""
+}

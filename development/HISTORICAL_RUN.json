@@ -1,0 +1,34 @@
+{
+  "selected_zip_sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b",
+  "caimira_state_sha256": "348088f33fb8080229f5475b95735719a43008a00af8a26b798831a138197eec",
+  "caimira_receipt_scope": "Exact state identity links the selected native branch to an earlier caimira/offset/all package and its completed full-corpus fit.",
+  "freeze_sha256": "0b946c468d77aab6d3a8ad40a737a66155a16e3700d1875a86fdbe5a455ea2f7",
+  "refit_sha256": "d0ac3ada0487a14856a1077fabbc837f27f59acf7d3ec1c7367c134e5551220c",
+  "checkpoint_sha256": "f05222a6df77cf7c2a4013d3e25bbc3047264c2ffa3a39addf23ff28d7a6cd9f",
+  "training": {
+    "device": "cuda",
+    "diagnostics": {
+      "bce": 0.637116551399231,
+      "convergence": "CONVERGED",
+      "gradient_inf": 4.69735823571682e-08,
+      "nuisance_prior": 0.01824178732931614,
+      "objective": 0.6637041568756104,
+      "optimizer": "Adam",
+      "rank": 2,
+      "ridge": 0.00832394976168871,
+      "step": 300,
+      "steps": 300,
+      "structured_penalties": 2.1887901311856695e-05
+    },
+    "fit_seconds": 24.23022690403741,
+    "input_rows": 9479991,
+    "method": "caimira",
+    "pairs": 1345,
+    "seed": 17,
+    "trials": 10951005
+  },
+  "benchmarks": 44,
+  "source_lineages": 36,
+  "projected_source_tables": 176,
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21"
+}

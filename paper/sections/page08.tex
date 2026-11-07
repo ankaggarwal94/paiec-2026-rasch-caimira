@@ -1,0 +1,42 @@
+\section{Extension: shared evidence and calibrated gating}
+\label{sec:extensions}
+The selected Rasch--CAIMIRA candidate adapts within one subject--benchmark pair. A complementary hierarchical IRT line, developed in an earlier internal study and implemented in \code{submit\_gate.zip}, makes each revealed label useful more broadly~\citep{release}. It connects related items and subjects and calibrates two variants of online inference. This extends our two-scale adaptation view through shared evidence.
+
+\subsection{Sharing evidence through item and subject structure}
+The hierarchical model starts from a conditional ability-minus-difficulty relation,
+\begin{equation}
+ \logit p_{s,i}^{\rm cond}=\beta_b+\delta_{s,b}-d_i,
+ \qquad
+ d_i=\widehat d_i+q_i^\top v_b+\sum_k a_{ik}g_{b,k}+\epsilon_i.
+ \label{eq:hierarchical}
+\end{equation}
+Here $p_{s,i}^{\rm cond}$ conditions on the latent effects, $\widehat d_i$ is a frozen content prior, $q_i$ is a 64-dimensional projected item representation, $g_{b,k}$ denotes shared item-group effects, and $\epsilon_i$ is an item-specific residual. Items can share groups through key-value metadata or identical content. A label can therefore update both the observed item and related items on the same benchmark.
+
+Subject ability has the form $\delta_{s,b}=h_s^\top w_b+r_{s,b}$, where $h_s$ contains subject descriptors and frozen ability summaries, $w_b$ is a benchmark-specific regression, and $r_{s,b}$ is a subject residual. Revealed outcomes from several subjects can improve that shared regression. This supplies a different source of transfer from CAIMIRA's item-relevance geometry: one learns where an ability update matters, while the other pools evidence across related observations.
+
+\subsection{Calibrating the strength of online updates}
+The gate package combines two members built from the same offline fit. One uses variance-adjusted likelihood updates, denoted $p_{\rm VI}$; the other uses MAP-style likelihood updates, denoted $p_{\rm MAP}$. Both marginalize variance in their final probability calculation. Writing $p_{\rm VI}$ and $p_{\rm MAP}$ for their probabilities clipped to $[10^{-4},1-10^{-4}]$, the stored gate at $n$ labels is approximately
+\begin{equation}
+ p_G=
+ \begin{cases}
+ p_{\rm VI}, & n=0,\\
+ \sigmoid\!\left(2.3581\logit p_{\rm VI}-1.7053\logit p_{\rm MAP}\right), & n\ge1.
+ \end{cases}
+ \label{eq:gate}
+\end{equation}
+The negative coefficient makes this a signed calibration in log-odds space. It can adjust the strength of adaptation beyond an average of the two member probabilities. Appendix~\ref{app:gate} traces the implementation. On a separate 20-benchmark protocol, the earlier study records Gate ALC 0.2077 versus 0.2202 for its base IRT model, motivating this extension; Appendix~\ref{app:shared} preserves that study and its evaluation scope.
+
+\subsection{A concrete composition to evaluate}
+A simple candidate for joining the systems is
+\begin{equation}
+ p_{\rm ext}=\tfrac12p_{RC}+\tfrac12p_G
+            =\tfrac14p_R+\tfrac14p_C+\tfrac12p_G,
+ \qquad p_{RC}=\tfrac12(p_R+p_C).
+ \label{eq:extension}
+\end{equation}
+This proposal preserves both selected branches and adds the hierarchical model as a complementary forecast. A budget-dependent weight is a further option once matched replay data are available. The combined predictor's empirical benefit remains a question for the next experiment.
+
+A useful comparison would fix panel, support prefixes, and evaluation responses across Rasch, CAIMIRA, the selected blend, the gate, and Equation~\ref{eq:extension}, then repeat across acquisition seeds. The gate's separate uncertainty policy accepts probabilities in $[0.2,0.8]$ with a budget-fill rule. Evaluating that policy in a second stage would distinguish gains from prediction and label selection.
+
+\paragraph{Conclusion.}
+Rasch--CAIMIRA makes sparse predictive evaluation concrete: use a stable global correction, add item-sensitive adaptation, and combine their forecasts in a compact package. The selected candidate reaches Brier ALC 0.160822 and reduces endpoint Brier error by 40.27\%, with most of the gain present after seven labels. Its transparent geometry provides a strong foundation for the next stage: sharing evidence across related items and subjects, and learning how strongly to trust each adaptation view.

@@ -1,0 +1,161 @@
+{
+  "absent_pairs_on_730_attempted_items": 491,
+  "absent_subject_item_pairs": 505,
+  "benchmark": "swe_bench_pro",
+  "counts": {
+    "binary_trials": 9729,
+    "source_trials": 9729
+  },
+  "failures": 7089,
+  "family": "swe_bench",
+  "native_items": 731,
+  "native_subjects": 14,
+  "observed_trials_by_source_model_label": {
+    "Claude 4 Sonnet - 10132025": 562,
+    "Claude 4.5 Haiku -- 10222025": 729,
+    "Claude 4.5 Sonnet - 10132025": 730,
+    "Claude Opus 4.1 - paper": 663,
+    "Claude Sonnet 4 - paper": 626,
+    "GLM-4.5 -- 10222025": 729,
+    "GPT OSS - paper": 728,
+    "GPT-4o - paper": 619,
+    "GPT-5 - 10132025": 729,
+    "GPT-5 Codex -- debug-oct22": 708,
+    "GPT-5 High - paper": 730,
+    "Gemini 2.5 Pro Preview - paper": 719,
+    "Gemini 2.5 Pro Preview -- debug-oct22": 728,
+    "Kimi - paper": 729
+  },
+  "observed_visible_item_variants": 730,
+  "outputs": {
+    "facts.parquet": {
+      "bytes": 224210,
+      "sha256": "3bc9aabdef9312ce2bcc4d773c811ce395ebfd6e1b27b967077f8ac4abe3cbe2"
+    },
+    "items.parquet": {
+      "bytes": 918845,
+      "sha256": "e4378f1efd43494962d98df51ceff57c9771f90cfb831b8510fd1276e465c1c5"
+    },
+    "subjects.parquet": {
+      "bytes": 1560,
+      "sha256": "6beae0d0d383c2a87399f46f05bdb201a4d992696bb45c6931475e14157d20f3"
+    },
+    "ungraded.parquet": {
+      "bytes": 13268,
+      "sha256": "c93a67381a25ab5c42bc4fcf1f549cf34245d10d57c0c3719842837988f3eb58"
+    }
+  },
+  "receipt_sha256": "76d1838c7f94a84c87bdaf03a4394dc87aa822aee9a783bfdc9cfa63b8c74c81",
+  "source": {
+    "attribution": "Scale AI, SWE-Bench Pro (ICLR 2026), with original upstream project attribution.",
+    "collection": "https://docent.transluce.org/dashboard/032fb63d-4992-4bfc-911d-3b7dafcb931f",
+    "dataset": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+    "independent_export": "Fulcrum agent-psychometrics data/swebench_pro/swe-bench-pro.csv",
+    "missing_pairs": "Unattempted configuration/item pairs have no measured response.",
+    "native_files": {
+      "csv_copy": {
+        "bytes": 1861612,
+        "sha256": "f44905ab61d2c69a46bdf7189062179d8153ebbfb53cc98e4affc3f43abd85f5"
+      },
+      "docent": {
+        "bytes": 3167368,
+        "sha256": "08cc1057e50d08ce4e16dc3ab79f5157535d6a673a377af338d01372ba854a20"
+      },
+      "ids": {
+        "bytes": 379432,
+        "sha256": "227abe991f104a494b9ebeabd90cef182202440d7a105f487492a66fe0e798f3"
+      },
+      "inventory": {
+        "bytes": 402835,
+        "sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a"
+      },
+      "items": {
+        "bytes": 7816820,
+        "sha256": "c8cd7115496ad4e9a8b21d088cef576a65bf821bb542b24336f13f714cef13f8"
+      },
+      "licenses": {
+        "bytes": 4389,
+        "sha256": "7040bb9714fcdab672585bedc59b09d2d310fbf3f6561b619739a2654a3dcb46"
+      }
+    },
+    "official_collection_pointer": "traj/README.md",
+    "organizer_row": "uEVTdoAbnK",
+    "organizer_sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a",
+    "provider_repository": "https://github.com/scaleapi/SWE-bench_Pro-os",
+    "public_metadata_api": "https://api.docent.transluce.org/rest/032fb63d-4992-4bfc-911d-3b7dafcb931f/agent_run_metadata",
+    "representative_original_commit_licenses": {
+      "NodeBB/NodeBB": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "565ca3cc3b78d6e5177b7834d496927b96b6c88c",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "url": "https://raw.githubusercontent.com/NodeBB/NodeBB/565ca3cc3b78d6e5177b7834d496927b96b6c88c/LICENSE"
+      },
+      "ansible/ansible": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "96c19724394a32b9d3c596966be2f46e478681f8",
+        "sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227",
+        "url": "https://raw.githubusercontent.com/ansible/ansible/96c19724394a32b9d3c596966be2f46e478681f8/COPYING"
+      },
+      "element-hq/element-web": {
+        "header": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITI",
+        "revision": "28f7aac9a5970d27ff3757875b464a5a58a1eb1a",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "url": "https://raw.githubusercontent.com/element-hq/element-web/28f7aac9a5970d27ff3757875b464a5a58a1eb1a/LICENSE"
+      },
+      "flipt-io/flipt": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "47499077ce785f0eee0e3940ef6c074e29a664fc",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "url": "https://raw.githubusercontent.com/flipt-io/flipt/47499077ce785f0eee0e3940ef6c074e29a664fc/LICENSE"
+      },
+      "future-architect/vuls": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "827f2cb8d86509c4455b2df2fe79b9d59533d3b0",
+        "sha256": "e85f695ee34e0be6b7a142abbfd9853f41fb06ebac620b0962b5c43202d5c403",
+        "url": "https://raw.githubusercontent.com/future-architect/vuls/827f2cb8d86509c4455b2df2fe79b9d59533d3b0/LICENSE"
+      },
+      "gravitational/teleport": {
+        "header": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITI",
+        "revision": "ad00c6c789bdac9b04403889d7ed426242205d64",
+        "sha256": "42d50d27bfa0c5ac482d9828b5b2e556f4148b57fb59d30293304088a49bcb5a",
+        "url": "https://raw.githubusercontent.com/gravitational/teleport/ad00c6c789bdac9b04403889d7ed426242205d64/LICENSE"
+      },
+      "internetarchive/openlibrary": {
+        "header": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007 Copyright (C) 2007 Free Soft",
+        "revision": "d55e8868085c70c2b9f2ef859ebacbb50fff85fe",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "url": "https://raw.githubusercontent.com/internetarchive/openlibrary/d55e8868085c70c2b9f2ef859ebacbb50fff85fe/LICENSE"
+      },
+      "navidrome/navidrome": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "1bf94531fdb3599ccfbc5aca574152b8802bf5eb",
+        "sha256": "c61f12da7cdad526bdcbed47a4c0a603e60dbbfdaf8b66933cd088e9132c303f",
+        "url": "https://raw.githubusercontent.com/navidrome/navidrome/1bf94531fdb3599ccfbc5aca574152b8802bf5eb/LICENSE"
+      },
+      "protonmail/webclients": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "6ff80e3e9b482201065ec8af21d8a2ddfec0eead",
+        "sha256": "1b3782ccad7b8614100cda30d3faf42fc39f2e97932908c543005053b654ca68",
+        "url": "https://raw.githubusercontent.com/protonmail/webclients/6ff80e3e9b482201065ec8af21d8a2ddfec0eead/LICENSE"
+      },
+      "qutebrowser/qutebrowser": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "cb59619327e7fa941087d62b83459750c1b7c579",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "url": "https://raw.githubusercontent.com/qutebrowser/qutebrowser/cb59619327e7fa941087d62b83459750c1b7c579/LICENSE"
+      },
+      "tutao/tutanota": {
+        "header": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Founda",
+        "revision": "636501198b8b94196281e45c796180e602cdfc66",
+        "sha256": "37d3a6d8b2bb0cdc85698f5c3efc3f3ca7c01c8992f0a25df450b9accf49fafa",
+        "url": "https://raw.githubusercontent.com/tutao/tutanota/636501198b8b94196281e45c796180e602cdfc66/LICENSE.txt"
+      }
+    },
+    "revision": "66f92766bba642462d4bbe5479e83f91f9211862",
+    "terms": "Scale AI MIT harness. Upstream task terms by repository."
+  },
+  "successes": 2640,
+  "unrecorded_tasks_imputed": 0,
+  "visible_subjects": 14
+}

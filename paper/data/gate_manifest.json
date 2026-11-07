@@ -1,0 +1,219 @@
+{
+  "filename": "submit_gate.zip",
+  "bytes": 190003,
+  "sha256": "ddb2ad28e3887324f381777aedcefd75ec22515f09144c966f5df273c80b1a31",
+  "active_predictor": "paiec.predictors.irt_mix:IRTItemMix",
+  "scope": "Static source and state inspection; combined performance awaits evaluation.",
+  "members": [
+    {
+      "path": "acquisition.json",
+      "bytes": 38,
+      "sha256": "54d8d24ecd68a00333d1fdd8636cf7677af64a7132f0a8589bfdfd74e6b4630d"
+    },
+    {
+      "path": "build_info.json",
+      "bytes": 19577,
+      "sha256": "2115c25decd1c35d7d36d93fb99bdc8a620455c96c19063ba06a2a49dc137c13"
+    },
+    {
+      "path": "labeling.py",
+      "bytes": 735,
+      "sha256": "16945f6de67dfe30ef17911925d9f278410c5ca231821b84668981df3e57c00c"
+    },
+    {
+      "path": "model.py",
+      "bytes": 579,
+      "sha256": "dc9bbd7178b8fab4befc4add550e36adfe14edd3dcb9c1a4851deba8a3a51963"
+    },
+    {
+      "path": "models.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paiec/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paiec/acquisition/__init__.py",
+      "bytes": 9373,
+      "sha256": "2f9f6b51d4790056e6b3b040e86c5897dd24f2e1cddc4b52c7a3ef2aad39e95d"
+    },
+    {
+      "path": "paiec/config.py",
+      "bytes": 1847,
+      "sha256": "e8d250a98c42de25c64faa45d0d74628d33b665232e71d634e5eefbcec4623fe"
+    },
+    {
+      "path": "paiec/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paiec/data/dataset.py",
+      "bytes": 15522,
+      "sha256": "4938bf367f37ea3ae788af3ad059bc643bfda36ff591e0b6f1dfabd116f0635f"
+    },
+    {
+      "path": "paiec/data/synthetic.py",
+      "bytes": 1963,
+      "sha256": "ee8183e71acab11f631e39c291791860c7764fa861a1246c5641d2aead2a4bc5"
+    },
+    {
+      "path": "paiec/experiment.py",
+      "bytes": 7986,
+      "sha256": "fb147d9602dd5ede943d021881acfffe07c32b5daff7dc398c7197f4d2220b0a"
+    },
+    {
+      "path": "paiec/features/hashing.py",
+      "bytes": 841,
+      "sha256": "158dae88aeb829c4d9771ca3972ada00b8517a6dec1771fdf17e5ed78be73f4a"
+    },
+    {
+      "path": "paiec/features/identity.py",
+      "bytes": 3144,
+      "sha256": "5050aef8017759b8c83f3a2caa6761104e0988006a4666858325ad719e383bbf"
+    },
+    {
+      "path": "paiec/features/item.py",
+      "bytes": 2833,
+      "sha256": "ed7e8a585085d488e4aabddb9507d797dd68797dda31efac46fca0e8eac709b8"
+    },
+    {
+      "path": "paiec/features/mpnet.py",
+      "bytes": 1736,
+      "sha256": "0df672419e2a77132784bc15b4203a56e2ff21d03fb71a24954f10e0d0e38fa2"
+    },
+    {
+      "path": "paiec/features/subject.py",
+      "bytes": 3935,
+      "sha256": "b7487adfa61538a9d1cfe71374d84f22adae95186ce51d09e289f38f30113f8b"
+    },
+    {
+      "path": "paiec/fitcache.py",
+      "bytes": 5554,
+      "sha256": "a9e3d00af6902050baa51be38a149431e64c2f5b5d5f4ccd5e5a3d9aa755b0d0"
+    },
+    {
+      "path": "paiec/llm/__init__.py",
+      "bytes": 103,
+      "sha256": "aa88188eb78ac4f920c8fe82a1c0416edbfddcfc90af4445bd9f5bcd5830902e"
+    },
+    {
+      "path": "paiec/llm/openai_client.py",
+      "bytes": 3962,
+      "sha256": "a6cb69f077ebb818796ec38af98165a03a0c6d9ef66f814b78694d9fad9a52c1"
+    },
+    {
+      "path": "paiec/llm/prompts.py",
+      "bytes": 5757,
+      "sha256": "3da43e580bc80377e866e585dadea660f1d469798e52f7129cfc35cdddd58f6c"
+    },
+    {
+      "path": "paiec/llm/scorer.py",
+      "bytes": 12826,
+      "sha256": "b6f295ca4e29b34d1ce99a9d660fe929ec19428f3ae8e905d9b3d400b7ac20d6"
+    },
+    {
+      "path": "paiec/metrics.py",
+      "bytes": 966,
+      "sha256": "32772c085809f9b0191f6f264acfb8d2389e8cea82b56967999e6a6d7c86c1f7"
+    },
+    {
+      "path": "paiec/paths.py",
+      "bytes": 364,
+      "sha256": "1f9e60ac4b5e5ed3afdb1e8992f707bb227d6f33ec266404bab7228b75e1149f"
+    },
+    {
+      "path": "paiec/predictors/__init__.py",
+      "bytes": 1351,
+      "sha256": "dcfdf6e44d0633e95d6b24bc39c8d11d307877b305107977ea8abb9d61ae78fe"
+    },
+    {
+      "path": "paiec/predictors/base.py",
+      "bytes": 6121,
+      "sha256": "45b05e9ae8810b3fa552b59ec617b54deabc334862e7827d89f56f9a2cb7f140"
+    },
+    {
+      "path": "paiec/predictors/irt.py",
+      "bytes": 23733,
+      "sha256": "afd169f957558f7b138446399a2e867891d8e0922052ee4062334b63a033e2d7"
+    },
+    {
+      "path": "paiec/predictors/irt_h.py",
+      "bytes": 8584,
+      "sha256": "d135d2fc783738cec3e458b83184da07cc44e21092047893974eb818e3eebca9"
+    },
+    {
+      "path": "paiec/predictors/irt_item.py",
+      "bytes": 21801,
+      "sha256": "a7b9b06e0c5707d38bcf25b4552a23599c28cd06b8fec945b51248d2b945d561"
+    },
+    {
+      "path": "paiec/predictors/irt_llm.py",
+      "bytes": 4126,
+      "sha256": "6df7ca799c1fa22b0a9c02b6577085aac4e1914edea47bb75d0a67844c04f362"
+    },
+    {
+      "path": "paiec/predictors/irt_lr.py",
+      "bytes": 10767,
+      "sha256": "ad205e82ead8c3445370936552b5deb68764ee37e575d3ae15490f784794ebe2"
+    },
+    {
+      "path": "paiec/predictors/irt_mix.py",
+      "bytes": 4655,
+      "sha256": "95f1cd23cf875e7420d8df0c52a4f5feb88de75f140130040841337819c8e340"
+    },
+    {
+      "path": "paiec/predictors/mirt.py",
+      "bytes": 8525,
+      "sha256": "34a6781ef2a11253123600574bde14ce0a6c1f6d23361b84e289092a87bc1f6a"
+    },
+    {
+      "path": "paiec/predictors/ref_caimira.py",
+      "bytes": 10359,
+      "sha256": "a36191011d060e2d383ea574edd1903a021d59a564597f2aa6201d7b9e86cb68"
+    },
+    {
+      "path": "paiec/predictors/ref_lex.py",
+      "bytes": 2927,
+      "sha256": "5cbae9624b598cdf9db1598625bfd8e37cf9e0b2ba03d1c87d9422b9d2cbe1a9"
+    },
+    {
+      "path": "paiec/predictors/simple.py",
+      "bytes": 3012,
+      "sha256": "a9ca2560bdd8bb30e2bc90ce93d372ee05c75689bac64c93c0889d0a868247bc"
+    },
+    {
+      "path": "paiec/predictors/stacked.py",
+      "bytes": 10553,
+      "sha256": "c7bc91232eb1caa0db3c8cee93a8e0a566e61b2c12da92e711c27183ac77d83c"
+    },
+    {
+      "path": "paiec/predictors/starter.py",
+      "bytes": 2915,
+      "sha256": "142ab975fb1fe8dc1066034b818dc074cae78d268ff4e228e04889b3b5b0a757"
+    },
+    {
+      "path": "paiec/runtime.py",
+      "bytes": 2878,
+      "sha256": "00ec42b46fb824c7b70104e44d14aa493de98618e1ec67f5ba48813227224023"
+    },
+    {
+      "path": "paiec/sim/__init__.py",
+      "bytes": 77,
+      "sha256": "bf17a6ad6a5fd14e0b67098dab119c6e68e9e1ad21a6ec667c708ea7ec8c630b"
+    },
+    {
+      "path": "paiec/sim/replay.py",
+      "bytes": 7523,
+      "sha256": "50043cca3704f83286c0f45f42d86b7551ca02c5d84c3607a297d3b549b19ba6"
+    },
+    {
+      "path": "predictor.json",
+      "bytes": 757487,
+      "sha256": "61aae5be907768e22611bb94e6a0eef22381e5a4c54675896cf1affaf09b6cc6"
+    }
+  ]
+}

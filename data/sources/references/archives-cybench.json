@@ -1,0 +1,77 @@
+{
+  "benchmark": "cybench",
+  "counts": {
+    "binary_trials": 640,
+    "condition_excluded": 320,
+    "source_trials": 960
+  },
+  "failures": 574,
+  "native_items": 40,
+  "native_subjects": 8,
+  "observed_visible_item_variants": 40,
+  "outputs": {
+    "facts.parquet": {
+      "bytes": 3305,
+      "sha256": "957adc1ac4889c542eccf9417c9d3c0ef66b7f13bb0a8ff7f2835efb7f546670"
+    },
+    "items.parquet": {
+      "bytes": 6953,
+      "sha256": "8a487c14376feed893884c330469b4c3c520a86d335beb402644b0a3fffde4c2"
+    },
+    "subjects.parquet": {
+      "bytes": 1619,
+      "sha256": "ed5883c421c35ec7e6613c58ae4558eadfb488f3825ada473ce686be77f23c94"
+    },
+    "ungraded.parquet": {
+      "bytes": 787,
+      "sha256": "d894d2e179c6c25c97cb299c48beee50bb646b0113ba9edd32a9a91e6cbb0c18"
+    }
+  },
+  "paper_cells_independently_matched": 640,
+  "receipt_sha256": "cf1f7308496263cbdfabe9ac2a57ba340a426111f85080356ba4be9409c04f6d",
+  "source": {
+    "legacy_repository": "https://huggingface.co/datasets/aims-foundations/measurement-db",
+    "license": "Apache-2.0",
+    "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "native_files": {
+      "benchmarks.parquet": {
+        "bytes": 12183,
+        "sha256": "16984ec4d81d4a94e1356abe40dd8292096bd1c2ab3312484fe9e254af213f91"
+      },
+      "cybench.parquet": {
+        "bytes": 6413,
+        "sha256": "9f8d45cee8785295c47fea0ff8c368bb470923432156c351bc98925de10a24a8"
+      },
+      "items.parquet": {
+        "bytes": 35237755,
+        "sha256": "1b97942bce0728f47366c16c2509bae302dfd9e84dcd39437df02940f562579a"
+      },
+      "subjects.parquet": {
+        "bytes": 48062,
+        "sha256": "6651e253e34413365632803fc440341998a7f9e3b014e41a81042e907eb4bf33"
+      }
+    },
+    "organizer_row": "tc90LV0yRL",
+    "organizer_sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a",
+    "paper": "https://arxiv.org/html/2408.08926",
+    "paper_attribution": "Andy K. Zhang and coauthors, Cybench, ICLR 2025",
+    "paper_sha256": "91239804b141fc1c4dd2f44043db1a6118ec8a9c6612de29fc9fcfb86777229e",
+    "paper_tables": {
+      "mode=subtask_guided": 11,
+      "mode=unguided": 10
+    },
+    "provider_repository": "https://github.com/andyzorigin/cybench",
+    "revision": "589ccfdb8e82e6e0b5e35e9d23cd83a6df85018f",
+    "source_counts": {
+      "mode=subtask_fractional": 320,
+      "mode=subtask_guided": 320,
+      "mode=unguided": 320
+    },
+    "upstream_revision": "ca483c6443f17a20ba7d6bac3d274859a1721e51"
+  },
+  "successes": 66,
+  "tasks_with_challenge_prompt": 31,
+  "tasks_with_published_name_category_competition_only": 9,
+  "unrecorded_tasks_imputed": 0,
+  "visible_subjects": 16
+}

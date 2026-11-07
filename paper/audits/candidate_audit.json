@@ -1,0 +1,56 @@
+{
+  "target_zip": "upload/18-s44-rasch-caimira(1).zip",
+  "archive_sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b",
+  "verification": "static source and state audit",
+  "runtime_execution": "UNVERIFIED; torch absent; runtime smoke tests skipped",
+  "completed_checks": [
+    "safe extraction",
+    "archive and file hashes",
+    "complete source inspection",
+    "AST interface inventory",
+    "complete factory diff",
+    "state schema and shape validation",
+    "active branch tracing",
+    "equation derivation",
+    "page03 and page04 comparison"
+  ],
+  "selected_components": [
+    {
+      "family": "caimira",
+      "rank": 2,
+      "adaptation": "native MAP",
+      "coefficients": 2307
+    },
+    {
+      "family": "rasch",
+      "rank": 1,
+      "adaptation": "scalar offset",
+      "coefficients": 769
+    }
+  ],
+  "coefficient_total": 3076,
+  "public_interface": "predict(input, labeled=None)",
+  "model_class_exported": false,
+  "acquisition_policy_exported": false,
+  "training_provenance_in_archive": false,
+  "mixture_weights": [
+    0.5,
+    0.5
+  ],
+  "feature_width": 384,
+  "maximum_support": 31,
+  "manuscript_repairs": [
+    {
+      "path": "output/paiec_report/sections/page04.tex",
+      "issue": "Evidence filtering is implemented in exported predictor",
+      "replacement": "The exported predictor first filters revealed evidence",
+      "source": "model.py:1103\u20131107"
+    },
+    {
+      "path": "output/paiec_report/sections/page04.tex",
+      "issue": "Optimizer guard is conditional on unsuccessful solver status",
+      "replacement": "The solver rejects nonfinite objectives and failed solves whose largest gradient component exceeds 10^{-6}.",
+      "source": "model.py:140\u2013141"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "abstract_group_map_sha256": "9b60427a67fbb43f6a38faff8bc31694164b9f2c30465681be9dbef7353ad800",
+  "benchmarks": {
+    "abstract_reason": {
+      "benchmark": "abstract_reason",
+      "counts": {
+        "binary_trials": 7776,
+        "condition_excluded": 1319,
+        "source_trials": 9095
+      },
+      "native_items": 9089,
+      "native_subjects": 1,
+      "observed_visible_item_variants": 7770,
+      "organizer_row_id": "biMO2gWsWS",
+      "organizer_slug": "symbol_remapping_abstract_reasoning",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 113060,
+          "sha256": "afd072e26c3bb9a928af544b28a1b2dd04cb0b88090d31ab08a44823b9553dbc"
+        },
+        "items.parquet": {
+          "bytes": 5498634,
+          "sha256": "25383cdaf2527b93da05e52cab979e3e1ec758cff3355122de267c754e9e6f13"
+        },
+        "subjects.parquet": {
+          "bytes": 1341,
+          "sha256": "2d97383f9feeade1dace662dcb9c864c255d600b11d26a0300b726119216c9ec"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 17092,
+          "sha256": "8e2c91805dc91ad86b6710aabf71085156e438a43ed7846b9fcb47d0643c0824"
+        },
+        "items": {
+          "bytes": 10549040,
+          "sha256": "bf97f9bff6a6a44a48bba688fd402705888dac81b313135f262262fba44a35d7"
+        },
+        "responses": {
+          "bytes": 346118,
+          "sha256": "59893c65449b1223ab6a71ba139e63149786d7660ad64c3f3a34dcacaedddfcc"
+        },
+        "subjects": {
+          "bytes": 6495,
+          "sha256": "040593fa9128e3108866d269b440d11d4565569e196c7686782dfa34a35f7d17"
+        }
+      },
+      "title": "Benchmarking Abstract and Reasoning Abilities Through A Theoretical Perspective",
+      "visible_subjects": 1
+    },
+    "agentdojo": {
+      "benchmark": "agentdojo",
+      "counts": {
+        "binary_trials": 36678,
+        "condition_excluded": 33119,
+        "source_trials": 69798,
+        "ungraded": 1
+      },
+      "native_items": 1081,
+      "native_subjects": 29,
+      "observed_visible_item_variants": 1587,
+      "organizer_row_id": "m1YYAQjO3w",
+      "organizer_slug": "agentdojo",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 405350,
+          "sha256": "02bef94affa8737a7a3742a96562f17e84625a40a01dcf9760471d5057f063a5"
+        },
+        "items.parquet": {
+          "bytes": 14756,
+          "sha256": "04c0f8a1f692560dd4007c46ab98547c728a78a717513b6f653df4a7e4bd0ab8"
+        },
+        "subjects.parquet": {
+          "bytes": 2637,
+          "sha256": "d13792b017c20692003378ea0afddb1f4eb5e750b7d075f26c04f1f06b6c0ef4"
+        },
+        "ungraded.parquet": {
+          "bytes": 1373,
+          "sha256": "4dff72de692b06a1fb259fbc294f16aa86bead806a6831edf401913074b1d6ff"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16071,
+          "sha256": "f952c7af9c3d491a071c1854fa10713e854feb9ff29c8649c4afb747dc379493"
+        },
+        "items": {
+          "bytes": 116286,
+          "sha256": "5e36603925e64862b9747463fcfa935b378b82f2c610072f08f8ed5a230b5d84"
+        },
+        "responses": {
+          "bytes": 1437613,
+          "sha256": "9a982ab42ec8f56ff5fc75b84398de93ff63cb0694f500d784c9681e8ff452c8"
+        },
+        "subjects": {
+          "bytes": 8724,
+          "sha256": "90dd03f1e6b35982913c84d8defb5ec1b7f068f26f88c41427ae713894606e89"
+        }
+      },
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "visible_subjects": 29
+    },
+    "bertaqa": {
+      "benchmark": "bertaqa",
+      "counts": {
+        "binary_trials": 57072,
+        "source_trials": 57072
+      },
+      "native_items": 51760,
+      "native_subjects": 6,
+      "observed_visible_item_variants": 51760,
+      "organizer_row_id": "QocjHRR31U",
+      "organizer_slug": "bertaqa",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 826811,
+          "sha256": "deb9438fd85a5d2f49255b001cef99d46082d2aca2f5f746f5ba9900b11397af"
+        },
+        "items.parquet": {
+          "bytes": 13435127,
+          "sha256": "dcda8a0dcae45cd9524eaac2bee903ee856a7a95e8d717e8aa49092a44ab0446"
+        },
+        "subjects.parquet": {
+          "bytes": 1862,
+          "sha256": "ece615c4e87e74796872b82c6de1108507e44ad8fc03da95d79e48d5957b9cd1"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16888,
+          "sha256": "f7a577a4ba050be0a4150d33dc903bdfe677b8c682831c550a9a6fd9a85a8a45"
+        },
+        "items": {
+          "bytes": 25596401,
+          "sha256": "5bab19ecdfd45fe4fcb3bc937edd39768f219004a685739b278d51422198da36"
+        },
+        "responses": {
+          "bytes": 2143408,
+          "sha256": "bdd7c044e384ea1db7c9a234076ae024db39f3f7691fb52caabd5761b910c80e"
+        },
+        "subjects": {
+          "bytes": 7282,
+          "sha256": "0ded33a6193ca7c496e188630d163ed62f2c89dd49a85e5ceb55eb88789bac07"
+        }
+      },
+      "title": "BertaQA: How Much Do Language Models Know About Local Culture?",
+      "visible_subjects": 6
+    },
+    "cellverse": {
+      "benchmark": "cellverse",
+      "counts": {
+        "binary_trials": 748,
+        "source_trials": 748
+      },
+      "native_items": 748,
+      "native_subjects": 1,
+      "observed_visible_item_variants": 748,
+      "organizer_row_id": "FpxIViTl3C",
+      "organizer_slug": "cellverse",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 11214,
+          "sha256": "0284431e173b1bb12c165282bbdce148c193e0842a3cb6270b2fa31f2eeb9543"
+        },
+        "items.parquet": {
+          "bytes": 569749,
+          "sha256": "d42010eb0a8121da988f5a30da066127739f231f5e49168110d5d9e845742c2c"
+        },
+        "subjects.parquet": {
+          "bytes": 1362,
+          "sha256": "e9b427dc8644ba0981a500da383651f3ce0fe111950539ab765876989eaad80b"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16547,
+          "sha256": "97443ed363c9e12511aec20ca6a0bf9686ced36e71cf98ad875834c56b6db1ea"
+        },
+        "items": {
+          "bytes": 924840,
+          "sha256": "ccc9382ccaf846ad4a6ea3a8ec3c69c6a4bb31733e7307758817efebef030653"
+        },
+        "responses": {
+          "bytes": 33360,
+          "sha256": "b3876e4bf8949da97607b37df8df063358d611b749d285e3227f31e5bb389d23"
+        },
+        "subjects": {
+          "bytes": 6536,
+          "sha256": "8f44dc8c4573a3c6034c030f9cec7e3362820eb5c4f2abfcbaacbb1641b6b6ae"
+        }
+      },
+      "title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+      "visible_subjects": 1
+    },
+    "clasheval": {
+      "benchmark": "clasheval",
+      "counts": {
+        "binary_trials": 75216,
+        "source_trials": 75216
+      },
+      "native_items": 12495,
+      "native_subjects": 6,
+      "observed_visible_item_variants": 12495,
+      "organizer_row_id": "WGoCZl2itU",
+      "organizer_slug": "clasheval",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 1068655,
+          "sha256": "b7d00195fff1231941bbe6fbf1441aa7df375e0ad2d6c9bf042f71764f8c6bb7"
+        },
+        "items.parquet": {
+          "bytes": 2956966,
+          "sha256": "8fddc0bb02297ac291f40401fe2b26f50698d93501cec1949d3e9d6d5b311488"
+        },
+        "subjects.parquet": {
+          "bytes": 1520,
+          "sha256": "73982ed13fb62e0146490fcd8cff2ec01d2f798bf2106fee0db322d607e6419e"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16919,
+          "sha256": "8662dfe73488de294c81d46eaa63de47637308c660b4dac24e9798706be32688"
+        },
+        "items": {
+          "bytes": 16245691,
+          "sha256": "e8f76477ac36d0a6e01dc824c54ae8c9bc658f7da9a8b1cd5765ff15583bdaab"
+        },
+        "responses": {
+          "bytes": 2701083,
+          "sha256": "968ec1c89c5b3ebb2ae082bd000848baaf36bd9428b5a42ca19f239daddd21d3"
+        },
+        "subjects": {
+          "bytes": 6867,
+          "sha256": "72803e2a70db2c8ddff9162383991d7773d4cda6fde15b5e0c78e5e420f5d1ad"
+        }
+      },
+      "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+      "visible_subjects": 6
+    },
+    "mmlupro": {
+      "benchmark": "mmlupro",
+      "counts": {
+        "binary_trials": 536290,
+        "source_trials": 575807,
+        "ungraded": 39517
+      },
+      "native_items": 14226,
+      "native_subjects": 48,
+      "observed_visible_item_variants": 14109,
+      "organizer_row_id": "y10DM6R2r3",
+      "organizer_slug": "mmlu_pro",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 7732169,
+          "sha256": "5fab9209eb1d035b7891cd2900189a01eb3e527840813ba0ba5e35a7cf2a2256"
+        },
+        "items.parquet": {
+          "bytes": 3317879,
+          "sha256": "358be7e4d64cb7d3a7b71c4ee2f8ce1348f57789c35e8e06b14539ed1353cb60"
+        },
+        "subjects.parquet": {
+          "bytes": 3486,
+          "sha256": "d32fcba42857d13b4fa01dd577659989a4f266e6da84d4dfa67acf24c67ebf3f"
+        },
+        "ungraded.parquet": {
+          "bytes": 840232,
+          "sha256": "6330efb1e38cf88bc2c339d4ee3eb48de167d1dbc29de4974ae0c6db048a4232"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16644,
+          "sha256": "50918c56640a6168daf7e816c9b8006c4f065779efcaee5c5f38b9d2a8b6dd7b"
+        },
+        "items": {
+          "bytes": 5263166,
+          "sha256": "0260255dad59a3ace57dc87d4b86044290623d4279384b47fb751fce92992370"
+        },
+        "responses": {
+          "bytes": 21145564,
+          "sha256": "271532b41394e8b4ab1afef648afae16279f6df52f697d75b23979d884cbcdd0"
+        },
+        "subjects": {
+          "bytes": 9943,
+          "sha256": "5599d2c63e3f598115e3403460923a45ec672869b14145c74985030cd9109559"
+        }
+      },
+      "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+      "visible_subjects": 48
+    },
+    "real_webagents": {
+      "benchmark": "real_webagents",
+      "counts": {
+        "binary_trials": 4449,
+        "source_trials": 4449
+      },
+      "native_items": 233,
+      "native_subjects": 33,
+      "observed_visible_item_variants": 233,
+      "organizer_row_id": "Un1sWxmZuI",
+      "organizer_slug": "real",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 49128,
+          "sha256": "40dc4b8f945470e3123881b3ed816779be5657c7fc16dfe9029ba5c0af72fb67"
+        },
+        "items.parquet": {
+          "bytes": 16571,
+          "sha256": "12b1b3bcf6af042bd4422f8372ee4fcc908e4a785644496aac40e480ca684097"
+        },
+        "subjects.parquet": {
+          "bytes": 2310,
+          "sha256": "dcfdeeeedf12a38e01561ed474cc8ba85cce93277fec0050e18184ec4fe65088"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16703,
+          "sha256": "747b4a61dabe1fbc9f212dfff3cb7afb3a0b7480e6da1eb5e001ea30d60b0c9a"
+        },
+        "items": {
+          "bytes": 48588,
+          "sha256": "5908db1f903c608e00911d50ca7ec0fa0e1b5bf4a09365d4ad52e0e1fde8f136"
+        },
+        "responses": {
+          "bytes": 94908,
+          "sha256": "56d1fca0b984a30701f165f550e979d96c71b79af3b11a482e4eba5771065213"
+        },
+        "subjects": {
+          "bytes": 8365,
+          "sha256": "e563ff232af0d2241220e9857cdc65c64b67b9301aae594677a60ff3308e7fa5"
+        }
+      },
+      "title": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites",
+      "visible_subjects": 33
+    },
+    "researchcodebench": {
+      "benchmark": "researchcodebench",
+      "counts": {
+        "binary_trials": 6784,
+        "source_trials": 6784
+      },
+      "native_items": 212,
+      "native_subjects": 31,
+      "observed_visible_item_variants": 212,
+      "organizer_row_id": "3k70Vt0YFS",
+      "organizer_slug": "researchcodebench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 73877,
+          "sha256": "75a0c213c4fa835b4bff32c6f132bec58adc89978987847454c4964bc74293f7"
+        },
+        "items.parquet": {
+          "bytes": 719277,
+          "sha256": "8c0307171e15dd5126d510db10f8c3d1980b64ad9e078dafb69b345a6a3bfefe"
+        },
+        "subjects.parquet": {
+          "bytes": 2224,
+          "sha256": "db4a6b58f4f942b0842620da73267bd642afd6aafa043dfa200f5ba7e8e0307b"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 16499,
+          "sha256": "935efcdc5dac86f2f292f0cd8c772600595dc09cf81adff20bb43e271c21ae30"
+        },
+        "items": {
+          "bytes": 8928605,
+          "sha256": "3aee135afa6b206cbce8867beca681811d95579db34a0c0eed1822d8c6b01268"
+        },
+        "responses": {
+          "bytes": 137904,
+          "sha256": "318c067d86f35dd057e6b4d33114d4ae46447c9ef91e1b4bddba7667fc8c0375"
+        },
+        "subjects": {
+          "bytes": 8321,
+          "sha256": "c8dbb5ac589749270ddea2be6e456ea22b991d5ffc5107fd80d0865a77e94b3a"
+        }
+      },
+      "title": "ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code",
+      "visible_subjects": 31
+    },
+    "swe_rebench": {
+      "benchmark": "swe_rebench",
+      "counts": {
+        "binary_trials": 67074,
+        "source_trials": 67074
+      },
+      "native_items": 6306,
+      "native_subjects": 1,
+      "observed_visible_item_variants": 6306,
+      "organizer_row_id": "nMpJoVmRy1",
+      "organizer_slug": "swe_rebench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 902838,
+          "sha256": "058b21dbd6ebf6eee34ef1173812208cbfef185e6949c48ea5e2a151139f4118"
+        },
+        "items.parquet": {
+          "bytes": 3569746,
+          "sha256": "1ef354ee0416c996ae2a37cab016df351d5fe3766cfe9cde7afb7cb3c747228b"
+        },
+        "subjects.parquet": {
+          "bytes": 1462,
+          "sha256": "8703f12364f5a297411fb2df01cc03ce223a19bc401a421e29e7834959b77cd9"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "source": {
+        "benchmarks": {
+          "bytes": 18096,
+          "sha256": "76f02f3de1d9a94806eb08aa04e32119c2cbfe9c04bdf2c30792bd3b7639f821"
+        },
+        "items": {
+          "bytes": 39763649,
+          "sha256": "78fd183af256d62c7947a74ee714018d2eb3cce13191fa2d5f2f4593df8e3c5b"
+        },
+        "responses": {
+          "bytes": 1994128,
+          "sha256": "097bb00e2a69a5ba92907e02b7e6b451bf520e5076fb905fb442fb4ffd51f39f"
+        },
+        "subjects": {
+          "bytes": 6747,
+          "sha256": "4f2f5f3481c2394acb74f2905a51dd12d4191c946f44dc48bf2ff1ebcee448ad"
+        }
+      },
+      "title": "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents",
+      "visible_subjects": 1
+    }
+  },
+  "inventory_sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a",
+  "native_manifest_sha256": "b2efb2d99bb9306a035a1748dc01338bf34025312423f3146d0d310404e469b9",
+  "revision": "54074453da7b9911be0f48e4c560be547bc84d21"
+}

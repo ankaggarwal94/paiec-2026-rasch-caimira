@@ -1,0 +1,17 @@
+test_collect_excludes_environment_raw_and_git (__main__.PublisherTests.test_collect_excludes_environment_raw_and_git) ... ok
+test_credential_filename_blocks (__main__.PublisherTests.test_credential_filename_blocks) ... ok
+test_empty_transport_result_passes (__main__.PublisherTests.test_empty_transport_result_passes) ... ok
+test_main_blocks (__main__.PublisherTests.test_main_blocks) ... ok
+test_other_branch_blocks (__main__.PublisherTests.test_other_branch_blocks) ... ok
+test_real_empty_and_populated_local_git (__main__.PublisherTests.test_real_empty_and_populated_local_git) ... ok
+test_regression_null_shape_is_irrelevant (__main__.PublisherTests.test_regression_null_shape_is_irrelevant) ... ok
+test_symlink_blocks (__main__.PublisherTests.test_symlink_blocks) ... ok
+test_tag_only_blocks (__main__.PublisherTests.test_tag_only_blocks) ... ok
+test_transport_failure_blocks (__main__.PublisherTests.test_transport_failure_blocks) ... ok
+test_whitespace_empty_result_passes (__main__.PublisherTests.test_whitespace_empty_result_passes) ... ok
+test_wrappers_parse_in_bash (__main__.PublisherTests.test_wrappers_parse_in_bash) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.164s
+
+OK

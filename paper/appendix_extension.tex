@@ -1,0 +1,67 @@
+\section{Hierarchical extension: artifact and implementation}
+\label{app:gate}
+The inspected extension archive is \code{submit\_gate.zip}, 190,003 bytes, with SHA-256
+\begin{center}\small\ttfamily
+ddb2ad28e3887324f381777aedcefd75ec22515f09144c966f5df273c80b1a31
+\end{center}
+Its serialized predictor selects \code{paiec.predictors.irt\_mix:IRTItemMix}. The build record lists 180 benchmarks in its build inventory and pins Measurement Data Bank revision
+\begin{center}\small\ttfamily
+54074453da7b9911be0f48e4c560be547bc84d21
+\end{center}
+These records belong to this extension archive; the selected s44 states have a separate provenance history.
+
+\begin{table}[H]
+\centering
+\caption{Settings recovered from the extension package.}
+\small
+\begin{tabularx}{\linewidth}{@{}p{.37\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Component & Active setting \\
+\midrule
+Item features & 1,024 hash coordinates plus four dense features; lexical tokens use up to 4,000 characters, and length/style features use up to 8,000. \\
+Subject features & 256 hashed dimensions plus structured descriptors. \\
+Online item map & 64-dimensional seeded random projection. \\
+Initial item variance allocation & Content map 0.3; key-value groups 0.2; identical-content groups 0.2; item residual 0.3. \\
+Online updates & 15 iterations; empirical-Bayes scale adjustments with pseudo-count 10. \\
+Subject regression & Benchmark-local shared weights and subject residuals; \code{subject\_sharing=false}. \\
+Gate members & Same offline fit, subject regression enabled; \code{vi=true, vi\_frac=0.5} and \code{vi=false}. \\
+Gate input clipping & Member probabilities clipped to $[10^{-4},1-10^{-4}]$. \\
+Acquisition & Uncertainty radius 0.3; acceptance interval $[0.2,0.8]$ plus budget-fill rule. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{What the signed gate does.}
+The implementation indexes weights by the current pair's observed-label count, with bins $0$, $1$, $2$--$3$, $4$--$7$, $8$--$15$, and $16+$. The stored zero-label weights select the variance-adjusted member alone. Every positive-label bin uses the same coefficients shown in Equation~\ref{eq:gate}; all intercepts are zero. Both members apply variance marginalization to their final forecasts, so their distinction lies in the likelihood used during online updates. The signed combination can extrapolate in log-odds space. It differs mathematically from the selected candidate's convex probability average.
+
+\paragraph{Source trace.}
+The observation model, item decomposition, and online updates appear in \code{paiec/predictors/irt\_item.py}, lines 1--17, 155--175, 192--213, 304--379, and 417--457. Subject regression is described in \code{irt\_lr.py}, lines 1--43, and instantiated by \code{irt\_item.py}. Gate binning and combination appear in \code{irt\_mix.py}, lines 24--108. Acquisition behavior is defined in \code{paiec/acquisition/\_\_init\_\_.py}, lines 28--34 and 63--71. Active settings come from \code{predictor.json}, \code{build\_info.json}, and \code{acquisition.json}.
+
+\paragraph{Evidence for the proposed composition.}
+Static inspection establishes the hierarchical predictor and gate in the recovered archive. The package contains code, configuration, and fitted state, with zero evaluation-result files. Separate results from the earlier internal hierarchical study are preserved in Appendix~\ref{app:shared}; its evaluation fit and this 180-benchmark archive have distinct training inventories. The project's combined-package discussion motivates the 25/25/50 composition in Equation~\ref{eq:extension}. A scored comparison of that composition remains outstanding. The extension is therefore presented as a concrete forecast composition, with the selected Rasch--CAIMIRA archive remaining the report's evaluated submission.
+
+\clearpage
+\section{Reproducing inference and the report}
+\label{app:reproduction}
+\paragraph{Selected runtime.}
+The selected archive exports \code{predict(input, labeled=None)} and carries two JSON states containing coefficients, centering constants, architecture settings, and coordinate orientations. Both stored orientations are identity matrices. Runtime dependencies are Python, NumPy, SciPy, and PyTorch. Initialization places both branches on the CPU and sets PyTorch to one thread. Inference uses local arithmetic and optimization, with the fitted state included directly in the archive.
+
+For each query, the implementation selects eligible support; encodes query and support attributes; computes frozen item effects and subject priors; solves the scalar and two-coordinate MAP problems; averages the two probabilities; and returns a native Python float. Each branch caches lexical encodings for up to 512 strings of at most 32,768 characters. Longer strings use the same complete-text encoder without that cache. The input validator permits text up to 64 MiB. A feature bank is recreated on each forecast, so caching an ability update for an identical support prefix could reduce repeated optimization.
+
+\paragraph{Numerical implementation.}
+Frozen forward computation uses float32 CPU tensors and adaptation arrays use float64. The Rasch branch clips support probabilities to $[10^{-9},1-10^{-9}]$, converts them to logits, and performs 42 bisections on $[-n,n]$. The CAIMIRA branch uses SciPy L-BFGS-B with analytic gradients, \code{gtol=1e-8}, and \code{ftol=1e-13}, starting from the metadata prior. The guard rejects a nonfinite objective or an unsuccessful result whose maximum absolute gradient exceeds $10^{-6}$. A successful optimizer result passes this guard independently of that residual threshold.
+
+\paragraph{Training provenance.}
+The exact frozen states fully determine the predictor. The CAIMIRA state now has a matching completed-fit receipt, frozen source inventory, and 44-benchmark data manifest, summarized in Appendix~\ref{app:training}. The release preserves the recovered fitting source and supplies a portable runner. The Rasch fitting receipt remains inside an unretrieved evidence pack, so its exact historical run remains \textbf{UNVERIFIED}. Reproducing frozen inference is independent of recovering that fit.
+
+\paragraph{Companion repository and reviewer supplement.}
+Companion repository: \url{https://github.com/ankaggarwal94/paiec-2026-rasch-caimira}. The reviewer supplement carries the same release package. Its \code{runtime/} directory contains the exact ZIP, byte-identical extracted files, a JSON Lines CLI, fixtures, pinned dependencies, and execution receipts. \code{development/} contains recovered training code and the portable fit runner; \code{data/} contains score tables, source manifests, and provenance. The reviewer supplement includes this material together with the complete paper source. The original Codabench ZIP remains a distinct, byte-identical file inside the supplement.
+
+\paragraph{Report reproduction.}
+The source bundle contains \code{main.tex}, its included section files, the NeurIPS style, vector figures, and an inline bibliography. It compiles with pdfLaTeX through \code{latexmk -pdf main.tex}. The analysis scripts regenerate the aggregates and figures from bundled scoring tables. All reported formative means preserve equal pair weighting and the six supplied budget checkpoints. The local comparison is attributed to archived receipts and summaries; it is separate from a fresh replay.
+
+\paragraph{Fresh inference verification.}
+The validated CPU environment uses Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, and PyTorch 2.7.1+cpu. Installing the complete dependency pins in a fresh environment passed the dependency check. The exact candidate returned finite native floats in $[0,1]$ at budgets 0, 1, 3, 7, 15, and 31. Repeated calls, two fresh CLI processes, and the second environment agreed exactly on the synthetic fixture. Tests also passed for subject/benchmark isolation, missing benchmark fallback, and rejection of excess or invalid labels. The original candidate bytes remained unchanged. Synthetic checks establish execution and interface behavior; hosted scores and the archived real-panel replay have their separate evidence records.
+
+\paragraph{A targeted next experiment.}
+Freeze a source-separated panel and several acquisition seeds, save item-level probabilities for each branch and combination, and compare paired Brier ALC differences. Evaluate the fixed 25/25/50 composition before fitting a flexible gate on separate development folds. Then compare random and uncertainty-based acquisition using the same predictor. Each comparison isolates a concrete next improvement.

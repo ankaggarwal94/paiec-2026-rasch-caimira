@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "unit_regression_cases": 12,
+  "end_to_end_mock_cases": 4,
+  "end_to_end_scope": "Existing empty target dry-run, publication and invitation, verification, populated-target rejection; mocked GitHub with real local Git",
+  "real_remote_writes": 0,
+  "live_windows_publication": "pending owner execution",
+  "live_repository_observation": "public metadata; main reference query returns empty-repository HTTP 409",
+  "old_default_branch_json": "uncaptured in supplied transcript"
+}

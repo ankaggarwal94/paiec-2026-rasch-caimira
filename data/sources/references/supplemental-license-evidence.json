@@ -1,0 +1,19 @@
+{
+  "retrieved_date": "2026-11-07",
+  "files": [
+    {
+      "benchmark": "androidworld",
+      "url": "https://github.com/babelcloud/android_world_benchmark/blob/f788f4eb3cb91213b532112c9874e7d1d7eb796a/LICENSE",
+      "git_blob_sha1": "654aa773711a7915627d351266ff5ad3f2a9bb04",
+      "license_header": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/",
+      "scope": "Provider repository LICENSE; exact blob matches the historical AndroidWorld receipt."
+    },
+    {
+      "benchmark": "mir_bench",
+      "url": "https://github.com/KaiYan289/MIR-Bench/blob/4db07db3c9187e71e2552526172a580b0c9b5667/LICENSE",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "license_header": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/",
+      "scope": "Code repository LICENSE; task dataset and response-release terms require separate evidence."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "benchmark": "androidworld",
+  "counts": {
+    "binary_trials": 116,
+    "source_trials": 116
+  },
+  "failures": 16,
+  "native_items": 116,
+  "observed_visible_item_variants": 116,
+  "outputs": {
+    "facts.parquet": {
+      "bytes": 3271,
+      "sha256": "b0b7aab3ff466db7daec682531163d19994550ca6c54ce721feedd3a32c4f2ce"
+    },
+    "items.parquet": {
+      "bytes": 10208,
+      "sha256": "74ebd3c869cdee1b6c5370e5bd6b5ef5756cfeaea315c8459847b7ad5d160f12"
+    },
+    "subjects.parquet": {
+      "bytes": 1724,
+      "sha256": "8ccd4f0b608f204a936e1f7d688a5a5043c9b87be8d07f204573abbc23856cc2"
+    },
+    "ungraded.parquet": {
+      "bytes": 787,
+      "sha256": "d894d2e179c6c25c97cb299c48beee50bb646b0113ba9edd32a9a91e6cbb0c18"
+    }
+  },
+  "prior_legacy_rows_reused": 0,
+  "receipt_sha256": "e85309e67b33f665fd593636c87731c0f67491f8f81a5ed076726022a87af6d5",
+  "source": {
+    "leaderboard": {
+      "bytes": 9203,
+      "sha256": "fa55b5154926e6027efa02dda6a07d15e008b3e314adbc20d0980ce537aca8f0"
+    },
+    "leaderboard_url": "https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/export?format=csv&gid=0",
+    "license_blob": "654aa773711a7915627d351266ff5ad3f2a9bb04",
+    "organizer_row": "il5yUQsrjC",
+    "organizer_sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a",
+    "provider_repository": "https://github.com/babelcloud/android_world_benchmark",
+    "report_blob": "c7690861f7c36e89f2ac1363ba7253c297f14763",
+    "revision": "f788f4eb3cb91213b532112c9874e7d1d7eb796a",
+    "trajectory_tree": "e1dd9661815effe8cbcb340707a8c411b2438609"
+  },
+  "successes": 100,
+  "unrecorded_tasks_imputed": 0,
+  "visible_subjects": 3
+}

@@ -1,0 +1,39 @@
+{
+  "candidate_methods": [
+    "lexical",
+    "rasch",
+    "caimira",
+    "ncf",
+    "entitymarformer"
+  ],
+  "checkpoint_sha256": "f05222a6df77cf7c2a4013d3e25bbc3047264c2ffa3a39addf23ff28d7a6cd9f",
+  "development_trials": 10951005,
+  "elapsed_s": 291.9808243989828,
+  "freeze_sha256": "0b946c468d77aab6d3a8ad40a737a66155a16e3700d1875a86fdbe5a455ea2f7",
+  "reload_checks": 192,
+  "seed": 17,
+  "selected": "caimira/offset/all",
+  "training": {
+    "device": "cuda",
+    "diagnostics": {
+      "bce": 0.637116551399231,
+      "convergence": "CONVERGED",
+      "gradient_inf": 4.69735823571682e-08,
+      "nuisance_prior": 0.01824178732931614,
+      "objective": 0.6637041568756104,
+      "optimizer": "Adam",
+      "rank": 2,
+      "ridge": 0.00832394976168871,
+      "step": 300,
+      "steps": 300,
+      "structured_penalties": 2.1887901311856695e-05
+    },
+    "fit_seconds": 24.23022690403741,
+    "input_rows": 9479991,
+    "method": "caimira",
+    "pairs": 1345,
+    "seed": 17,
+    "trials": 10951005
+  },
+  "training_trials": 10951005
+}

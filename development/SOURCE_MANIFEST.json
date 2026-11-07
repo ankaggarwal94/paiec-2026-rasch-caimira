@@ -1,0 +1,81 @@
+{
+  "schema": "paiec-frozen-source-manifest-v1",
+  "source_identity": "worker-combined-final immutable inventory",
+  "files": [
+    {
+      "path": "research/broad_transfer/predictors.py",
+      "sha256": "7249a43581b09a08cee9f95815b9178f1586a25f5e3dd97648bad9fcfbf74812",
+      "bytes": 23698
+    },
+    {
+      "path": "research/proxy_gpu/models.py",
+      "sha256": "bc784848524b0bc5fdaa7a2ff873fd008c32eb190a860f439725603924d2bccc",
+      "bytes": 39827
+    },
+    {
+      "path": "research/proxy_iteration/features.py",
+      "sha256": "ed32bee28ae670466e4f66fac0ae32ce9175bae2afa89f7dfed4f1cd0f0d85e1",
+      "bytes": 7795
+    },
+    {
+      "path": "research/proxy_structured/__main__.py",
+      "sha256": "0e038565a17054c2cfda61ca976e420bdfbee4cfe437fddb901f8690732c52d8",
+      "bytes": 11668
+    },
+    {
+      "path": "research/proxy_structured/data.py",
+      "sha256": "6d7343200b43593a2c222294adc139b1fb1f86455134586b3b3c2e480943ea67",
+      "bytes": 22077
+    },
+    {
+      "path": "research/proxy_structured/experiment.py",
+      "sha256": "ae295e75ad70c6ec3ce46fc66f7d1cd40465bf4a606a7d00bff97f623c707d79",
+      "bytes": 32706
+    },
+    {
+      "path": "research/proxy_structured/features.py",
+      "sha256": "b7d9910f86d15660e6da94d6ae0f221ccd72e6d48c7109f66ba7b8c832df0e39",
+      "bytes": 3767
+    },
+    {
+      "path": "research/proxy_structured/inference.py",
+      "sha256": "1f73c5355940451ad2c774e586e730394dd7045efec51b215659a5ac56e85b78",
+      "bytes": 33088
+    },
+    {
+      "path": "research/proxy_structured/protocol.py",
+      "sha256": "6b7b407c68d0cfd94f8628cbbdae382d269024ca1a4480258c23453af04ccb20",
+      "bytes": 22922
+    },
+    {
+      "path": "research/proxy_structured/structured.py",
+      "sha256": "08d11dce83cca15dbf87fe63a8c414e90b07354da80cc4c5a4f8d99a69a9178e",
+      "bytes": 31437
+    },
+    {
+      "path": "research/roadmap/numerics.py",
+      "sha256": "23f24b539a6cc8140aba76e5dffa77c9746e7387a34f54fd44dc80feb1806912",
+      "bytes": 21725
+    },
+    {
+      "path": "research/proxy_iteration/models.py",
+      "sha256": "5ce1a987d1e46cf778765abe8a7754848242d2a8861da5ff6460fa18f7d83a95",
+      "bytes": 12916
+    },
+    {
+      "path": "research/five_candidate/models.py",
+      "sha256": "2918665a4334fa6c9b3302f17f91e17d20602d6fd3212a6b7f0d0bb4d9dd8c15",
+      "bytes": 16264
+    },
+    {
+      "path": "submissions/ncf/ncf_head.py",
+      "sha256": "ffccec41dd22dd5a2a143002d72daba715a50a2bde5b3ea1c1820b32282d9c2a",
+      "bytes": 2811
+    },
+    {
+      "path": "profiles/neurips/contract.py",
+      "sha256": "e6df1127a0d264be81e15cce709f4aa628096e3b083bb5083ddbe45a2178825d",
+      "bytes": 8488
+    }
+  ]
+}

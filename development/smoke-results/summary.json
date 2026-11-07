@@ -1,0 +1,76 @@
+{
+  "distinct_inputs": 24,
+  "equal_pair_weight_check": true,
+  "fits": {
+    "caimira": {
+      "diagnostics": {
+        "bce": 0.6153203248977661,
+        "convergence": "CONVERGED",
+        "gradient_inf": 1.4295801520347595e-07,
+        "nuisance_prior": 0.007812689058482647,
+        "objective": 0.6404582858085632,
+        "optimizer": "Adam",
+        "rank": 2,
+        "ridge": 0.01726435497403145,
+        "step": 300,
+        "steps": 300,
+        "structured_penalties": 6.0911035689059645e-05
+      },
+      "fresh_process_prediction_match": true,
+      "json_checkpoint_prediction_match": true,
+      "maximum_parameter_change_from_initialization": 0.9500451390631497,
+      "probability_max": 0.699824333190918,
+      "probability_min": 0.48040449619293213,
+      "same_seed_state_match": true
+    },
+    "rasch": {
+      "diagnostics": {
+        "bce": 0.6147319078445435,
+        "convergence": "CONVERGED",
+        "gradient_inf": 3.921333700418472e-05,
+        "nuisance_prior": 0.0059376005083322525,
+        "objective": 0.635295033454895,
+        "optimizer": "Adam",
+        "rank": 1,
+        "ridge": 0.014625526033341885,
+        "step": 300,
+        "steps": 300,
+        "structured_penalties": 0.0
+      },
+      "fresh_process_prediction_match": true,
+      "json_checkpoint_prediction_match": true,
+      "maximum_parameter_change_from_initialization": 0.9486150150187314,
+      "probability_max": 0.7127783894538879,
+      "probability_min": 0.46280544996261597,
+      "same_seed_state_match": true
+    }
+  },
+  "pair_weights": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ],
+  "pairs": 6,
+  "rejected_inputs": [
+    "boolean_label",
+    "nonbinary_label",
+    "subject_object",
+    "conflicting_input_identity"
+  ],
+  "runtime": {
+    "device": "cpu",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "scope": "synthetic functional training and serialization checks only",
+  "source_files_verified": 15,
+  "status": "PASS",
+  "training_trials": 48
+}

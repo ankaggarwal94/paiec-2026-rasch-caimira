@@ -1,0 +1,12 @@
+{
+  "source": "Archived local replay summaries and execution receipts",
+  "reconstructed_brier_alc": {
+    "1033927_16-s44-rasch-offset": 0.20018251922944796,
+    "1033935_18-s44-rasch-caimira": 0.20144921613205669,
+    "1033965_27-s44-caimira-native": 0.20298542163810634
+  },
+  "blend_minus_rasch": 0.0012666969026087216,
+  "blend_minus_caimira": -0.0015362055060496593,
+  "mean_component_loss_minus_blend": 0.00013475430172046887,
+  "scope": "Recorded historical values; three source benchmarks covering 25 pairs share native tables with CAIMIRA training. Exact evaluated-row overlap and raw prediction replay remain unresolved."
+}

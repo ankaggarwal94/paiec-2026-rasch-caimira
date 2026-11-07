@@ -1,0 +1,48 @@
+\section{Predictive evaluation with a small label budget}
+\label{sec:task}
+\paragraph{Prediction unit.}
+Let $s$ describe an AI system under a fixed configuration, and let $i$ denote an item. A response is binary, $y\in\{0,1\}$. The evaluator returns $p(y=1\mid s,i,\mathcal{D}_n)$, where $\mathcal{D}_n$ contains up to $n$ revealed outcomes from the current subject--benchmark pair. Subject attributes include model name, provider, dates, harness, harness version, reasoning effort, and extra settings. The candidate serializes the entire supplied subject dictionary. For items, its predictive features use \code{item\_content}; \code{benchmark\_id} controls which support labels are eligible~\citep{release}.
+
+\paragraph{Budgeted evaluation.}
+The official protocol separates acquisition items from evaluated items and supplies nested evidence at budgets $\{0,1,3,7,15,31\}$. All six checkpoints within a submission evaluate the same response set. This archive omits \code{labeling.py}, so the platform supplies random acquisition. Formative submissions draw fresh hidden subsets; comparisons between separately submitted candidates therefore involve sample variation~\citep{paiec2026}.
+
+\paragraph{Primary metric.}
+For pair $j$, let $\mathcal{E}_j$ contain its evaluated responses, including repeated recorded responses where present. Its Brier error at budget $n$ is
+\begin{equation}
+ B_{j,n}=\frac{1}{|\mathcal{E}_j|}\sum_{r\in\mathcal{E}_j}(p_{j,n,r}-y_{j,r})^2.
+ \label{eq:brier}
+\end{equation}
+The budget transformation $x=\log_2(n+1)$ places the six checkpoints at $0,1,2,3,4,5$. Trapezoidal integration over this axis, divided by its width, gives
+\begin{equation}
+ A_j=0.1B_{j,0}+0.2B_{j,1}+0.2B_{j,3}+0.2B_{j,7}+0.2B_{j,15}+0.1B_{j,31}.
+ \label{eq:alc}
+\end{equation}
+The competition score is the equal-weight pair mean $J^{-1}\sum_j A_j$. Thus a small pair and a large pair have the same influence. The weights also give early adaptation substantial value: checkpoints through seven labels carry 70\% of the total weight. Brier error measures probability accuracy, with smaller values preferred; fixed $p=0.5$ yields 0.25 for every binary response~\citep{brier1950,paiec2026}.
+
+\begin{figure}[H]
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[font=\small,box/.style={draw=reportblue!65,rounded corners=2pt,align=center,minimum height=11mm,text width=30mm,inner sep=4pt},arr/.style={-{Latex[length=2mm]},thick,draw=reportblue!80}]
+\node[box] (attrs) {Item text and\\subject metadata};
+\node[box,right=10mm of attrs] (features) {384-dimensional\\signed lexical hashes};
+\node[box,right=12mm of features,yshift=10mm] (rasch) {Rasch predictor\\one scalar update};
+\node[box,right=12mm of features,yshift=-10mm] (caimira) {CAIMIRA variant\\two-coordinate update};
+\node[box,right=12mm of rasch,yshift=-10mm,text width=24mm] (mean) {Average the two\\probabilities};
+\node[box,below=16mm of features,text width=42mm,draw=reportorange] (support) {Randomly acquired labels\\for this subject and benchmark};
+\draw[arr] (attrs)--(features);
+\draw[arr] (features.east)--(rasch.west);
+\draw[arr] (features.east)--(caimira.west);
+\draw[arr] (rasch.east)--(mean.west);
+\draw[arr] (caimira.east)--(mean.west);
+\draw[arr,draw=reportorange] (support.east)-|(caimira.south west);
+\draw[arr,draw=reportorange] (support.west)-|([xshift=-7mm]features.west)|-(rasch.north west);
+\end{tikzpicture}}
+\caption{The submitted evaluator. Frozen parameters map attributes to difficulty, relevance, and ability priors. Revealed labels update a scalar offset or a two-dimensional ability vector. The final operation averages probabilities. Orange arrows indicate evidence used for adaptation.}
+\label{fig:overview}
+\end{figure}
+
+\paragraph{Evaluation population.}
+The formative tables cover nine subjects, seven anonymous benchmarks, and 496 distinct evaluated subject--item pairs~\citep{release}. Repeated recorded responses can make the response denominator larger than the distinct-item count. We retain the official equal-weight pair aggregation throughout the main results, giving each evaluated system--task combination the same influence.
+
+\paragraph{A clean adaptation experiment.}
+All six checkpoints reuse the same evaluation responses, so changes along a submission's curve directly describe what happens as additional support arrives. A frozen-prediction reference holds the zero-label forecast constant at every later budget. Comparing the observed curve with this reference isolates the value of using revealed evidence within this run. The larger archived replay supplies a separate comparison among the two branches and their blend.

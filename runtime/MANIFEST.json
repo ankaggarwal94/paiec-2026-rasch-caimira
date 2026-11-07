@@ -1,0 +1,199 @@
+{
+  "candidate_archive_sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b",
+  "scope": "Exact frozen-state candidate plus synthetic inference reproduction assets",
+  "clean_install": "passed",
+  "clean_smoke": "passed",
+  "virtual_environments_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6939,
+      "sha256": "ff22cae837ffd51b5da3d4c37198a7c99d5aae781e9e8c5585b6818a78aea913"
+    },
+    {
+      "path": "TRAINING_SCOPE.md",
+      "bytes": 2855,
+      "sha256": "533440c73e4f52cfc4856af83eb5e215ecad7c3267e897562d30c1cb7182635a"
+    },
+    {
+      "path": "candidate/caimira-requires-state.json",
+      "bytes": 70999,
+      "sha256": "348088f33fb8080229f5475b95735719a43008a00af8a26b798831a138197eec"
+    },
+    {
+      "path": "candidate/model.py",
+      "bytes": 53370,
+      "sha256": "a246beb1d96745d00094483bf86ef0ed585cc713dc46c805f15fd445b19dc21e"
+    },
+    {
+      "path": "candidate/rasch-requires-state.json",
+      "bytes": 35785,
+      "sha256": "477130aaf555b872320f320c69458d91c38f877024163b10f5f887d2fcbc1ef7"
+    },
+    {
+      "path": "fixtures/budgets.jsonl",
+      "bytes": 15861,
+      "sha256": "be94790af32052607a62c9283918e8e21665fd8d271dbab02bf40bb2c50d3999"
+    },
+    {
+      "path": "fixtures/example.jsonl",
+      "bytes": 792,
+      "sha256": "e2a4af71c0620e48850300f9b7bbae6384c1e79ffaef2cf907e68735c9eaa0fa"
+    },
+    {
+      "path": "fixtures/fixture.json",
+      "bytes": 12373,
+      "sha256": "a401afc5c2ff238c961228b6013b79f158e49ea69c264a8c0bd3f6db1b92d4af"
+    },
+    {
+      "path": "logs/clean_install.json",
+      "bytes": 6425,
+      "sha256": "d919298799264a50c0dc586bd5ad5eeca79249f5274fec8b932ab924118eef0c"
+    },
+    {
+      "path": "logs/clean_install.txt",
+      "bytes": 5134,
+      "sha256": "30f1452c440166a3642dca610e78ff07c19c18f32c6fc302cbf0e93eec75e171"
+    },
+    {
+      "path": "logs/clean_smoke_execution.json",
+      "bytes": 3486,
+      "sha256": "e17635ffe34119a5d65a225cdbe04752daf188a5a9acdbaf897c138fce949948"
+    },
+    {
+      "path": "logs/clean_smoke_execution.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/clean_smoke_execution.stdout.txt",
+      "bytes": 2904,
+      "sha256": "0d4a0df6db1d2ac1ea151cef2739c06cd43a566c012f9b0b3c00148e48b20e72"
+    },
+    {
+      "path": "logs/clean_venv_setup.json",
+      "bytes": 220,
+      "sha256": "353332fdd645cf22849e4275063de4a6c2b8860282c7bde5d4d5914152301fab"
+    },
+    {
+      "path": "logs/install_torch.json",
+      "bytes": 3830,
+      "sha256": "7acce029d26b091f2d8f2101798ca01d27fc902059968db265833072b84e9200"
+    },
+    {
+      "path": "logs/install_torch.txt",
+      "bytes": 2933,
+      "sha256": "92e784c32cb22305a47fde6251016d311d94c7487b5fa460568dcdaa46945013"
+    },
+    {
+      "path": "logs/pip_check.json",
+      "bytes": 258,
+      "sha256": "c96ea5bb4a7872ea109d1ffb3537a2efe8f257f920615b22850f56518aca0b17"
+    },
+    {
+      "path": "logs/smoke_execution.json",
+      "bytes": 3461,
+      "sha256": "5d81e8ada6892c9ccd1d177137c343ee700fb1d4fc1920d3eb1c0e559f90739c"
+    },
+    {
+      "path": "logs/smoke_execution.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/smoke_execution.stdout.txt",
+      "bytes": 2885,
+      "sha256": "14ef5e1414dc60d060dd6f36de37e259aac22e0d63490d25e295bd07f94ddab8"
+    },
+    {
+      "path": "logs/supplement_example.json",
+      "bytes": 604,
+      "sha256": "a34aa18baffc4f5739d897d71295f17d691fc4a4775e7da517aea5f4a3271574"
+    },
+    {
+      "path": "logs/supplement_example.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/supplement_example.stdout.txt",
+      "bytes": 147,
+      "sha256": "4659cfec4a3462a3a8e1ddda3f21eb25681611de185d189eac324706e9b2a38d"
+    },
+    {
+      "path": "original_submission/18-s44-rasch-caimira.zip",
+      "bytes": 55644,
+      "sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b"
+    },
+    {
+      "path": "predict_cli.py",
+      "bytes": 4834,
+      "sha256": "3674ace230c5301b7f07559b8348c92d9c8f907eb0abf306f537de121fb3acd6"
+    },
+    {
+      "path": "requirements-validated.txt",
+      "bytes": 287,
+      "sha256": "0045ccce70d1fd1fb25d38da68d8662f0d23dface9c44c69ec329e3d47504a9b"
+    },
+    {
+      "path": "results/archive_training_code_audit.json",
+      "bytes": 1061,
+      "sha256": "b2d9d9629e7808ff090475bfacf061187cd1cf92de67c60e9aa96bc1122c1de8"
+    },
+    {
+      "path": "results/cli_first.jsonl",
+      "bytes": 272,
+      "sha256": "dfc660588a2cc9017aaf04855ea7cd5751063c68d6316f8ed84e53bff9587399"
+    },
+    {
+      "path": "results/cli_first.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/cli_second.jsonl",
+      "bytes": 272,
+      "sha256": "dfc660588a2cc9017aaf04855ea7cd5751063c68d6316f8ed84e53bff9587399"
+    },
+    {
+      "path": "results/cli_second.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 2979,
+      "sha256": "34e7d8541e6a6b572f54170f27f89c3069ce3cb956370abe5c1dae5b0224dce3"
+    },
+    {
+      "path": "results/environment_clean.json",
+      "bytes": 3083,
+      "sha256": "0e6bd93caf8853138f9e8f73919a6a2a492731544cce38f3dcaf87957892643f"
+    },
+    {
+      "path": "results/environment_comparison.json",
+      "bytes": 782,
+      "sha256": "ec29e66957824f353df5ef4123c43b12b0d047da631b66ce001a3548b20af1f6"
+    },
+    {
+      "path": "results/reference_smoke_results.json",
+      "bytes": 2904,
+      "sha256": "0d4a0df6db1d2ac1ea151cef2739c06cd43a566c012f9b0b3c00148e48b20e72"
+    },
+    {
+      "path": "results/runtime_discovery.json",
+      "bytes": 665,
+      "sha256": "55537dea2caee94c69c27efe7953cc06b0e4c4f44e6d6e57086663460d971dc4"
+    },
+    {
+      "path": "results/smoke_results_initial.json",
+      "bytes": 2885,
+      "sha256": "14ef5e1414dc60d060dd6f36de37e259aac22e0d63490d25e295bd07f94ddab8"
+    },
+    {
+      "path": "smoke_test.py",
+      "bytes": 5597,
+      "sha256": "ecfa0ec26c50d9961f3342729ceb9d397ccea158f6a8019915f29c13aae28aea"
+    }
+  ]
+}

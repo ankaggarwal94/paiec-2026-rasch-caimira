@@ -1,0 +1,39 @@
+{
+  "base_commit": "e4f3d6b15ad45b2583127b529d5fb88d82b4deb4",
+  "pages": 18,
+  "main_pages": 8,
+  "page8_section": "Extension: shared evidence and calibrated gating",
+  "references_start": 9,
+  "appendices_start": 10,
+  "pdf_sha256": "d04438f26a5609ea5f9bd0eb2582bb06f35dd3ace535a0421f36c8d55cd5585a",
+  "pdf_bytes": 440946,
+  "build_exit": 0,
+  "overfull_warnings": [],
+  "unresolved_references": false,
+  "prohibited_word_count": 0,
+  "em_dash_count": 0,
+  "author_order": [
+    "Ankit Aggarwal",
+    "Maharshi Gor"
+  ],
+  "affiliations": [
+    "Stanford University",
+    "University of Maryland"
+  ],
+  "source_diagram_preserved": true,
+  "candidate_status": "exact original archive unchanged",
+  "publication_status": "public repository exists; contents upload pending",
+  "synthetic_inference": "passed in two CPU environments including a fresh isolated installation",
+  "synthetic_development": "native Rasch and CAIMIRA fits, export, repeated seed and fresh process checks passed",
+  "caimira_fit_provenance": "exact state-linked receipt, freeze, source and data identities verified",
+  "rasch_fit_provenance": "UNVERIFIED; exact receipt recovery pending",
+  "overlap": "three shared source benchmarks, 25 of 153 local replay pairs",
+  "visual_review": "all-page contact sheet and focused review of updated pages passed",
+  "fonts_embedded": true,
+  "type3_fonts": 0,
+  "project_reference": "https://github.com/ankaggarwal94/paiec-2026-rasch-caimira",
+  "private_repository_links_in_pdf": 0,
+  "private_draft_bibliography_entries": 0,
+  "bibliography_entries": 7,
+  "validation_scope": "Fresh pdfLaTeX build and citation/link audit. Historical inference and training checks retained from prior revision."
+}

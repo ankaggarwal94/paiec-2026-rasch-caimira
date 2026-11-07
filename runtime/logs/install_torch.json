@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/workspace/scratch/2592d19f4bb5/work/repro_runtime/.venv/bin/python",
+    "-m",
+    "pip",
+    "--isolated",
+    "install",
+    "--index-url",
+    "https://download.pytorch.org/whl/cpu",
+    "--timeout",
+    "20",
+    "--retries",
+    "0",
+    "--no-cache-dir",
+    "torch==2.7.1"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 31.933151721954346,
+  "stdout": "Looking in indexes: https://download.pytorch.org/whl/cpu\nCollecting torch==2.7.1\n  Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (27 kB)\nCollecting filelock (from torch==2.7.1)\n  Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)\nRequirement already satisfied: typing-extensions>=4.10.0 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from torch==2.7.1) (4.16.0)\nRequirement already satisfied: setuptools in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from torch==2.7.1) (84.2.1)\nCollecting sympy>=1.13.3 (from torch==2.7.1)\n  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)\nCollecting networkx (from torch==2.7.1)\n  Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)\nCollecting jinja2 (from torch==2.7.1)\n  Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)\nCollecting fsspec (from torch==2.7.1)\n  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)\nCollecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch==2.7.1)\n  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)\nCollecting MarkupSafe>=2.0 (from jinja2->torch==2.7.1)\n  Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)\nDownloading https://download-r2.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl (175.8 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 175.8/175.8 MB 56.5 MB/s eta 0:00:00\nDownloading sympy-1.14.0-py3-none-any.whl (6.3 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 6.3/6.3 MB 30.3 MB/s eta 0:00:00\nDownloading filelock-4.2.4-py3-none-any.whl (162 kB)\nDownloading fsspec-2026.9.0-py3-none-any.whl (221 kB)\nDownloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)\nDownloading networkx-3.7-py3-none-any.whl (2.1 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 2.1/2.1 MB 26.1 MB/s eta 0:00:00\nDownloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)\nDownloading mpmath-1.3.0-py3-none-any.whl (536 kB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 536.2/536.2 kB 5.1 MB/s eta 0:00:00\nInstalling collected packages: mpmath, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch\nSuccessfully installed MarkupSafe-3.0.3 filelock-4.2.4 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.7 sympy-1.14.0 torch-2.7.1+cpu\n"
+}

@@ -1,0 +1,46 @@
+\section{Archived local replay and protocol}
+\label{app:local}
+The local replay was frozen on November 5, 2026, at 03:21:03 UTC. Its manifest records Measurement Data Bank revision \code{54074453da7b9911be0f48e4c560be547bc84d21}, 153 subject--benchmark pairs, 30 benchmarks, 14,494 acquisition items, 14,492 distinct evaluation inputs, and 21,788 evaluation response rows. The 507,743,249-byte panel has SHA-256
+\begin{center}\small\ttfamily
+7504b6678c99873ef248027e282779c455225c721231359b76ec7a651170b116
+\end{center}
+
+\begin{table}[H]
+\centering
+\caption{Archived local mean Brier curves. Values are rounded from \code{summary.json}.}
+\small
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+Labels & Rasch offset & Equal blend & CAIMIRA-style native \\
+\midrule
+0 & .250663 & .250457 & .250295 \\
+1 & .226010 & .227857 & .230000 \\
+3 & .199429 & .201879 & .204771 \\
+7 & .185937 & .187306 & .189032 \\
+15 & .177944 & .178587 & .179419 \\
+31 & .172524 & .172778 & .173115 \\
+\midrule
+ALC & .200183 & .201449 & .202985 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Package linkage.}
+The run \code{1033935\_18-s44-rasch-caimira} records the exact candidate checksum from Appendix~\ref{app:identity}, a finished status, exit code zero, 82,734 prediction calls, 4,218 reused predictions, and 4,743 resolved support labels. The Rasch and CAIMIRA-style package receipts share the same panel and kit hashes. Their archive hashes are, respectively,
+\begin{center}\small\ttfamily
+7e7b3fdd2ad0343937330dc866ee29baa09ba76fb88cc1b42f4a8439ea1d3044\\
+5dfbd0e6ee27b91524525618fbad0883b351b95e9c2eab3e9fc7cc8a2dafa5c0
+\end{center}
+An archived package audit reports identical reused structured-state bytes across these packages, with CAIMIRA and Rasch prefixes \code{348088f3} and \code{477130aa}. These match the states inspected in the supplied blend. This establishes a documented component comparison; an independent raw-prediction replay would further strengthen it.
+
+\paragraph{Protocol and population.}
+The evaluator documentation specifies item-level 50/50 acquisition/evaluation separation, a maximum of 200 items per pair, nested budgets, and a common random acquisition stream. Split and order seeds are both 20261105. Every recorded evaluation response is scored, while a single recorded response per acquired item supplies its revealed label. Pair selection is stratified using response rates. Ten benchmarks have a single admitted subject; four admit binary-valued records from a mixed-response catalog. The panel therefore has a deliberately constructed population.
+
+\paragraph{Runtime scope.}
+The blend's recorded wall time is 906.692 seconds with four prediction workers on the archived local setup. Its receipt lists Python 3.12.11, NumPy 2.5.2, SciPy 1.18.1, and PyTorch 2.13.0. These are historical local execution facts, rather than a fresh timing experiment or a hosted runtime estimate. The local panel is larger than the hosted sample, and this timing applies to the archived local environment.
+
+\paragraph{Shared source data with CAIMIRA training.}
+Three benchmarks are shared with CAIMIRA training: \code{finegrain\_t2i} (5 replay pairs), \code{medagentboard} (10), and \code{tau2\_bench} (10). Their pinned native item, response, and subject table hashes match across the manifests. The remaining 128 pairs span 27 names outside the 44-benchmark training manifest. Exact evaluated-row intersections and wider source ancestry require the materialized corpus and panel. This replay is therefore a component diagnostic; source-separated transfer requires a dedicated evaluation.
+
+\paragraph{Verification scope.}
+The manifests, protocol, receipts, summary, and package CSV agree on counts, identities, and scores. Source-overlap checks are included in the release. A sensitivity calculation on the remaining 128 pairs awaits the raw results; the aggregate values preserve the recorded 153-pair population.

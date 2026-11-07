@@ -1,0 +1,46 @@
+\section{Updating from a small set of labels}
+\label{sec:adaptation}
+The exported predictor first filters revealed evidence to entries whose complete subject dictionary equals the query subject and whose nonempty benchmark identifier matches the query benchmark. Only this filtered prefix enters either branch. Missing benchmark identifiers lead to zero-label predictions. Consequently, adaptation has a clear meaning: it learns from the current subject's performance on other items in the same benchmark~\citep{release}.
+
+\subsection{A scalar correction for Rasch}
+For support logits $\ell_k$ and outcomes $y_k$, the Rasch branch solves
+\begin{equation}
+ \hat\delta=\arg\min_{\delta\in\R}
+ \left\{\frac{\delta^2}{2}+\sum_{k=1}^{n}
+ \big[\log(1+e^{\ell_k+\delta})-y_k(\ell_k+\delta)\big]\right\}.
+ \label{eq:offset}
+\end{equation}
+Its prediction becomes $p_R=\sigmoid(\ell_{\rm query}+\hat\delta)$. The zero-mean, unit-variance Gaussian prior shrinks the correction toward the initial forecast. Before this update, the implementation clips frozen probabilities to $[10^{-9},1-10^{-9}]$ and converts them to logits. The zero-label path directly returns the frozen forecast.
+
+The derivative is $g(\delta)=\delta+\sum_k\sigmoid(\ell_k+\delta)-\sum_k y_k$. Since
+\begin{equation}
+ g'(\delta)=1+\sum_k p_k(\delta)[1-p_k(\delta)]>0,
+\end{equation}
+the objective has one minimizer. The derivative has the required opposite signs at $-n$ and $n$, giving a bracket for a deterministic solver. The source performs 42 bisection steps. In exact arithmetic, the final midpoint is within $n/2^{42}$ of the root. Thus the scalar update has a transparent numerical target even with unanimous support labels.
+
+\subsection{A two-coordinate correction for CAIMIRA}
+Write $o_k=b_C-r_k^\top d_k^C$. The CAIMIRA-style branch solves
+\begin{equation}
+ \hat a=\arg\min_{a\in\R^2}
+ \left\{\frac{1}{2}\|a-\mu_s^C\|_2^2+
+ \sum_{k=1}^{n}\big[\log(1+e^{o_k+r_k^\top a})-y_k(o_k+r_k^\top a)\big]\right\},
+ \label{eq:native}
+\end{equation}
+then returns $p_C=\sigmoid(b_C+r_i^\top[\hat a-d_i^C])$. The Hessian is
+$I+\sum_k p_k(1-p_k)r_kr_k^\top$, which is positive definite. Frozen item parameters and a quadratic prior therefore produce a unique posterior mode. The implementation uses SciPy L-BFGS-B with an analytic gradient, initializing at the metadata prior. It rejects nonfinite objectives and failed solves whose largest absolute gradient component exceeds $10^{-6}$.
+
+\paragraph{The geometry of item-sensitive adaptation.}
+The two-coordinate update admits an especially simple interpretation. Let $u=\hat a-\mu_s^C$, $\bar u=(u_1+u_2)/2$, and $v=(u_1-u_2)/2$. Because $r_{i1}+r_{i2}=1$, its change in log odds is exactly
+\begin{equation}
+ r_i^\top u=\bar u+(r_{i1}-r_{i2})v.
+ \label{eq:geometry}
+\end{equation}
+The first term shifts every item together. The second adds a content-dependent contrast. Thus even two coordinates create a meaningful extension of scalar adaptation: evidence can change both the subject's overall level and its relative performance across item profiles. This is the conceptual core of the model.
+
+\subsection{Probability averaging}
+The final predictor is $p=(p_R+p_C)/2$. For any binary outcome $y$,
+\begin{equation}
+ (p-y)^2=\tfrac12(p_R-y)^2+\tfrac12(p_C-y)^2-\tfrac14(p_R-p_C)^2.
+ \label{eq:mixture}
+\end{equation}
+Under the Brier objective, disagreement contributes a precisely quantified reduction relative to the mean component loss. Equal weights preserve both adaptation views without introducing an additional fitted combiner. Section~\ref{sec:calibration} measures the blend against each branch on a common archived panel; Section~\ref{sec:extensions} describes how a learned gate could extend this fixed combination.

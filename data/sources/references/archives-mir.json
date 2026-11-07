@@ -1,0 +1,45 @@
+{
+  "benchmark": "mir_bench",
+  "changed_if_missing_import_repaired": 515,
+  "counts": {
+    "binary_trials": 12000,
+    "source_trials": 12000
+  },
+  "data_revision": "16a95704f98021ef70daaff6cd77c38a99f7e934",
+  "grader_revision": "4db07db3c9187e71e2552526172a580b0c9b5667",
+  "organizer_row_id": "IZHWvvmYwx",
+  "outputs": {
+    "facts.parquet": {
+      "bytes": 79549,
+      "sha256": "c920add78bd634523573a5e6d18954e6b032839b2d901b487103f400bdee7947"
+    },
+    "items.parquet": {
+      "bytes": 26151038,
+      "sha256": "2e068a6615d331bc816f378faf68ffc511578d7a31c7b491a2a80215c28cb49e"
+    },
+    "subjects.parquet": {
+      "bytes": 1324,
+      "sha256": "08c5257a96843b016169e28755c787bd620005308016e1e10a4f7a7a68b383e3"
+    },
+    "ungraded.parquet": {
+      "bytes": 787,
+      "sha256": "d894d2e179c6c25c97cb299c48beee50bb646b0113ba9edd32a9a91e6cbb0c18"
+    }
+  },
+  "semantics": "Published executable exact match on original GPT-4o outputs; compare optional literal parser separately.",
+  "source": {
+    "MIR-Core.parquet": {
+      "bytes": 123869113,
+      "sha256": "c322fdbc83b212993ffb64cc9a6ad29fb06744679bb2f526e98ed4f2d7271cfe"
+    },
+    "evaluate.py.txt": {
+      "bytes": 4025,
+      "sha256": "8885a887e8915335ec3426ed4357799eebde9d72453f3b3348584429449c9312"
+    },
+    "manyshot_benchmark#64acc_quad_512.json": {
+      "bytes": 103297545,
+      "sha256": "a69eafcb9b9048c4438d4f25feb3ed879abb321e89fdc353e0329d4440bc9593"
+    }
+  },
+  "source_groups": 150
+}

@@ -1,0 +1,65 @@
+{
+  "preservation": "Historical references copied byte-for-byte.",
+  "files": [
+    {
+      "path": "references/freeze.json",
+      "sha256": "0b946c468d77aab6d3a8ad40a737a66155a16e3700d1875a86fdbe5a455ea2f7",
+      "bytes": 727891,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/caimira-refit.json",
+      "sha256": "d0ac3ada0487a14856a1077fabbc837f27f59acf7d3ec1c7367c134e5551220c",
+      "bytes": 1045,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/caimira-submission.receipt.json",
+      "sha256": "5667b1f133ec657fd5e755310d032d392538f6eef95df9b18dedd7fdde4d0ebe",
+      "bytes": 1216,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/combined-sources.json",
+      "sha256": "79934dae97aa7ed53c5fe7f2dddd4822ee58b20fd134821138de74b45344e37a",
+      "bytes": 22986,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/catalog-freeze-v6.json",
+      "sha256": "bf1953017c8ddc0c5cd49c1e5d5f78cff218294cba0af5d00177bce66a356b4a",
+      "bytes": 53226,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/archives-native.json",
+      "sha256": "0f479373568f3b5f9594061b8511f4c8c12d673670449275a51b6c303e7a653b",
+      "bytes": 15932,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/archives-androidworld.json",
+      "sha256": "53aa469013ad865db1ca78902c92382655ad300a591e1d1f195da6ab37a0f64c",
+      "bytes": 1695,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/archives-cybench.json",
+      "sha256": "0a551ae8eaccc0605983340e087215abe96f25004831a7e4fb21b8a4f50be992",
+      "bytes": 2699,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/archives-mir.json",
+      "sha256": "c23d2f8d2d2d571ae4113267fbe3d26dd929083b82fad83394d1920e5d870907",
+      "bytes": 1486,
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "references/archives-swe-bench-pro.json",
+      "sha256": "2c195fb46d58b52dd29dabef5334d8971eb071944a827ffcbfe686bccd83eb5c",
+      "bytes": 8213,
+      "transformation": "exact bytes"
+    }
+  ]
+}

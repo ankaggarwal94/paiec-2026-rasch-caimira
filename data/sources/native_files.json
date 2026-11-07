@@ -1,0 +1,1613 @@
+{
+  "schema": "paiec.native-fetch.v1",
+  "repo_id": "aims-foundations/measurement-db",
+  "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "source_manifest_sha256": "b2efb2d99bb9306a035a1748dc01338bf34025312423f3146d0d310404e469b9",
+  "source_manifest_scope": "All 160 paths, byte counts and hashes independently match the historical upstream manifest and admission receipts.",
+  "scope": "Four native tables for each of 40 MeasurementDB suites. Separate sources use RETRIEVAL.md.",
+  "benchmark_count": 40,
+  "file_count": 160,
+  "total_bytes": 1002361496,
+  "files": [
+    {
+      "benchmark": "abstract_reason",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "abstract_reason/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/abstract_reason/formatted_tables/benchmarks.parquet",
+      "bytes": 17092,
+      "sha256": "8e2c91805dc91ad86b6710aabf71085156e438a43ed7846b9fcb47d0643c0824"
+    },
+    {
+      "benchmark": "abstract_reason",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "abstract_reason/formatted_tables/items.parquet",
+      "local_path": "tables/abstract_reason/formatted_tables/items.parquet",
+      "bytes": 10549040,
+      "sha256": "bf97f9bff6a6a44a48bba688fd402705888dac81b313135f262262fba44a35d7"
+    },
+    {
+      "benchmark": "abstract_reason",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "abstract_reason/formatted_tables/responses.parquet",
+      "local_path": "tables/abstract_reason/formatted_tables/responses.parquet",
+      "bytes": 346118,
+      "sha256": "59893c65449b1223ab6a71ba139e63149786d7660ad64c3f3a34dcacaedddfcc"
+    },
+    {
+      "benchmark": "abstract_reason",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "abstract_reason/formatted_tables/subjects.parquet",
+      "local_path": "tables/abstract_reason/formatted_tables/subjects.parquet",
+      "bytes": 6495,
+      "sha256": "040593fa9128e3108866d269b440d11d4565569e196c7686782dfa34a35f7d17"
+    },
+    {
+      "benchmark": "agentdojo",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "agentdojo/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/agentdojo/formatted_tables/benchmarks.parquet",
+      "bytes": 16071,
+      "sha256": "f952c7af9c3d491a071c1854fa10713e854feb9ff29c8649c4afb747dc379493"
+    },
+    {
+      "benchmark": "agentdojo",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "agentdojo/formatted_tables/items.parquet",
+      "local_path": "tables/agentdojo/formatted_tables/items.parquet",
+      "bytes": 116286,
+      "sha256": "5e36603925e64862b9747463fcfa935b378b82f2c610072f08f8ed5a230b5d84"
+    },
+    {
+      "benchmark": "agentdojo",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "agentdojo/formatted_tables/responses.parquet",
+      "local_path": "tables/agentdojo/formatted_tables/responses.parquet",
+      "bytes": 1437613,
+      "sha256": "9a982ab42ec8f56ff5fc75b84398de93ff63cb0694f500d784c9681e8ff452c8"
+    },
+    {
+      "benchmark": "agentdojo",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "agentdojo/formatted_tables/subjects.parquet",
+      "local_path": "tables/agentdojo/formatted_tables/subjects.parquet",
+      "bytes": 8724,
+      "sha256": "90dd03f1e6b35982913c84d8defb5ec1b7f068f26f88c41427ae713894606e89"
+    },
+    {
+      "benchmark": "algotune",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "algotune/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/algotune/formatted_tables/benchmarks.parquet",
+      "bytes": 17522,
+      "sha256": "b037f4938d32844f5df1c3f86cca701e167da568d3605e8e3c4e3c9e2ff0a83b"
+    },
+    {
+      "benchmark": "algotune",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "algotune/formatted_tables/items.parquet",
+      "local_path": "tables/algotune/formatted_tables/items.parquet",
+      "bytes": 508732,
+      "sha256": "b089d8f29fef971f02f45885ecb0a23cb9e9e1dcf249099e1b619f3799611a4c"
+    },
+    {
+      "benchmark": "algotune",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "algotune/formatted_tables/responses.parquet",
+      "local_path": "tables/algotune/formatted_tables/responses.parquet",
+      "bytes": 60286,
+      "sha256": "66454f671fb545f99d012d212dcd82156c2943fced9c5be82318fc674142097f"
+    },
+    {
+      "benchmark": "algotune",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "algotune/formatted_tables/subjects.parquet",
+      "local_path": "tables/algotune/formatted_tables/subjects.parquet",
+      "bytes": 7988,
+      "sha256": "7e8fd95d157c3d49d0ab4956a570a4d6a234c8ec7f49104af472a22d08286cf4"
+    },
+    {
+      "benchmark": "atmossci_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "atmossci_bench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/atmossci_bench/formatted_tables/benchmarks.parquet",
+      "bytes": 16842,
+      "sha256": "d118383c0db6c0368380a2bee2c7e72e68dbc35840af2a0e2bf0da7be0f68fc2"
+    },
+    {
+      "benchmark": "atmossci_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "atmossci_bench/formatted_tables/items.parquet",
+      "local_path": "tables/atmossci_bench/formatted_tables/items.parquet",
+      "bytes": 513912,
+      "sha256": "15e5002897ac95eaf08a11a370fdc3ce8096c2f148efea513e09db5ebd07ff2f"
+    },
+    {
+      "benchmark": "atmossci_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "atmossci_bench/formatted_tables/responses.parquet",
+      "local_path": "tables/atmossci_bench/formatted_tables/responses.parquet",
+      "bytes": 842263,
+      "sha256": "58fc82199faa293ba7e85040ace046025e19b0853a1066b4249dc5824a37214e"
+    },
+    {
+      "benchmark": "atmossci_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "atmossci_bench/formatted_tables/subjects.parquet",
+      "local_path": "tables/atmossci_bench/formatted_tables/subjects.parquet",
+      "bytes": 12388,
+      "sha256": "7c2a713adfbbe751828bed1bd491590d8ecd3aad02def582922ac2376bc6925a"
+    },
+    {
+      "benchmark": "babilong",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "babilong/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/babilong/formatted_tables/benchmarks.parquet",
+      "bytes": 17101,
+      "sha256": "2ec32907221928244079fb0087e7061f11810b6b435b8e4d581e5d120be8b74a"
+    },
+    {
+      "benchmark": "babilong",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "babilong/formatted_tables/items.parquet",
+      "local_path": "tables/babilong/formatted_tables/items.parquet",
+      "bytes": 45079999,
+      "sha256": "6cffcbd3d0ef436103c416d909251103d632c8d81a85a5eeaa9297f884489c9b"
+    },
+    {
+      "benchmark": "babilong",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "babilong/formatted_tables/responses.parquet",
+      "local_path": "tables/babilong/formatted_tables/responses.parquet",
+      "bytes": 75589828,
+      "sha256": "4239cdb64fbd26be2b7bfd4ba4b7c1f806658b9080126c797913b36bdfaf6efd"
+    },
+    {
+      "benchmark": "babilong",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "babilong/formatted_tables/subjects.parquet",
+      "local_path": "tables/babilong/formatted_tables/subjects.parquet",
+      "bytes": 14429,
+      "sha256": "7057ebdae4d4d646975820e22f70a0750260b11a25c984038ddf35682b348928"
+    },
+    {
+      "benchmark": "bertaqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "bertaqa/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/bertaqa/formatted_tables/benchmarks.parquet",
+      "bytes": 16888,
+      "sha256": "f7a577a4ba050be0a4150d33dc903bdfe677b8c682831c550a9a6fd9a85a8a45"
+    },
+    {
+      "benchmark": "bertaqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "bertaqa/formatted_tables/items.parquet",
+      "local_path": "tables/bertaqa/formatted_tables/items.parquet",
+      "bytes": 25596401,
+      "sha256": "5bab19ecdfd45fe4fcb3bc937edd39768f219004a685739b278d51422198da36"
+    },
+    {
+      "benchmark": "bertaqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "bertaqa/formatted_tables/responses.parquet",
+      "local_path": "tables/bertaqa/formatted_tables/responses.parquet",
+      "bytes": 2143408,
+      "sha256": "bdd7c044e384ea1db7c9a234076ae024db39f3f7691fb52caabd5761b910c80e"
+    },
+    {
+      "benchmark": "bertaqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "bertaqa/formatted_tables/subjects.parquet",
+      "local_path": "tables/bertaqa/formatted_tables/subjects.parquet",
+      "bytes": 7282,
+      "sha256": "0ded33a6193ca7c496e188630d163ed62f2c89dd49a85e5ceb55eb88789bac07"
+    },
+    {
+      "benchmark": "brace",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "brace/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/brace/formatted_tables/benchmarks.parquet",
+      "bytes": 17693,
+      "sha256": "6d8bc0fd3b6d5b2477d05a3545da036cf903ecc9ba9d80ac63347a39fc185972"
+    },
+    {
+      "benchmark": "brace",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "brace/formatted_tables/items.parquet",
+      "local_path": "tables/brace/formatted_tables/items.parquet",
+      "bytes": 1771588,
+      "sha256": "6d35500bec530cbc6e7b007306210e6e0afbaf2a0b1e28403904f236ce0cd41c"
+    },
+    {
+      "benchmark": "brace",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "brace/formatted_tables/responses.parquet",
+      "local_path": "tables/brace/formatted_tables/responses.parquet",
+      "bytes": 5785374,
+      "sha256": "f87ba5941185ef220f3c08b127382dff114fb03eba0bb9a0b83a157765c28620"
+    },
+    {
+      "benchmark": "brace",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "brace/formatted_tables/subjects.parquet",
+      "local_path": "tables/brace/formatted_tables/subjects.parquet",
+      "bytes": 7527,
+      "sha256": "a6f226083f72cb3035ad4404cae7afbfbb325fda415fcd402349b569d7f79837"
+    },
+    {
+      "benchmark": "cellverse",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cellverse/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/cellverse/formatted_tables/benchmarks.parquet",
+      "bytes": 16547,
+      "sha256": "97443ed363c9e12511aec20ca6a0bf9686ced36e71cf98ad875834c56b6db1ea"
+    },
+    {
+      "benchmark": "cellverse",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cellverse/formatted_tables/items.parquet",
+      "local_path": "tables/cellverse/formatted_tables/items.parquet",
+      "bytes": 924840,
+      "sha256": "ccc9382ccaf846ad4a6ea3a8ec3c69c6a4bb31733e7307758817efebef030653"
+    },
+    {
+      "benchmark": "cellverse",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cellverse/formatted_tables/responses.parquet",
+      "local_path": "tables/cellverse/formatted_tables/responses.parquet",
+      "bytes": 33360,
+      "sha256": "b3876e4bf8949da97607b37df8df063358d611b749d285e3227f31e5bb389d23"
+    },
+    {
+      "benchmark": "cellverse",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cellverse/formatted_tables/subjects.parquet",
+      "local_path": "tables/cellverse/formatted_tables/subjects.parquet",
+      "bytes": 6536,
+      "sha256": "8f44dc8c4573a3c6034c030f9cec7e3362820eb5c4f2abfcbaacbb1641b6b6ae"
+    },
+    {
+      "benchmark": "clasheval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "clasheval/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/clasheval/formatted_tables/benchmarks.parquet",
+      "bytes": 16919,
+      "sha256": "8662dfe73488de294c81d46eaa63de47637308c660b4dac24e9798706be32688"
+    },
+    {
+      "benchmark": "clasheval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "clasheval/formatted_tables/items.parquet",
+      "local_path": "tables/clasheval/formatted_tables/items.parquet",
+      "bytes": 16245691,
+      "sha256": "e8f76477ac36d0a6e01dc824c54ae8c9bc658f7da9a8b1cd5765ff15583bdaab"
+    },
+    {
+      "benchmark": "clasheval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "clasheval/formatted_tables/responses.parquet",
+      "local_path": "tables/clasheval/formatted_tables/responses.parquet",
+      "bytes": 2701083,
+      "sha256": "968ec1c89c5b3ebb2ae082bd000848baaf36bd9428b5a42ca19f239daddd21d3"
+    },
+    {
+      "benchmark": "clasheval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "clasheval/formatted_tables/subjects.parquet",
+      "local_path": "tables/clasheval/formatted_tables/subjects.parquet",
+      "bytes": 6867,
+      "sha256": "72803e2a70db2c8ddff9162383991d7773d4cda6fde15b5e0c78e5e420f5d1ad"
+    },
+    {
+      "benchmark": "cruxeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cruxeval/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/cruxeval/formatted_tables/benchmarks.parquet",
+      "bytes": 16528,
+      "sha256": "a7fc2360f43593f6bca435554c40920da0c5a41070e3e89fe07237238bfc0d0f"
+    },
+    {
+      "benchmark": "cruxeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cruxeval/formatted_tables/items.parquet",
+      "local_path": "tables/cruxeval/formatted_tables/items.parquet",
+      "bytes": 964730,
+      "sha256": "b06e3093a6beb8c56a48ee4bcef5cd54914e138880d7f6ce6fec7b19686b2f0e"
+    },
+    {
+      "benchmark": "cruxeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cruxeval/formatted_tables/responses.parquet",
+      "local_path": "tables/cruxeval/formatted_tables/responses.parquet",
+      "bytes": 20809388,
+      "sha256": "f777c5280cc1cc8963a76a13b8bada16b2a68f207d03fb77e4f03ea3b459aa6c"
+    },
+    {
+      "benchmark": "cruxeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "cruxeval/formatted_tables/subjects.parquet",
+      "local_path": "tables/cruxeval/formatted_tables/subjects.parquet",
+      "bytes": 8658,
+      "sha256": "7dbe35df7cde9123f35a00f1e5f0790142657c660ddc87302be3ddbddc2def83"
+    },
+    {
+      "benchmark": "disco",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "disco/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/disco/formatted_tables/benchmarks.parquet",
+      "bytes": 17480,
+      "sha256": "caf40e3a1124238c58e9fdf7fc337f4b98695d14d34e3b59377cc0e5d31cd289"
+    },
+    {
+      "benchmark": "disco",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "disco/formatted_tables/items.parquet",
+      "local_path": "tables/disco/formatted_tables/items.parquet",
+      "bytes": 6228981,
+      "sha256": "1fb6cb920fac31be39cd17837743f4dfba46387f29f656345e2f479282d2b2a0"
+    },
+    {
+      "benchmark": "disco",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "disco/formatted_tables/responses.parquet",
+      "local_path": "tables/disco/formatted_tables/responses.parquet",
+      "bytes": 3009568,
+      "sha256": "fab86f87ca3b506642f64fe71f88818000c690c810edd7f832c23d844d9263c7"
+    },
+    {
+      "benchmark": "disco",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "disco/formatted_tables/subjects.parquet",
+      "local_path": "tables/disco/formatted_tables/subjects.parquet",
+      "bytes": 7947,
+      "sha256": "cb253aa39eafc703236628e9adc9fd9dae3b4c690c953eea51fd17a1cc761da0"
+    },
+    {
+      "benchmark": "editbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "editbench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/editbench/formatted_tables/benchmarks.parquet",
+      "bytes": 17666,
+      "sha256": "835a23344276f43582c930cba439492bd5bb15f5c45f1b883436ba537b1bdded"
+    },
+    {
+      "benchmark": "editbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "editbench/formatted_tables/items.parquet",
+      "local_path": "tables/editbench/formatted_tables/items.parquet",
+      "bytes": 6347667,
+      "sha256": "cd23e864e60c01c5b8a2d99c4d0602596d6c8a4ea98b47a06052f0ca16230333"
+    },
+    {
+      "benchmark": "editbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "editbench/formatted_tables/responses.parquet",
+      "local_path": "tables/editbench/formatted_tables/responses.parquet",
+      "bytes": 477995,
+      "sha256": "10e60a511a5d3276a5eb83598c61a6a9340c49db0ee8b15ca8e2dd95db02a250"
+    },
+    {
+      "benchmark": "editbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "editbench/formatted_tables/subjects.parquet",
+      "local_path": "tables/editbench/formatted_tables/subjects.parquet",
+      "bytes": 9394,
+      "sha256": "455dbf129e6becc190935a7fd763f3c55b2f2905174fe2765f19be4125f1e953"
+    },
+    {
+      "benchmark": "fgbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "fgbench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/fgbench/formatted_tables/benchmarks.parquet",
+      "bytes": 16192,
+      "sha256": "e3a38678771851c033381987c79a5ea4db44b470b975a12f33bca1c61aa4e71d"
+    },
+    {
+      "benchmark": "fgbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "fgbench/formatted_tables/items.parquet",
+      "local_path": "tables/fgbench/formatted_tables/items.parquet",
+      "bytes": 1011045,
+      "sha256": "ca21414cd61be180457d77ac39cdaa9df02285a5d70c712a31deb47bb762c671"
+    },
+    {
+      "benchmark": "fgbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "fgbench/formatted_tables/responses.parquet",
+      "local_path": "tables/fgbench/formatted_tables/responses.parquet",
+      "bytes": 1992083,
+      "sha256": "1f1214ae2c9dbfc682a773dba24819524c1510840489d6304cde5a8a0ebf1032"
+    },
+    {
+      "benchmark": "fgbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "fgbench/formatted_tables/subjects.parquet",
+      "local_path": "tables/fgbench/formatted_tables/subjects.parquet",
+      "bytes": 7176,
+      "sha256": "ccb0376a75c155b151b0eb07bd0992af3e68f73f826f2213bc291266a2c7570d"
+    },
+    {
+      "benchmark": "finegrain_t2i",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "finegrain_t2i/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/finegrain_t2i/formatted_tables/benchmarks.parquet",
+      "bytes": 17461,
+      "sha256": "1456031ae5e80a0cdc64bf52077fbd4cd2e4edad6aed499bdc9946af2b678458"
+    },
+    {
+      "benchmark": "finegrain_t2i",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "finegrain_t2i/formatted_tables/items.parquet",
+      "local_path": "tables/finegrain_t2i/formatted_tables/items.parquet",
+      "bytes": 98175,
+      "sha256": "e692ef1f35f0493c04efe6743a98c6d4461c08df78ca02224baf68f72dbc9eb0"
+    },
+    {
+      "benchmark": "finegrain_t2i",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "finegrain_t2i/formatted_tables/responses.parquet",
+      "local_path": "tables/finegrain_t2i/formatted_tables/responses.parquet",
+      "bytes": 283869,
+      "sha256": "a7137836a2db3f901eac277af7451424ee21c82b277363a01550b40289092f53"
+    },
+    {
+      "benchmark": "finegrain_t2i",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "finegrain_t2i/formatted_tables/subjects.parquet",
+      "local_path": "tables/finegrain_t2i/formatted_tables/subjects.parquet",
+      "bytes": 8735,
+      "sha256": "eb80739a6969639e841073f065cad2b463d38fbfa4553d4e19a553750a663573"
+    },
+    {
+      "benchmark": "goodai_ltm_benchmark",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "goodai_ltm_benchmark/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/goodai_ltm_benchmark/formatted_tables/benchmarks.parquet",
+      "bytes": 17388,
+      "sha256": "5d732dba0ba02a151d9e7149eecd34140d8e4d8805428121c2286d028e9eb289"
+    },
+    {
+      "benchmark": "goodai_ltm_benchmark",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "goodai_ltm_benchmark/formatted_tables/items.parquet",
+      "local_path": "tables/goodai_ltm_benchmark/formatted_tables/items.parquet",
+      "bytes": 728332,
+      "sha256": "5a22e763e51d2a44085a3f43bbe823353b3a0bbae31e8e00e5ef3cad2ad1eab5"
+    },
+    {
+      "benchmark": "goodai_ltm_benchmark",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "goodai_ltm_benchmark/formatted_tables/responses.parquet",
+      "local_path": "tables/goodai_ltm_benchmark/formatted_tables/responses.parquet",
+      "bytes": 125725,
+      "sha256": "8b311e4f7c26a8d468402d56007c08414d23106a2e5acedd2021f7ba977b4987"
+    },
+    {
+      "benchmark": "goodai_ltm_benchmark",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "goodai_ltm_benchmark/formatted_tables/subjects.parquet",
+      "local_path": "tables/goodai_ltm_benchmark/formatted_tables/subjects.parquet",
+      "bytes": 9259,
+      "sha256": "19544ba67864fd848bf3d8a0a1b5e0f58735b458f0b235e6eaf6bd2836ad35a6"
+    },
+    {
+      "benchmark": "jetts",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "jetts/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/jetts/formatted_tables/benchmarks.parquet",
+      "bytes": 16310,
+      "sha256": "5c343e3520cfb0edfd4b0d27f6a34309b967a4cac832aaed99ba3f61337807ae"
+    },
+    {
+      "benchmark": "jetts",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "jetts/formatted_tables/items.parquet",
+      "local_path": "tables/jetts/formatted_tables/items.parquet",
+      "bytes": 1953712,
+      "sha256": "22ec1ea445abfa50d5143f98ad8950619e0e3e2b9913cdbda03f01a4393a9127"
+    },
+    {
+      "benchmark": "jetts",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "jetts/formatted_tables/responses.parquet",
+      "local_path": "tables/jetts/formatted_tables/responses.parquet",
+      "bytes": 7135895,
+      "sha256": "86dd56ffc228cde2b2341e6e955ec31275fe74aa059111f167d5972a216a9a49"
+    },
+    {
+      "benchmark": "jetts",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "jetts/formatted_tables/subjects.parquet",
+      "local_path": "tables/jetts/formatted_tables/subjects.parquet",
+      "bytes": 8286,
+      "sha256": "1d993f95afb1a12a58ae6fa84277abb52cdab155b1a8542e35b6a991d8133c1d"
+    },
+    {
+      "benchmark": "kernelbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "kernelbench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/kernelbench/formatted_tables/benchmarks.parquet",
+      "bytes": 17515,
+      "sha256": "b38ab178dba516718ee813805f59841d7866d555d6e3f275057b7936ac1df807"
+    },
+    {
+      "benchmark": "kernelbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "kernelbench/formatted_tables/items.parquet",
+      "local_path": "tables/kernelbench/formatted_tables/items.parquet",
+      "bytes": 119307,
+      "sha256": "16018528e9fdc6d7afcf73ee15bbfc588bff412c16ffb948cf10e804a6bdb7d3"
+    },
+    {
+      "benchmark": "kernelbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "kernelbench/formatted_tables/responses.parquet",
+      "local_path": "tables/kernelbench/formatted_tables/responses.parquet",
+      "bytes": 1448378,
+      "sha256": "370d11acf9126faf2732ea469a510f4120046b7a56cc6951a02dbe3f6ae8eb7e"
+    },
+    {
+      "benchmark": "kernelbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "kernelbench/formatted_tables/subjects.parquet",
+      "local_path": "tables/kernelbench/formatted_tables/subjects.parquet",
+      "bytes": 8222,
+      "sha256": "2b19bd5732597eeabbe62b0e49bfdc1c9b7e6934a928289af71e012140e80ae1"
+    },
+    {
+      "benchmark": "lexeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "lexeval/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/lexeval/formatted_tables/benchmarks.parquet",
+      "bytes": 15690,
+      "sha256": "fa03ebe1f441fc34ebe9f417d67ab41981bc24830cb852ef8bb207501256cacd"
+    },
+    {
+      "benchmark": "lexeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "lexeval/formatted_tables/items.parquet",
+      "local_path": "tables/lexeval/formatted_tables/items.parquet",
+      "bytes": 46047039,
+      "sha256": "ada5be5ba1fda4e98e7ff3891dd0ff0a4b58417a5853920aa46d5f8b7691dfd3"
+    },
+    {
+      "benchmark": "lexeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "lexeval/formatted_tables/responses.parquet",
+      "local_path": "tables/lexeval/formatted_tables/responses.parquet",
+      "bytes": 42143769,
+      "sha256": "008ba68c6d01e93e347ecf8492ffd7dc184d047ba15dd85153d4615e5136faad"
+    },
+    {
+      "benchmark": "lexeval",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "lexeval/formatted_tables/subjects.parquet",
+      "local_path": "tables/lexeval/formatted_tables/subjects.parquet",
+      "bytes": 8851,
+      "sha256": "aa96acda94b6b33ad1d99708fb912fdc47101485780590b03a182d0299f14677"
+    },
+    {
+      "benchmark": "liveaopsbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "liveaopsbench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/liveaopsbench/formatted_tables/benchmarks.parquet",
+      "bytes": 17226,
+      "sha256": "2e67162e9195704f11c8c67d4825bd099ccfb82d1db135b750883fc92fea1bb6"
+    },
+    {
+      "benchmark": "liveaopsbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "liveaopsbench/formatted_tables/items.parquet",
+      "local_path": "tables/liveaopsbench/formatted_tables/items.parquet",
+      "bytes": 1069445,
+      "sha256": "c70cd52d4da2fcde0df5e4d51421440f6202e073faa77d582ce63b461ec61aab"
+    },
+    {
+      "benchmark": "liveaopsbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "liveaopsbench/formatted_tables/responses.parquet",
+      "local_path": "tables/liveaopsbench/formatted_tables/responses.parquet",
+      "bytes": 2042344,
+      "sha256": "04c17bca06e188c5e32bc75975090334ac864408bbd7937a34dea48ff1ae4dcb"
+    },
+    {
+      "benchmark": "liveaopsbench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "liveaopsbench/formatted_tables/subjects.parquet",
+      "local_path": "tables/liveaopsbench/formatted_tables/subjects.parquet",
+      "bytes": 7824,
+      "sha256": "e7904875393dc9f45c914cf517e221a15cacda1b088682b3e16db0bad41db17b"
+    },
+    {
+      "benchmark": "llm_uncertainty_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "llm_uncertainty_bench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/llm_uncertainty_bench/formatted_tables/benchmarks.parquet",
+      "bytes": 17366,
+      "sha256": "932dd5c679c43121066ed94b3168722bfdcd198b8666d3ec5819284c3370b8c6"
+    },
+    {
+      "benchmark": "llm_uncertainty_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "llm_uncertainty_bench/formatted_tables/items.parquet",
+      "local_path": "tables/llm_uncertainty_bench/formatted_tables/items.parquet",
+      "bytes": 185532357,
+      "sha256": "082b37735a4ee4fc634c4741791092eb6f8c0c9c5ce22dcf113f60cc91a2d2a9"
+    },
+    {
+      "benchmark": "llm_uncertainty_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "llm_uncertainty_bench/formatted_tables/responses.parquet",
+      "local_path": "tables/llm_uncertainty_bench/formatted_tables/responses.parquet",
+      "bytes": 191334518,
+      "sha256": "8bad9f47b9ba470831b9aec9e6d36c42f229200cf3308ab1696f539ffe96816e"
+    },
+    {
+      "benchmark": "llm_uncertainty_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "llm_uncertainty_bench/formatted_tables/subjects.parquet",
+      "local_path": "tables/llm_uncertainty_bench/formatted_tables/subjects.parquet",
+      "bytes": 13866,
+      "sha256": "46e0c8e33fbcf1fa436e5e589115342547387285b436d191327f43ac309ace6e"
+    },
+    {
+      "benchmark": "matharena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "matharena/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/matharena/formatted_tables/benchmarks.parquet",
+      "bytes": 16915,
+      "sha256": "1e95b19a7d7c4ba533b0ca45f0c3177ef428837767516ae96a9738bad808ca4e"
+    },
+    {
+      "benchmark": "matharena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "matharena/formatted_tables/items.parquet",
+      "local_path": "tables/matharena/formatted_tables/items.parquet",
+      "bytes": 317953,
+      "sha256": "3cc80edb0d744be1be45ef5c1cc59f891ad37ca728cee2ca82856fa0313dabf3"
+    },
+    {
+      "benchmark": "matharena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "matharena/formatted_tables/responses.parquet",
+      "local_path": "tables/matharena/formatted_tables/responses.parquet",
+      "bytes": 1829303,
+      "sha256": "c3e7e70e44369591100dc25a48b4c8763933a0366be1f61c78eeea260b092db8"
+    },
+    {
+      "benchmark": "matharena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "matharena/formatted_tables/subjects.parquet",
+      "local_path": "tables/matharena/formatted_tables/subjects.parquet",
+      "bytes": 13605,
+      "sha256": "7bcb3b37c282c467f4553aa4cfcd8cc8785d41ff3cb7d0c7910c94a2f18edab7"
+    },
+    {
+      "benchmark": "mathvista_mini",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mathvista_mini/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/mathvista_mini/formatted_tables/benchmarks.parquet",
+      "bytes": 17798,
+      "sha256": "8672d0481563d7277a30df6ff90d4d0a8d2b679830b37c3da543329bcf8b99cc"
+    },
+    {
+      "benchmark": "mathvista_mini",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mathvista_mini/formatted_tables/items.parquet",
+      "local_path": "tables/mathvista_mini/formatted_tables/items.parquet",
+      "bytes": 274317,
+      "sha256": "85fd39a1b18654bdaf29f557ceff3feafd846175cd40216de5320635a5660278"
+    },
+    {
+      "benchmark": "mathvista_mini",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mathvista_mini/formatted_tables/responses.parquet",
+      "local_path": "tables/mathvista_mini/formatted_tables/responses.parquet",
+      "bytes": 5950545,
+      "sha256": "8c6c644c1a31d2da33d0a37f463dd0ae768589c5a863e444a739a6ef98334ec1"
+    },
+    {
+      "benchmark": "mathvista_mini",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mathvista_mini/formatted_tables/subjects.parquet",
+      "local_path": "tables/mathvista_mini/formatted_tables/subjects.parquet",
+      "bytes": 19248,
+      "sha256": "76ba546a61da459cc4a1efad05978f30a336814825aa8b8db38e485eb5a0121f"
+    },
+    {
+      "benchmark": "medagentboard",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medagentboard/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/medagentboard/formatted_tables/benchmarks.parquet",
+      "bytes": 17271,
+      "sha256": "90fdca596554622630e11a362020b5722e8358ecfa262f3e5ddf4e72a9fb4ee4"
+    },
+    {
+      "benchmark": "medagentboard",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medagentboard/formatted_tables/items.parquet",
+      "local_path": "tables/medagentboard/formatted_tables/items.parquet",
+      "bytes": 2021340,
+      "sha256": "c2dfd5c8e811ec17fb6e4aca92ba5da4848799dee05898acffba5a71564f5c53"
+    },
+    {
+      "benchmark": "medagentboard",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medagentboard/formatted_tables/responses.parquet",
+      "local_path": "tables/medagentboard/formatted_tables/responses.parquet",
+      "bytes": 383467,
+      "sha256": "b074345f5e3a2e1896c8dc5d643a07b720a8dd4ce3ec972cfd99eb1b3eae68b7"
+    },
+    {
+      "benchmark": "medagentboard",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medagentboard/formatted_tables/subjects.parquet",
+      "local_path": "tables/medagentboard/formatted_tables/subjects.parquet",
+      "bytes": 11703,
+      "sha256": "eca2936e00dd98f1772a2a50dbd3bb73e56d08b0b050154827c545394d934397"
+    },
+    {
+      "benchmark": "medhelm_medcalc_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medhelm_medcalc_bench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/medhelm_medcalc_bench/formatted_tables/benchmarks.parquet",
+      "bytes": 16904,
+      "sha256": "ac8080ca5de2b91b6ec479b1e09ff9070d21329819ef0db47c08a7bf781e3521"
+    },
+    {
+      "benchmark": "medhelm_medcalc_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medhelm_medcalc_bench/formatted_tables/items.parquet",
+      "local_path": "tables/medhelm_medcalc_bench/formatted_tables/items.parquet",
+      "bytes": 1341826,
+      "sha256": "d6be49b18be83fe296a4ea23af2c691884fc4da18a5a9af15e8dde6e747bb4fa"
+    },
+    {
+      "benchmark": "medhelm_medcalc_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medhelm_medcalc_bench/formatted_tables/responses.parquet",
+      "local_path": "tables/medhelm_medcalc_bench/formatted_tables/responses.parquet",
+      "bytes": 288090,
+      "sha256": "45a7af2fe75a38d670bc073e5f117f920bd4fa48fba14ebc8e0352803d4bba14"
+    },
+    {
+      "benchmark": "medhelm_medcalc_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "medhelm_medcalc_bench/formatted_tables/subjects.parquet",
+      "local_path": "tables/medhelm_medcalc_bench/formatted_tables/subjects.parquet",
+      "bytes": 9928,
+      "sha256": "a80fc0c652d0d4c4774b139c9c68fa5c01462027a425f5cbecd57f56691c2e0a"
+    },
+    {
+      "benchmark": "mmlupro",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mmlupro/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/mmlupro/formatted_tables/benchmarks.parquet",
+      "bytes": 16644,
+      "sha256": "50918c56640a6168daf7e816c9b8006c4f065779efcaee5c5f38b9d2a8b6dd7b"
+    },
+    {
+      "benchmark": "mmlupro",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mmlupro/formatted_tables/items.parquet",
+      "local_path": "tables/mmlupro/formatted_tables/items.parquet",
+      "bytes": 5263166,
+      "sha256": "0260255dad59a3ace57dc87d4b86044290623d4279384b47fb751fce92992370"
+    },
+    {
+      "benchmark": "mmlupro",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mmlupro/formatted_tables/responses.parquet",
+      "local_path": "tables/mmlupro/formatted_tables/responses.parquet",
+      "bytes": 21145564,
+      "sha256": "271532b41394e8b4ab1afef648afae16279f6df52f697d75b23979d884cbcdd0"
+    },
+    {
+      "benchmark": "mmlupro",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "mmlupro/formatted_tables/subjects.parquet",
+      "local_path": "tables/mmlupro/formatted_tables/subjects.parquet",
+      "bytes": 9943,
+      "sha256": "5599d2c63e3f598115e3403460923a45ec672869b14145c74985030cd9109559"
+    },
+    {
+      "benchmark": "moe_cap",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "moe_cap/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/moe_cap/formatted_tables/benchmarks.parquet",
+      "bytes": 16350,
+      "sha256": "9614a6eaf1d3df791111011db5e51345c24da486ad460b9ed5a81f955159e97c"
+    },
+    {
+      "benchmark": "moe_cap",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "moe_cap/formatted_tables/items.parquet",
+      "local_path": "tables/moe_cap/formatted_tables/items.parquet",
+      "bytes": 6152495,
+      "sha256": "a121f8ef9114a23962327d05decc3db0207abcb0be905350fbff082e085a7005"
+    },
+    {
+      "benchmark": "moe_cap",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "moe_cap/formatted_tables/responses.parquet",
+      "local_path": "tables/moe_cap/formatted_tables/responses.parquet",
+      "bytes": 2036795,
+      "sha256": "dca6ca833b2e1c1f217b80d282f6a4268e8532dbc31d23990181ee4f97cce0e2"
+    },
+    {
+      "benchmark": "moe_cap",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "moe_cap/formatted_tables/subjects.parquet",
+      "local_path": "tables/moe_cap/formatted_tables/subjects.parquet",
+      "bytes": 12403,
+      "sha256": "c5c4617ca9b3fca7ee7639dc81a10a77c59cb234a655578887e6f4fc4af70264"
+    },
+    {
+      "benchmark": "multi_swebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "multi_swebench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/multi_swebench/formatted_tables/benchmarks.parquet",
+      "bytes": 17027,
+      "sha256": "ad1c8d39f85ff0e1a2fc82c7293a6d4f3751d912e46cbf2c6bbb193b1d9c6416"
+    },
+    {
+      "benchmark": "multi_swebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "multi_swebench/formatted_tables/items.parquet",
+      "local_path": "tables/multi_swebench/formatted_tables/items.parquet",
+      "bytes": 59055510,
+      "sha256": "21cc67f8c5811cfff671ae0dae34056aadd1f876918c64fce4a4a3b3a28c27b0"
+    },
+    {
+      "benchmark": "multi_swebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "multi_swebench/formatted_tables/responses.parquet",
+      "local_path": "tables/multi_swebench/formatted_tables/responses.parquet",
+      "bytes": 1222393,
+      "sha256": "3925964852cede82d958b828f7eaa5f3cc2923a7b8f0e63e783b78a44c028f60"
+    },
+    {
+      "benchmark": "multi_swebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "multi_swebench/formatted_tables/subjects.parquet",
+      "local_path": "tables/multi_swebench/formatted_tables/subjects.parquet",
+      "bytes": 9456,
+      "sha256": "06eca4d34e9201ff58c62923a7d76dc315cb9748b308aab21e43e111e3faac49"
+    },
+    {
+      "benchmark": "radar",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "radar/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/radar/formatted_tables/benchmarks.parquet",
+      "bytes": 16419,
+      "sha256": "11ec81b4c22052b829dc56a7748fe476edd9c1e6db12b1a304a524c8f944dfbd"
+    },
+    {
+      "benchmark": "radar",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "radar/formatted_tables/items.parquet",
+      "local_path": "tables/radar/formatted_tables/items.parquet",
+      "bytes": 17581,
+      "sha256": "b51abb29d3b386d53035e83b39e0b59b982d6a86b5e83d3908f628214ebb3b69"
+    },
+    {
+      "benchmark": "radar",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "radar/formatted_tables/responses.parquet",
+      "local_path": "tables/radar/formatted_tables/responses.parquet",
+      "bytes": 5551,
+      "sha256": "49832c5d09fd9966da476d4a26f6197a93658c36c0dc0767a04da596b225ea51"
+    },
+    {
+      "benchmark": "radar",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "radar/formatted_tables/subjects.parquet",
+      "local_path": "tables/radar/formatted_tables/subjects.parquet",
+      "bytes": 8232,
+      "sha256": "314b4e66be4c4af32a9667c423729bcce20e979f5e38ff7f819fd456186b46c1"
+    },
+    {
+      "benchmark": "real_webagents",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "real_webagents/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/real_webagents/formatted_tables/benchmarks.parquet",
+      "bytes": 16703,
+      "sha256": "747b4a61dabe1fbc9f212dfff3cb7afb3a0b7480e6da1eb5e001ea30d60b0c9a"
+    },
+    {
+      "benchmark": "real_webagents",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "real_webagents/formatted_tables/items.parquet",
+      "local_path": "tables/real_webagents/formatted_tables/items.parquet",
+      "bytes": 48588,
+      "sha256": "5908db1f903c608e00911d50ca7ec0fa0e1b5bf4a09365d4ad52e0e1fde8f136"
+    },
+    {
+      "benchmark": "real_webagents",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "real_webagents/formatted_tables/responses.parquet",
+      "local_path": "tables/real_webagents/formatted_tables/responses.parquet",
+      "bytes": 94908,
+      "sha256": "56d1fca0b984a30701f165f550e979d96c71b79af3b11a482e4eba5771065213"
+    },
+    {
+      "benchmark": "real_webagents",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "real_webagents/formatted_tables/subjects.parquet",
+      "local_path": "tables/real_webagents/formatted_tables/subjects.parquet",
+      "bytes": 8365,
+      "sha256": "e563ff232af0d2241220e9857cdc65c64b67b9301aae594677a60ff3308e7fa5"
+    },
+    {
+      "benchmark": "researchcodebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "researchcodebench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/researchcodebench/formatted_tables/benchmarks.parquet",
+      "bytes": 16499,
+      "sha256": "935efcdc5dac86f2f292f0cd8c772600595dc09cf81adff20bb43e271c21ae30"
+    },
+    {
+      "benchmark": "researchcodebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "researchcodebench/formatted_tables/items.parquet",
+      "local_path": "tables/researchcodebench/formatted_tables/items.parquet",
+      "bytes": 8928605,
+      "sha256": "3aee135afa6b206cbce8867beca681811d95579db34a0c0eed1822d8c6b01268"
+    },
+    {
+      "benchmark": "researchcodebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "researchcodebench/formatted_tables/responses.parquet",
+      "local_path": "tables/researchcodebench/formatted_tables/responses.parquet",
+      "bytes": 137904,
+      "sha256": "318c067d86f35dd057e6b4d33114d4ae46447c9ef91e1b4bddba7667fc8c0375"
+    },
+    {
+      "benchmark": "researchcodebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "researchcodebench/formatted_tables/subjects.parquet",
+      "local_path": "tables/researchcodebench/formatted_tables/subjects.parquet",
+      "bytes": 8321,
+      "sha256": "c8dbb5ac589749270ddea2be6e456ea22b991d5ffc5107fd80d0865a77e94b3a"
+    },
+    {
+      "benchmark": "statqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "statqa/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/statqa/formatted_tables/benchmarks.parquet",
+      "bytes": 18768,
+      "sha256": "f86fde7a597216027eed6b8f9bb614db5092eb90c725a041cdd5e3d990707314"
+    },
+    {
+      "benchmark": "statqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "statqa/formatted_tables/items.parquet",
+      "local_path": "tables/statqa/formatted_tables/items.parquet",
+      "bytes": 696538,
+      "sha256": "56d495ac71c3c741ce45b78d309bfa3d4654042df276db64f94c1e9a08554691"
+    },
+    {
+      "benchmark": "statqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "statqa/formatted_tables/responses.parquet",
+      "local_path": "tables/statqa/formatted_tables/responses.parquet",
+      "bytes": 1208767,
+      "sha256": "e4132481cc3d73f0b9846d1a2184f2dd5ee794abca7049251b863739b6fb4521"
+    },
+    {
+      "benchmark": "statqa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "statqa/formatted_tables/subjects.parquet",
+      "local_path": "tables/statqa/formatted_tables/subjects.parquet",
+      "bytes": 9893,
+      "sha256": "f2ef9f0fffd3ed524f16dfe4bdb6e9f7e4841edc07db4f6124df8453eb0af6ed"
+    },
+    {
+      "benchmark": "subjective_qa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "subjective_qa/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/subjective_qa/formatted_tables/benchmarks.parquet",
+      "bytes": 16857,
+      "sha256": "8f090bb8298082c69775df0f3e569463894d878064b20ed07bf13c0908830ac3"
+    },
+    {
+      "benchmark": "subjective_qa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "subjective_qa/formatted_tables/items.parquet",
+      "local_path": "tables/subjective_qa/formatted_tables/items.parquet",
+      "bytes": 7750739,
+      "sha256": "7f882b006454dc4e55c9ecedf43d0055299fa76fdf011ff1497d1822fc6af992"
+    },
+    {
+      "benchmark": "subjective_qa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "subjective_qa/formatted_tables/responses.parquet",
+      "local_path": "tables/subjective_qa/formatted_tables/responses.parquet",
+      "bytes": 531545,
+      "sha256": "f0cd3cfc0d5407838c2e7ce28ad8c0b1d057efb07bc5fa8e0d40839362330d40"
+    },
+    {
+      "benchmark": "subjective_qa",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "subjective_qa/formatted_tables/subjects.parquet",
+      "local_path": "tables/subjective_qa/formatted_tables/subjects.parquet",
+      "bytes": 8269,
+      "sha256": "be915fa6be3f75d1df963309ae23a48b5e2bf8421b7e5a7991d774d9e3d1b614"
+    },
+    {
+      "benchmark": "swe_rebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "swe_rebench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/swe_rebench/formatted_tables/benchmarks.parquet",
+      "bytes": 18096,
+      "sha256": "76f02f3de1d9a94806eb08aa04e32119c2cbfe9c04bdf2c30792bd3b7639f821"
+    },
+    {
+      "benchmark": "swe_rebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "swe_rebench/formatted_tables/items.parquet",
+      "local_path": "tables/swe_rebench/formatted_tables/items.parquet",
+      "bytes": 39763649,
+      "sha256": "78fd183af256d62c7947a74ee714018d2eb3cce13191fa2d5f2f4593df8e3c5b"
+    },
+    {
+      "benchmark": "swe_rebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "swe_rebench/formatted_tables/responses.parquet",
+      "local_path": "tables/swe_rebench/formatted_tables/responses.parquet",
+      "bytes": 1994128,
+      "sha256": "097bb00e2a69a5ba92907e02b7e6b451bf520e5076fb905fb442fb4ffd51f39f"
+    },
+    {
+      "benchmark": "swe_rebench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "swe_rebench/formatted_tables/subjects.parquet",
+      "local_path": "tables/swe_rebench/formatted_tables/subjects.parquet",
+      "bytes": 6747,
+      "sha256": "4f2f5f3481c2394acb74f2905a51dd12d4191c946f44dc48bf2ff1ebcee448ad"
+    },
+    {
+      "benchmark": "tau2_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "tau2_bench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/tau2_bench/formatted_tables/benchmarks.parquet",
+      "bytes": 16891,
+      "sha256": "385680f2cb3b14aeebac40a1289935789ff0b1cf9e19bf0f924c8b4f8d1cb618"
+    },
+    {
+      "benchmark": "tau2_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "tau2_bench/formatted_tables/items.parquet",
+      "local_path": "tables/tau2_bench/formatted_tables/items.parquet",
+      "bytes": 8084868,
+      "sha256": "fe6c77d369d041a0a1c1d8ea76c07091fb4b7ea415fee6008618f77a5a9b438a"
+    },
+    {
+      "benchmark": "tau2_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "tau2_bench/formatted_tables/responses.parquet",
+      "local_path": "tables/tau2_bench/formatted_tables/responses.parquet",
+      "bytes": 544938,
+      "sha256": "9f72ea3e5a25161f5e0304a7f6ab4e67f2ad733229747f44d88dac0cf95e2376"
+    },
+    {
+      "benchmark": "tau2_bench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "tau2_bench/formatted_tables/subjects.parquet",
+      "local_path": "tables/tau2_bench/formatted_tables/subjects.parquet",
+      "bytes": 12735,
+      "sha256": "ffc5e6a51d192d268474618f0c767c382672ef090fadfe1e781e21a6e2eac587"
+    },
+    {
+      "benchmark": "taubench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "taubench/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/taubench/formatted_tables/benchmarks.parquet",
+      "bytes": 17406,
+      "sha256": "97b0df180f57c189a1c3c6ea995cb7b3a64069cfb9d89202e64a45111aa8e496"
+    },
+    {
+      "benchmark": "taubench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "taubench/formatted_tables/items.parquet",
+      "local_path": "tables/taubench/formatted_tables/items.parquet",
+      "bytes": 85082,
+      "sha256": "a532e73d595f69d38c84060ec73085003bdd61848bb194fdd6a0a9ff5afc4b44"
+    },
+    {
+      "benchmark": "taubench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "taubench/formatted_tables/responses.parquet",
+      "local_path": "tables/taubench/formatted_tables/responses.parquet",
+      "bytes": 193234,
+      "sha256": "55a421a56723edaebe488d50afeb1bd16e9751cc666467653dcb2c7e71697b02"
+    },
+    {
+      "benchmark": "taubench",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "taubench/formatted_tables/subjects.parquet",
+      "local_path": "tables/taubench/formatted_tables/subjects.parquet",
+      "bytes": 12955,
+      "sha256": "3b1f8eede9c84a63540ea24a93e8c654d8fd766357975896f221ecab7bdd78cf"
+    },
+    {
+      "benchmark": "vhelm",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "vhelm/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/vhelm/formatted_tables/benchmarks.parquet",
+      "bytes": 16771,
+      "sha256": "a20154bb6387ab6574f5cf3d34077dd8387bbb4e3012697ca59a57c8fcf79b62"
+    },
+    {
+      "benchmark": "vhelm",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "vhelm/formatted_tables/items.parquet",
+      "local_path": "tables/vhelm/formatted_tables/items.parquet",
+      "bytes": 18309466,
+      "sha256": "371d1f526e8fd5cfb2ef2839cce832bc4911012f89f62333a704672bd417dae7"
+    },
+    {
+      "benchmark": "vhelm",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "vhelm/formatted_tables/responses.parquet",
+      "local_path": "tables/vhelm/formatted_tables/responses.parquet",
+      "bytes": 34898525,
+      "sha256": "ef80d5a6350624a3f8e2c74cb342845cd8948abcf737ea4040f69d38de81b410"
+    },
+    {
+      "benchmark": "vhelm",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "vhelm/formatted_tables/subjects.parquet",
+      "local_path": "tables/vhelm/formatted_tables/subjects.parquet",
+      "bytes": 14107,
+      "sha256": "c564fb69474e4ebc72fd3f5f420ac95baa2f78f4a41cb05a2c16be62c16ddaf2"
+    },
+    {
+      "benchmark": "visual_riddles",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "visual_riddles/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/visual_riddles/formatted_tables/benchmarks.parquet",
+      "bytes": 18236,
+      "sha256": "c33dce72f542b99af332c674c76dec10ca2b4f8035a13a094711025bd5f83c6a"
+    },
+    {
+      "benchmark": "visual_riddles",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "visual_riddles/formatted_tables/items.parquet",
+      "local_path": "tables/visual_riddles/formatted_tables/items.parquet",
+      "bytes": 264977,
+      "sha256": "d557d3f898f2266040e27424c52d93426f352eb67eb7f1a667f525b1c00b7f1b"
+    },
+    {
+      "benchmark": "visual_riddles",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "visual_riddles/formatted_tables/responses.parquet",
+      "local_path": "tables/visual_riddles/formatted_tables/responses.parquet",
+      "bytes": 82018,
+      "sha256": "9377374e64ad60d3241d414df72260dc77f5942c73118f7e2f5079c015931fd8"
+    },
+    {
+      "benchmark": "visual_riddles",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "visual_riddles/formatted_tables/subjects.parquet",
+      "local_path": "tables/visual_riddles/formatted_tables/subjects.parquet",
+      "bytes": 7874,
+      "sha256": "7e999562146bd43aa89f2d0397f1cf9208fd6ee3cdcaf0edf487dcd76df80480"
+    },
+    {
+      "benchmark": "wonderbread",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "wonderbread/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/wonderbread/formatted_tables/benchmarks.parquet",
+      "bytes": 16814,
+      "sha256": "f798c5ef890bd2559777e011fc50ead68be7a197cace4eb387fa7bb9b62a432d"
+    },
+    {
+      "benchmark": "wonderbread",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "wonderbread/formatted_tables/items.parquet",
+      "local_path": "tables/wonderbread/formatted_tables/items.parquet",
+      "bytes": 10799057,
+      "sha256": "dacfd30db2fee1623410d819161672e671c6f65e6330ff0f6d2502e4a6f754eb"
+    },
+    {
+      "benchmark": "wonderbread",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "wonderbread/formatted_tables/responses.parquet",
+      "local_path": "tables/wonderbread/formatted_tables/responses.parquet",
+      "bytes": 605779,
+      "sha256": "9ab2aa261149ec448433e80f00a53dbf439366ebe5b2d984b398015208b27655"
+    },
+    {
+      "benchmark": "wonderbread",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "wonderbread/formatted_tables/subjects.parquet",
+      "local_path": "tables/wonderbread/formatted_tables/subjects.parquet",
+      "bytes": 8869,
+      "sha256": "c3ab736b73a0c14d6541a1c1705b85b9c6d041443748364bb1a40aedde285d22"
+    },
+    {
+      "benchmark": "workarena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "workarena/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/workarena/formatted_tables/benchmarks.parquet",
+      "bytes": 18161,
+      "sha256": "98096cefd6f1df3499e1fd6222dd5fa06c773c5ae0c0e121027390e9eb97b03a"
+    },
+    {
+      "benchmark": "workarena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "workarena/formatted_tables/items.parquet",
+      "local_path": "tables/workarena/formatted_tables/items.parquet",
+      "bytes": 86657,
+      "sha256": "6e7224da6cd8589c87be19a505048b84710a412ab7fce495ecc31ec171dc4def"
+    },
+    {
+      "benchmark": "workarena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "workarena/formatted_tables/responses.parquet",
+      "local_path": "tables/workarena/formatted_tables/responses.parquet",
+      "bytes": 21894,
+      "sha256": "938f16332824703433fec48ae2cc1fb1beb9d9f199d057110085d185b41c0a3c"
+    },
+    {
+      "benchmark": "workarena",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "workarena/formatted_tables/subjects.parquet",
+      "local_path": "tables/workarena/formatted_tables/subjects.parquet",
+      "bytes": 19265,
+      "sha256": "87f88a783f77a352f4690b923b6ac9ba461b28bc609e05bb557a1b291a8f91f1"
+    },
+    {
+      "benchmark": "worldcentralbanks",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "worldcentralbanks/formatted_tables/benchmarks.parquet",
+      "local_path": "tables/worldcentralbanks/formatted_tables/benchmarks.parquet",
+      "bytes": 17021,
+      "sha256": "a4aa3edd51d1d19ca6fab5512b91e1706df0a92ed7207b8eac32300d67bee67a"
+    },
+    {
+      "benchmark": "worldcentralbanks",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "worldcentralbanks/formatted_tables/items.parquet",
+      "local_path": "tables/worldcentralbanks/formatted_tables/items.parquet",
+      "bytes": 37275231,
+      "sha256": "22a1db8a94797d9c542ee79dfe33fdbfd26776d8f05f7cae4e07ff87e9ed9aa0"
+    },
+    {
+      "benchmark": "worldcentralbanks",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "worldcentralbanks/formatted_tables/responses.parquet",
+      "local_path": "tables/worldcentralbanks/formatted_tables/responses.parquet",
+      "bytes": 10418569,
+      "sha256": "0f7fbd80f776f63323db167267107765d3e304f4a89d262cd51473ef73912887"
+    },
+    {
+      "benchmark": "worldcentralbanks",
+      "repo_id": "aims-foundations/measurement-db",
+      "revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+      "repo_type": "dataset",
+      "filename": "worldcentralbanks/formatted_tables/subjects.parquet",
+      "local_path": "tables/worldcentralbanks/formatted_tables/subjects.parquet",
+      "bytes": 8370,
+      "sha256": "cdc872cb4ee7f9faa744aa93065f8df3c9b500b09a013c0157ca8a48ca61fa8b"
+    }
+  ]
+}

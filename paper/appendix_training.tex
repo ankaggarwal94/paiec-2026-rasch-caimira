@@ -1,0 +1,57 @@
+\section{Training data, fitting recipe, and release provenance}
+\label{app:training}
+\paragraph{A completed fit linked to the selected state.}
+The CAIMIRA state in submission 1033935 has SHA-256
+\begin{center}\small\ttfamily
+348088f33fb8080229f5475b95735719a43008a00af8a26b798831a138197eec
+\end{center}
+An earlier package receipt lists this exact state and binds it to a completed refit and frozen corpus manifest~\citep{release}. That earlier package selected scalar-offset adaptation; submission 1033935 uses the same frozen CAIMIRA state with native two-coordinate adaptation. The state identity transfers the training provenance while each package retains its own prediction policy and results.
+
+\begin{table}[H]
+\centering
+\caption{Completed CAIMIRA fit recorded in \code{final/refit.json}, linked to the selected state by \code{submission.receipt.json}.}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Quantity & Recorded value \\
+\midrule
+Training benchmarks / source lineages & 44 / 36 \\
+Projected source tables & 176 \\
+Input rows / binary response trials & 9,479,991 / 10,951,005 \\
+Subject--benchmark pairs & 1,345 \\
+Seed / latent dimension & 17 / 2 \\
+Optimizer / updates / learning rate & Adam / 300 / 0.01 \\
+Final binary cross-entropy & 0.6371165514 \\
+Final regularized objective & 0.6637041569 \\
+Maximum absolute gradient & $4.6974\times10^{-8}$ \\
+Recorded fit time / broader refit command & 24.23 s / 291.98 s \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Optimization and exported parameters.}
+The recovered frozen source weights each subject--benchmark pair equally in the Bernoulli objective and combines repeated outcomes into sufficient statistics. Fitting uses a 384-dimensional lexical map for items and metadata, a learned prior, and subject nuisance abilities shared wherever the serialized subject string repeats. The objective adds ridge with coefficient 0.01, a mean squared nuisance penalty with coefficient 0.5, and CAIMIRA L1 regularization with coefficient $10^{-4}$ over centered difficulties and shifted abilities. Adam uses $(\beta_1,\beta_2)=(0.9,0.999)$, $\epsilon=10^{-8}$, and zero weight decay. Initialization draws CPU float64 Gaussian parameters with scale 0.01, then copies them into the CUDA float32 fit. The exported state retains the learned item heads, metadata prior, centers, and orientation; the subject nuisance table stays outside the deployed predictor. The receipt's field \code{ridge=0.0083239498} is the evaluated penalty contribution, distinct from the coefficient 0.01.
+
+\paragraph{Development protocol.}
+The frozen development study records 1,376 trained jobs, 32 evaluated source lineages, and four training-only lineages. It holds out a source lineage, removes training groups whose normalized text matches that lineage, and separates item groups within held pairs. Acquisition histories use seeds 20261030, 20261031, and 20261032; full-donor model seeds are 17, 29, and 1013. The final CAIMIRA refit uses the entire frozen corpus after development. These records describe the development process; the nine-pair formative evaluation and the later 153-pair local replay are separate populations.
+
+\paragraph{Exact reproducibility boundary.}
+The public-release package preserves the completed CAIMIRA receipts, source-table digests, and byte-verified fitting source. Its portable runner accepts explicitly normalized data and exports learned state. The original Rasch receipt and full materialized training corpus remain recovery targets. Exact end-to-end regeneration of both submitted state files therefore remains \textbf{UNVERIFIED}. The frozen predictor, score reconstruction, and source-manifest checks are independently executable from the released package.
+
+\clearpage
+\subsection{Complete source inventory and data access}
+Forty suites use Measurement Data Bank native tables: 31 expanded catalog suites and nine historical mirror admissions, pinned at revision
+\begin{center}\small\ttfamily
+54074453da7b9911be0f48e4c560be547bc84d21.
+\end{center}
+Four additional curated supplements are \code{androidworld}, \code{cybench}, \code{mir\_bench}, and \code{swe\_bench\_pro}. The CYBENCH supplement itself draws on the legacy Measurement Data Bank revision \code{589ccfdb8e82}, plus an upstream audit; the complete 40-character revision is preserved in the source registry. Table~\ref{tab:training_sources} names every admitted suite. This inventory describes the verified CAIMIRA corpus; the Rasch receipt gap retains its scope.
+
+\input{generated/tab_training_sources}
+
+\paragraph{Source identities and permitted access.}
+The companion \code{data/sources/} directory supplies \code{DATA\_SOURCES.csv}, upstream locations and revisions, source-specific rights information, and a retrieval manifest. The frozen projected table inventory records SHA-256 for all 176 files: \code{facts}, \code{items}, \code{subjects}, and \code{ungraded} for each suite. The bundled source records distinguish these derived tables from the upstream data and preserve the transformation's provenance. A local table verifier checks supplied corpus files against the frozen digests.
+
+Measurement Data Bank's CC BY-SA 4.0 terms apply to its curation; underlying sources retain their own licenses and access conditions~\citep{measurementdb2026}. The release therefore includes derived result tables, manifests, learned states, and code, with upstream retrieval instructions for source data. Source-specific rights and availability govern redistribution of the remaining corpus. Completing the permitted supplemental-data release remains part of the presentation release record.
+
+\paragraph{Additional model and assistance disclosure.}
+The selected Rasch--CAIMIRA runtime uses deterministic lexical hashing and its bundled learned coefficients. It uses local computation without a pretrained text encoder or a model-provider API. The separately discussed hierarchical extension has its own 180-benchmark build inventory in \code{extensions/gate/build\_info.json}; the earlier study's evaluation fit used 160 training benchmarks and 20 held-out benchmarks. These inventories remain separate from the selected CAIMIRA fit. ChatGPT and Claude Code assistance is disclosed with the references.

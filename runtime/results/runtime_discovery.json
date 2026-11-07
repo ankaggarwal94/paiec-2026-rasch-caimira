@@ -1,0 +1,24 @@
+{
+  "primary_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch_initially_available": false
+  },
+  "system_runtime": {
+    "executable": "/usr/bin/python3",
+    "python": "3.12.3",
+    "numpy_initially_available": false,
+    "scipy_initially_available": false,
+    "torch_initially_available": false
+  },
+  "initial_venv_command": [
+    "python3",
+    "-m",
+    "venv",
+    "--system-site-packages",
+    "work/repro_runtime/.venv"
+  ],
+  "dependency_access": "Public PyPI and official PyTorch CPU wheel index installs succeeded",
+  "model_tests": "Synthetic fixture checks only; zero training runs or accuracy campaigns"
+}

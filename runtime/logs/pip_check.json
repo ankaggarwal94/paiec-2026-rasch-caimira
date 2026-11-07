@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/workspace/scratch/2592d19f4bb5/work/repro_runtime/.clean_venv/bin/python",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.309006929397583,
+  "stdout": "No broken requirements found.\n",
+  "stderr": ""
+}

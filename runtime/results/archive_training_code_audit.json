@@ -1,0 +1,58 @@
+{
+  "scope": "Exact candidate archive source",
+  "offline_fit_definitions": [],
+  "state_export_definitions": [
+    {
+      "name": "from_state",
+      "line": 353
+    },
+    {
+      "name": "export",
+      "line": 356
+    },
+    {
+      "name": "from_state",
+      "line": 902
+    },
+    {
+      "name": "export",
+      "line": 905
+    }
+  ],
+  "optimization_or_serialization_calls": [
+    {
+      "name": "minimize",
+      "line": 139
+    },
+    {
+      "name": "minimize",
+      "line": 688
+    }
+  ],
+  "state_files": {
+    "caimira-requires-state.json": {
+      "top_level_keys": [
+        "centers",
+        "config",
+        "orientation",
+        "parameters",
+        "schema"
+      ],
+      "schema": "proxy-structured-inductive/v1",
+      "kind": "caimira",
+      "rank": 2
+    },
+    "rasch-requires-state.json": {
+      "top_level_keys": [
+        "centers",
+        "config",
+        "orientation",
+        "parameters",
+        "schema"
+      ],
+      "schema": "proxy-structured-inductive/v1",
+      "kind": "rasch",
+      "rank": 1
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "benchmark_count": 44,
+  "lineage_count": 36,
+  "binary_trials": 10951005,
+  "expanded_catalog_suites": 31,
+  "historical_native_mirror_suites": 9,
+  "supplemental_suites": 4,
+  "native_files_verified_against_two_historical_records": 160,
+  "projected_files_verified_against_freeze_and_layout": 176,
+  "publisher_metadata_files": 40,
+  "publisher_terms_equal_historical_inventory": 31,
+  "extension_declared_benchmarks": 180,
+  "network_download_execution": "pending; manifest and verifier checks completed locally",
+  "focused_utility_tests_passed": 8,
+  "publisher_metadata_git_blobs_verified": 40,
+  "private_marker_scan": "passed",
+  "local_markdown_links": "passed"
+}

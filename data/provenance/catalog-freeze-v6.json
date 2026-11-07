@@ -1,0 +1,1562 @@
+{
+  "new_leaves": [
+    "medhelm_medcalc_bench"
+  ],
+  "organizer_sha256": "882809d047c6337e265e59d14250cefd1fc0300e5a8e9f7c04bfda05c960cd5a",
+  "previous_freeze_sha256": "cdb66f193e567cae6772584acd8f80d30ed5955b255225faba7bd0527dab3581",
+  "replaced_leaves": [],
+  "retained_binary_trials": 10136433,
+  "scope": "Final local mirror cohort after reconciling all 281 directories and the separate source-identity crosswalk. Includes one independently published MedHELM evaluation of inventory-listed MedCalc-Bench.",
+  "selection_evidence": {
+    "goodai_ltm_benchmark/traces.parquet": {
+      "bytes": 787281078,
+      "scope": "Callback completeness for 324 Prospective Memory episodes; no trace predictor fields.",
+      "sha256": "16c025ced2e8661c3c1f9cc3c2d525051bd9af4700d624886f6b4758b3471e99"
+    }
+  },
+  "source_records": 12102550,
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "suite_count": 31,
+  "suites": {
+    "algotune": {
+      "benchmark": "algotune",
+      "counts": {
+        "binary_trials": 2772,
+        "source_trials": 2772
+      },
+      "native_items": 154,
+      "native_subjects": 18,
+      "observed_visible_item_variants": 154,
+      "organizer_slug": "algotune",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 30620,
+          "sha256": "6851b2b38d20f12be2436e4d32539603239a38dffd3fef2f73fa19236a9babd6"
+        },
+        "items.parquet": {
+          "bytes": 76217,
+          "sha256": "53d211ddb2e256b38a41873a5b898167ac0503b78bb0666ca0f1390430af5ba5"
+        },
+        "subjects.parquet": {
+          "bytes": 2171,
+          "sha256": "7f56527340404ccad8fe07101ba8bca6f513122e08bd08ac813b50c3e4e3763e"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "a8273502eb4b44dbc745b8abc5281a0e61ff27d67c2ab890dab1cdc1606d8f6e",
+      "source": {
+        "benchmarks": {
+          "bytes": 17522,
+          "sha256": "b037f4938d32844f5df1c3f86cca701e167da568d3605e8e3c4e3c9e2ff0a83b"
+        },
+        "items": {
+          "bytes": 508732,
+          "sha256": "b089d8f29fef971f02f45885ecb0a23cb9e9e1dcf249099e1b619f3799611a4c"
+        },
+        "responses": {
+          "bytes": 60286,
+          "sha256": "66454f671fb545f99d012d212dcd82156c2943fced9c5be82318fc674142097f"
+        },
+        "subjects": {
+          "bytes": 7988,
+          "sha256": "7e8fd95d157c3d49d0ab4956a570a4d6a234c8ec7f49104af472a22d08286cf4"
+        }
+      },
+      "visible_subjects": 18
+    },
+    "atmossci_bench": {
+      "benchmark": "atmossci_bench",
+      "counts": {
+        "binary_trials": 31064,
+        "source_item_excluded": 6117,
+        "source_trials": 37421,
+        "ungraded": 240
+      },
+      "native_items": 2802,
+      "native_subjects": 54,
+      "observed_visible_item_variants": 1919,
+      "organizer_slug": "atmossci_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 355906,
+          "sha256": "ff03ce8bd2fc3aa2ee370bb8025fe957c84b8e6d1c81cb490af694d045dbb3dc"
+        },
+        "items.parquet": {
+          "bytes": 150147,
+          "sha256": "cc01034fe8a3890443c297614469467792daf98dfbbbafcd7e07dedf200413dc"
+        },
+        "subjects.parquet": {
+          "bytes": 6207,
+          "sha256": "93bd8fefa673b3049d25f8724c9873aa0121f17e14a9ee0fc763a4675d958aa5"
+        },
+        "ungraded.parquet": {
+          "bytes": 83589,
+          "sha256": "fcd8d320c9ec770bd2a88845754e4b9e28f95e0feed8f2b4376e1753e5680a03"
+        }
+      },
+      "receipt_sha256": "1c1943607e98b472b4a685a14836621e3fb23930065626478f8c431dfed29dec",
+      "source": {
+        "benchmarks": {
+          "bytes": 16842,
+          "sha256": "d118383c0db6c0368380a2bee2c7e72e68dbc35840af2a0e2bf0da7be0f68fc2"
+        },
+        "items": {
+          "bytes": 513912,
+          "sha256": "15e5002897ac95eaf08a11a370fdc3ce8096c2f148efea513e09db5ebd07ff2f"
+        },
+        "responses": {
+          "bytes": 842263,
+          "sha256": "58fc82199faa293ba7e85040ace046025e19b0853a1066b4249dc5824a37214e"
+        },
+        "subjects": {
+          "bytes": 12388,
+          "sha256": "7c2a713adfbbe751828bed1bd491590d8ecd3aad02def582922ac2376bc6925a"
+        }
+      },
+      "visible_subjects": 54
+    },
+    "babilong": {
+      "benchmark": "babilong",
+      "counts": {
+        "binary_trials": 2020251,
+        "source_item_excluded": 700,
+        "source_trials": 2020951
+      },
+      "native_items": 526202,
+      "native_subjects": 83,
+      "observed_visible_item_variants": 525502,
+      "organizer_slug": "babilong",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 29770979,
+          "sha256": "8f9752bd6f61d7c58ff7541f24471b686e48118305e210b0f134ea87cf9e654c"
+        },
+        "items.parquet": {
+          "bytes": 6422040,
+          "sha256": "f93c2233e56f8f9347f405e2cad8252064fa60433c4db00da17c7439d506623c"
+        },
+        "subjects.parquet": {
+          "bytes": 7081,
+          "sha256": "f4ca7a2764e95d623e4eceb0c0eaa84657d5f17d714c49d7c7670c9f881ba1fd"
+        },
+        "ungraded.parquet": {
+          "bytes": 19074,
+          "sha256": "5b7da653293140d44ec40745d62d74c20561540bdb42d18594560dc71946edfd"
+        }
+      },
+      "receipt_sha256": "f916da629d774d1089f4ba9ab8bb66b86844bfd56b1470318b2c52e33d80633f",
+      "source": {
+        "benchmarks": {
+          "bytes": 17101,
+          "sha256": "2ec32907221928244079fb0087e7061f11810b6b435b8e4d581e5d120be8b74a"
+        },
+        "items": {
+          "bytes": 45079999,
+          "sha256": "6cffcbd3d0ef436103c416d909251103d632c8d81a85a5eeaa9297f884489c9b"
+        },
+        "responses": {
+          "bytes": 75589828,
+          "sha256": "4239cdb64fbd26be2b7bfd4ba4b7c1f806658b9080126c797913b36bdfaf6efd"
+        },
+        "subjects": {
+          "bytes": 14429,
+          "sha256": "7057ebdae4d4d646975820e22f70a0750260b11a25c984038ddf35682b348928"
+        }
+      },
+      "visible_subjects": 83
+    },
+    "brace": {
+      "benchmark": "brace",
+      "counts": {
+        "binary_trials": 202096,
+        "source_trials": 202096
+      },
+      "native_items": 12631,
+      "native_subjects": 28,
+      "observed_visible_item_variants": 12631,
+      "organizer_slug": "brace",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 2707933,
+          "sha256": "8643baa72db5bc8b296d01bf5b5e3298217b605ce05c22ea3ed7f3f4bb6f4dc1"
+        },
+        "items.parquet": {
+          "bytes": 666564,
+          "sha256": "06dd100aced43651723292d58d48d380cef126a9c8b9fe62af45178e5c5b820d"
+        },
+        "subjects.parquet": {
+          "bytes": 2063,
+          "sha256": "e64912e4bc8e85f6965056664683309b8ff322e0f9687af520e0e3d6fa4ee6ac"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "9105d255fc61c9494ab9de117809c787389ca554075032660c285f84575b0a8d",
+      "source": {
+        "benchmarks": {
+          "bytes": 17693,
+          "sha256": "6d8bc0fd3b6d5b2477d05a3545da036cf903ecc9ba9d80ac63347a39fc185972"
+        },
+        "items": {
+          "bytes": 1771588,
+          "sha256": "6d35500bec530cbc6e7b007306210e6e0afbaf2a0b1e28403904f236ce0cd41c"
+        },
+        "responses": {
+          "bytes": 5785374,
+          "sha256": "f87ba5941185ef220f3c08b127382dff114fb03eba0bb9a0b83a157765c28620"
+        },
+        "subjects": {
+          "bytes": 7527,
+          "sha256": "a6f226083f72cb3035ad4404cae7afbfbb325fda415fcd402349b569d7f79837"
+        }
+      },
+      "visible_subjects": 28
+    },
+    "cruxeval": {
+      "benchmark": "cruxeval",
+      "counts": {
+        "binary_trials": 992000,
+        "source_trials": 992000
+      },
+      "native_items": 4000,
+      "native_subjects": 31,
+      "observed_visible_item_variants": 4000,
+      "organizer_slug": "cruxeval",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 10844814,
+          "sha256": "6e3214bd2d0f7d89641244aa6093bda337ae9c0261b7c2a1741f14066b9920a6"
+        },
+        "items.parquet": {
+          "bytes": 317357,
+          "sha256": "425c997ed538e079ae9317cd5fd01a5898e15b860a2e8bc57a53b7a0f0cad792"
+        },
+        "subjects.parquet": {
+          "bytes": 2697,
+          "sha256": "c99c2250d5aeb59fb550707e2da6f5fc84ae1565997df6fa3074756f1373423c"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "c3327cb27e21be0d177b227034d96cf517e06c7f0a941d8fde83b2427f7b058a",
+      "source": {
+        "benchmarks": {
+          "bytes": 16528,
+          "sha256": "a7fc2360f43593f6bca435554c40920da0c5a41070e3e89fe07237238bfc0d0f"
+        },
+        "items": {
+          "bytes": 964730,
+          "sha256": "b06e3093a6beb8c56a48ee4bcef5cd54914e138880d7f6ce6fec7b19686b2f0e"
+        },
+        "responses": {
+          "bytes": 20809388,
+          "sha256": "f777c5280cc1cc8963a76a13b8bada16b2a68f207d03fb77e4f03ea3b459aa6c"
+        },
+        "subjects": {
+          "bytes": 8658,
+          "sha256": "7dbe35df7cde9123f35a00f1e5f0790142657c660ddc87302be3ddbddc2def83"
+        }
+      },
+      "visible_subjects": 31
+    },
+    "disco": {
+      "benchmark": "disco",
+      "counts": {
+        "binary_trials": 111906,
+        "source_trials": 111906
+      },
+      "native_items": 28000,
+      "native_subjects": 4,
+      "observed_visible_item_variants": 28000,
+      "organizer_slug": "movietection",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 1293562,
+          "sha256": "43b672ed19eae3dad39f0b35a3d262fef4e566b15bcf22f805dbda7b5214ccfe"
+        },
+        "items.parquet": {
+          "bytes": 2648929,
+          "sha256": "83107b5345b9a95a9471650adaa4312515c25184424091e5324955762a35d7b5"
+        },
+        "subjects.parquet": {
+          "bytes": 2564,
+          "sha256": "7c2d270a768615f86101bb62e87a5f48ba50adfbfcf322968df2a27d86a3999f"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "776c5f6f73ce1c1abf3736eff71649a52643e27c5cd70519331ca81da13f85c1",
+      "source": {
+        "benchmarks": {
+          "bytes": 17480,
+          "sha256": "caf40e3a1124238c58e9fdf7fc337f4b98695d14d34e3b59377cc0e5d31cd289"
+        },
+        "items": {
+          "bytes": 6228981,
+          "sha256": "1fb6cb920fac31be39cd17837743f4dfba46387f29f656345e2f479282d2b2a0"
+        },
+        "responses": {
+          "bytes": 3009568,
+          "sha256": "fab86f87ca3b506642f64fe71f88818000c690c810edd7f832c23d844d9263c7"
+        },
+        "subjects": {
+          "bytes": 7947,
+          "sha256": "cb253aa39eafc703236628e9adc9fd9dae3b4c690c953eea51fd17a1cc761da0"
+        }
+      },
+      "visible_subjects": 4
+    },
+    "editbench": {
+      "benchmark": "editbench",
+      "counts": {
+        "binary_trials": 23328,
+        "source_trials": 23328
+      },
+      "native_items": 540,
+      "native_subjects": 44,
+      "observed_visible_item_variants": 540,
+      "organizer_slug": "edit_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 252720,
+          "sha256": "e63067223f58df47a81a0b40533c80abcf542c5096c89efd825ae2c34ad415ef"
+        },
+        "items.parquet": {
+          "bytes": 718882,
+          "sha256": "13c6751524b0c25f62fa041aa37690ac7db6d93555ec59487e5e17e587a33b1e"
+        },
+        "subjects.parquet": {
+          "bytes": 3291,
+          "sha256": "f69a7a1d9b8613f2a335d771edbc1ec7e1da69a951cb6130b83684575dbf5597"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "eaaa022bd02439f86c8e30cc07a524292c3b0a81ad2d22e1003b925a6e7aa911",
+      "source": {
+        "benchmarks": {
+          "bytes": 17666,
+          "sha256": "835a23344276f43582c930cba439492bd5bb15f5c45f1b883436ba537b1bdded"
+        },
+        "items": {
+          "bytes": 6347667,
+          "sha256": "cd23e864e60c01c5b8a2d99c4d0602596d6c8a4ea98b47a06052f0ca16230333"
+        },
+        "responses": {
+          "bytes": 477995,
+          "sha256": "10e60a511a5d3276a5eb83598c61a6a9340c49db0ee8b15ca8e2dd95db02a250"
+        },
+        "subjects": {
+          "bytes": 9394,
+          "sha256": "455dbf129e6becc190935a7fd763f3c55b2f2905174fe2765f19be4125f1e953"
+        }
+      },
+      "visible_subjects": 44
+    },
+    "fgbench": {
+      "benchmark": "fgbench",
+      "counts": {
+        "binary_trials": 45568,
+        "source_item_excluded": 11600,
+        "source_trials": 57168
+      },
+      "native_items": 7146,
+      "native_subjects": 8,
+      "observed_visible_item_variants": 5696,
+      "organizer_slug": "fgbench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 634295,
+          "sha256": "70675eb92da09eac703c1aa814f5677acda0c4482eb34aa1f71a222905d07a12"
+        },
+        "items.parquet": {
+          "bytes": 233312,
+          "sha256": "b9e3d8aef91fe20324b8d59ec5d5c87bd9d688d037596a0c4d40ba39d5a6583f"
+        },
+        "subjects.parquet": {
+          "bytes": 1572,
+          "sha256": "10441b100a4ea1824efcf9bff58e1a7585565b8dc08005fbfe7bc0253ffe15c6"
+        },
+        "ungraded.parquet": {
+          "bytes": 228170,
+          "sha256": "6e93bd1556b86e72849383f1c2d2db6d522f9835c21091f3d5ae3aabc3f4d930"
+        }
+      },
+      "receipt_sha256": "4e07d1ed3b158a42d9aacf7af69272aa863e9f8ca950e032d4a77eb6d74d76c2",
+      "source": {
+        "benchmarks": {
+          "bytes": 16192,
+          "sha256": "e3a38678771851c033381987c79a5ea4db44b470b975a12f33bca1c61aa4e71d"
+        },
+        "items": {
+          "bytes": 1011045,
+          "sha256": "ca21414cd61be180457d77ac39cdaa9df02285a5d70c712a31deb47bb762c671"
+        },
+        "responses": {
+          "bytes": 1992083,
+          "sha256": "1f1214ae2c9dbfc682a773dba24819524c1510840489d6304cde5a8a0ebf1032"
+        },
+        "subjects": {
+          "bytes": 7176,
+          "sha256": "ccb0376a75c155b151b0eb07bd0992af3e68f73f826f2213bc291266a2c7570d"
+        }
+      },
+      "visible_subjects": 7
+    },
+    "finegrain_t2i": {
+      "benchmark": "finegrain_t2i",
+      "counts": {
+        "binary_trials": 3750,
+        "source_trials": 12861,
+        "ungraded": 9111
+      },
+      "native_items": 760,
+      "native_subjects": 17,
+      "observed_visible_item_variants": 750,
+      "organizer_slug": "finegrain",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 44584,
+          "sha256": "dfc52bcda7d29bbae9a0d7914f134f184da98bc782abab5a423151ee51347e98"
+        },
+        "items.parquet": {
+          "bytes": 84318,
+          "sha256": "54a27553f36587ca90fcf8f805c23f14f81e132cbe49b8a4d0a5f2ceb44cba39"
+        },
+        "subjects.parquet": {
+          "bytes": 3175,
+          "sha256": "9c72b742f53f198c55554d720683b65ac4042ed828f0a7bce5cb403f9162d7fc"
+        },
+        "ungraded.parquet": {
+          "bytes": 114741,
+          "sha256": "615f35398e315539cb97c92a47b40494c67318f757abde775cb47cf4b1d4dc8c"
+        }
+      },
+      "receipt_sha256": "95061a988b0d181415e6129653a7a7ac2e7a22200d59cbd284075b022f214a21",
+      "source": {
+        "benchmarks": {
+          "bytes": 17461,
+          "sha256": "1456031ae5e80a0cdc64bf52077fbd4cd2e4edad6aed499bdc9946af2b678458"
+        },
+        "items": {
+          "bytes": 98175,
+          "sha256": "e692ef1f35f0493c04efe6743a98c6d4461c08df78ca02224baf68f72dbc9eb0"
+        },
+        "responses": {
+          "bytes": 283869,
+          "sha256": "a7137836a2db3f901eac277af7451424ee21c82b277363a01550b40289092f53"
+        },
+        "subjects": {
+          "bytes": 8735,
+          "sha256": "eb80739a6969639e841073f065cad2b463d38fbfa4553d4e19a553750a663573"
+        }
+      },
+      "visible_subjects": 17
+    },
+    "goodai_ltm_benchmark": {
+      "benchmark": "goodai_ltm_benchmark",
+      "counts": {
+        "binary_trials": 972,
+        "source_item_excluded": 2535,
+        "source_trials": 3507
+      },
+      "native_items": 452,
+      "native_subjects": 37,
+      "observed_visible_item_variants": 93,
+      "organizer_slug": "ltm_benchmark",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 12062,
+          "sha256": "4ba77c3fd46844627becf53e3fe8a9cd24357cf066d0590b7bb690182e7394dc"
+        },
+        "items.parquet": {
+          "bytes": 14136,
+          "sha256": "134b5145643f5c0276a16c65b2b83ea15d030a1342f922e1990ec8574590249f"
+        },
+        "subjects.parquet": {
+          "bytes": 3105,
+          "sha256": "852e6786ccc517af10598d3c0a706218a14a1f5af7cbb5300a5b7214379b1737"
+        },
+        "ungraded.parquet": {
+          "bytes": 32186,
+          "sha256": "15fa900a700985a01ba8c3bc26252cced893e71d38f4605c11bc8392ff223a8c"
+        }
+      },
+      "receipt_sha256": "46d234327d03c52fe68a82cef984ee4cb645730c027fa0ccc98296536df043ec",
+      "source": {
+        "benchmarks": {
+          "bytes": 17388,
+          "sha256": "5d732dba0ba02a151d9e7149eecd34140d8e4d8805428121c2286d028e9eb289"
+        },
+        "items": {
+          "bytes": 728332,
+          "sha256": "5a22e763e51d2a44085a3f43bbe823353b3a0bbae31e8e00e5ef3cad2ad1eab5"
+        },
+        "responses": {
+          "bytes": 125725,
+          "sha256": "8b311e4f7c26a8d468402d56007c08414d23106a2e5acedd2021f7ba977b4987"
+        },
+        "subjects": {
+          "bytes": 9259,
+          "sha256": "19544ba67864fd848bf3d8a0a1b5e0f58735b458f0b235e6eaf6bd2836ad35a6"
+        }
+      },
+      "visible_subjects": 37
+    },
+    "jetts": {
+      "benchmark": "jetts",
+      "counts": {
+        "binary_trials": 201080,
+        "source_item_excluded": 127605,
+        "source_trials": 328685
+      },
+      "native_items": 5940,
+      "native_subjects": 8,
+      "observed_visible_item_variants": 3541,
+      "organizer_slug": "jetts",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 2190627,
+          "sha256": "d8102e350b98a114bfb7bcfd2095c16403955eac0f5134aba97a88b4efd55700"
+        },
+        "items.parquet": {
+          "bytes": 475058,
+          "sha256": "da532fa3c5236b999b4168659e74a8449e64f85336da5ab898caa736f5c352ec"
+        },
+        "subjects.parquet": {
+          "bytes": 2793,
+          "sha256": "b5b05fb58725941cb351c2aec0406a965a8ec7775c868951516ff93ca273a2a5"
+        },
+        "ungraded.parquet": {
+          "bytes": 1462336,
+          "sha256": "cf079c09995c4032a8fc9d1b1b30566c2a08eaee0434de634f93811cc907cd0a"
+        }
+      },
+      "receipt_sha256": "90335869a44ba0bb80e3517b2a7f6d0d330e2925450790bd907296b14fa028d1",
+      "source": {
+        "benchmarks": {
+          "bytes": 16310,
+          "sha256": "5c343e3520cfb0edfd4b0d27f6a34309b967a4cac832aaed99ba3f61337807ae"
+        },
+        "items": {
+          "bytes": 1953712,
+          "sha256": "22ec1ea445abfa50d5143f98ad8950619e0e3e2b9913cdbda03f01a4393a9127"
+        },
+        "responses": {
+          "bytes": 7135895,
+          "sha256": "86dd56ffc228cde2b2341e6e955ec31275fe74aa059111f167d5972a216a9a49"
+        },
+        "subjects": {
+          "bytes": 8286,
+          "sha256": "1d993f95afb1a12a58ae6fa84277abb52cdab155b1a8542e35b6a991d8133c1d"
+        }
+      },
+      "visible_subjects": 8
+    },
+    "kernelbench": {
+      "benchmark": "kernelbench",
+      "counts": {
+        "binary_trials": 73984,
+        "source_trials": 73998,
+        "ungraded": 14
+      },
+      "native_items": 250,
+      "native_subjects": 19,
+      "observed_visible_item_variants": 250,
+      "organizer_slug": "kernelbench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 784109,
+          "sha256": "3c3aa7c0d9a926a4e170d4444dbae10ce7ca59b0874f916492236f570ff9b9cb"
+        },
+        "items.parquet": {
+          "bytes": 66478,
+          "sha256": "da45bf62dee96387da4afebf3d090b88dfbdd7b675978ec8f2c6adce601d23b2"
+        },
+        "subjects.parquet": {
+          "bytes": 2765,
+          "sha256": "bb42df0bdbfe65fb0a3aa8dc64b5b220d69f8c6dbbf1f5bd2bc017b5bb2d57b3"
+        },
+        "ungraded.parquet": {
+          "bytes": 3430,
+          "sha256": "7f4efd0ae0290afd6f93464cc947b40f72537011a1a1149bb44208b09cef5bc0"
+        }
+      },
+      "receipt_sha256": "9f689bd28d3ad5ea7123889a41408e38bd62c8bf818bffe60c5754e4dad30b3a",
+      "source": {
+        "benchmarks": {
+          "bytes": 17515,
+          "sha256": "b38ab178dba516718ee813805f59841d7866d555d6e3f275057b7936ac1df807"
+        },
+        "items": {
+          "bytes": 119307,
+          "sha256": "16018528e9fdc6d7afcf73ee15bbfc588bff412c16ffb948cf10e804a6bdb7d3"
+        },
+        "responses": {
+          "bytes": 1448378,
+          "sha256": "370d11acf9126faf2732ea469a510f4120046b7a56cc6951a02dbe3f6ae8eb7e"
+        },
+        "subjects": {
+          "bytes": 8222,
+          "sha256": "2b19bd5732597eeabbe62b0e49bfdc1c9b7e6934a928289af71e012140e80ae1"
+        }
+      },
+      "visible_subjects": 19
+    },
+    "lexeval": {
+      "benchmark": "lexeval",
+      "counts": {
+        "binary_trials": 868801,
+        "source_item_excluded": 207479,
+        "source_trials": 1076280
+      },
+      "native_items": 39908,
+      "native_subjects": 38,
+      "observed_visible_item_variants": 34377,
+      "organizer_slug": "lexeval",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 12528676,
+          "sha256": "754984741a6d40a6833121a7a7fad9e23a48e47bb03e0216a98686ee460c5666"
+        },
+        "items.parquet": {
+          "bytes": 16704301,
+          "sha256": "59d877a603637e0404bd4b9c3c5effbc634e35483d965afb750475a3c58ea507"
+        },
+        "subjects.parquet": {
+          "bytes": 2859,
+          "sha256": "249f4affe88fa8e77cd24eeadd01b0bccb83bd4c186b0bf1462ee83616c2139f"
+        },
+        "ungraded.parquet": {
+          "bytes": 4305004,
+          "sha256": "bbe77df8f6f3eec1b1c45cbc695f1809584aa5332d043e1f11def6c11eccc955"
+        }
+      },
+      "receipt_sha256": "819243b9c19b62507ed499b74f4df06d50cae702a5cefde0c5675879479602cc",
+      "source": {
+        "benchmarks": {
+          "bytes": 15690,
+          "sha256": "fa03ebe1f441fc34ebe9f417d67ab41981bc24830cb852ef8bb207501256cacd"
+        },
+        "items": {
+          "bytes": 46047039,
+          "sha256": "ada5be5ba1fda4e98e7ff3891dd0ff0a4b58417a5853920aa46d5f8b7691dfd3"
+        },
+        "responses": {
+          "bytes": 42143769,
+          "sha256": "008ba68c6d01e93e347ecf8492ffd7dc184d047ba15dd85153d4615e5136faad"
+        },
+        "subjects": {
+          "bytes": 8851,
+          "sha256": "aa96acda94b6b33ad1d99708fb912fdc47101485780590b03a182d0299f14677"
+        }
+      },
+      "visible_subjects": 38
+    },
+    "liveaopsbench": {
+      "benchmark": "liveaopsbench",
+      "counts": {
+        "binary_trials": 69264,
+        "source_trials": 69264
+      },
+      "native_items": 5323,
+      "native_subjects": 13,
+      "observed_visible_item_variants": 5323,
+      "organizer_slug": "liveaopsbench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 910048,
+          "sha256": "3d4feee3201224b56781b2556e73eaf536f2c1a36b1bfc594fcabba69912c6a9"
+        },
+        "items.parquet": {
+          "bytes": 565375,
+          "sha256": "f50d926310f242cccb359c651d3ee1011bbe1c94d8c82a93980d79d68deca64e"
+        },
+        "subjects.parquet": {
+          "bytes": 2258,
+          "sha256": "a0b1687d9b38e2619bab12fd436559b178ef66a7d3f27b04593d86494edee267"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "89664889aa6e03d3ffe04e78278155ff058ae7ebbe588e60b8c41dd9193f10ea",
+      "source": {
+        "benchmarks": {
+          "bytes": 17226,
+          "sha256": "2e67162e9195704f11c8c67d4825bd099ccfb82d1db135b750883fc92fea1bb6"
+        },
+        "items": {
+          "bytes": 1069445,
+          "sha256": "c70cd52d4da2fcde0df5e4d51421440f6202e073faa77d582ce63b461ec61aab"
+        },
+        "responses": {
+          "bytes": 2042344,
+          "sha256": "04c17bca06e188c5e32bc75975090334ac864408bbd7937a34dea48ff1ae4dcb"
+        },
+        "subjects": {
+          "bytes": 7824,
+          "sha256": "e7904875393dc9f45c914cf517e221a15cacda1b088682b3e16db0bad41db17b"
+        }
+      },
+      "visible_subjects": 13
+    },
+    "llm_uncertainty_bench": {
+      "benchmark": "llm_uncertainty_bench",
+      "counts": {
+        "binary_trials": 4080000,
+        "source_item_excluded": 1020000,
+        "source_trials": 5100000
+      },
+      "native_items": 149793,
+      "native_subjects": 102,
+      "observed_visible_item_variants": 119793,
+      "organizer_slug": "llm_uncertainty_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 59562013,
+          "sha256": "8bd7c329e147947e8104ec8e20b0253aef05238d083ed13e6a2d54a86a3f916c"
+        },
+        "items.parquet": {
+          "bytes": 33489337,
+          "sha256": "fcaba3a67e27797f9516dfb018b5c0d1e9f523d33debbbeb3bd09f09e4eda0ee"
+        },
+        "subjects.parquet": {
+          "bytes": 6662,
+          "sha256": "99c7c21c27c1d8227ebf23cf1e800f70c57269bfe589d796a5daaf9c6703aa73"
+        },
+        "ungraded.parquet": {
+          "bytes": 21204247,
+          "sha256": "6e9356a9095cf22744bec2591d5f11acf162a994e224dc198d4d49278de3a32d"
+        }
+      },
+      "receipt_sha256": "5d0a5dbc2126b1dfa60fb3ab1f3a89aa8d3551df9962258e45353483a46ef412",
+      "source": {
+        "benchmarks": {
+          "bytes": 17366,
+          "sha256": "932dd5c679c43121066ed94b3168722bfdcd198b8666d3ec5819284c3370b8c6"
+        },
+        "items": {
+          "bytes": 185532357,
+          "sha256": "082b37735a4ee4fc634c4741791092eb6f8c0c9c5ce22dcf113f60cc91a2d2a9"
+        },
+        "responses": {
+          "bytes": 191334518,
+          "sha256": "8bad9f47b9ba470831b9aec9e6d36c42f229200cf3308ab1696f539ffe96816e"
+        },
+        "subjects": {
+          "bytes": 13866,
+          "sha256": "46e0c8e33fbcf1fa436e5e589115342547387285b436d191327f43ac309ace6e"
+        }
+      },
+      "visible_subjects": 102
+    },
+    "matharena": {
+      "benchmark": "matharena",
+      "counts": {
+        "binary_trials": 89482,
+        "source_item_excluded": 3462,
+        "source_trials": 92944
+      },
+      "native_items": 1755,
+      "native_subjects": 104,
+      "observed_visible_item_variants": 1484,
+      "organizer_slug": "matharena",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 963767,
+          "sha256": "e074300d2d4ebb7615ef2939d522ee1c5ce2c63665a46c5d793d976e1eb25e19"
+        },
+        "items.parquet": {
+          "bytes": 101806,
+          "sha256": "943ec953c91197753f7a66305ff8bec53b9cb7dcbaf45c9575a4cb5bf09d070b"
+        },
+        "subjects.parquet": {
+          "bytes": 5809,
+          "sha256": "70a6a1cd89c9be89ab787ccc448c185b4bec4173b410bd88fd8f64f341e18cba"
+        },
+        "ungraded.parquet": {
+          "bytes": 41664,
+          "sha256": "a2430a64d4361ccd9eefe45129c53658b32e19fea0f9d0acb90dc7e713d0ea84"
+        }
+      },
+      "receipt_sha256": "a5fafffaed787c6a1a85f1eb29db54635a7707378e90aca89630c4742a885352",
+      "source": {
+        "benchmarks": {
+          "bytes": 16915,
+          "sha256": "1e95b19a7d7c4ba533b0ca45f0c3177ef428837767516ae96a9738bad808ca4e"
+        },
+        "items": {
+          "bytes": 317953,
+          "sha256": "3cc80edb0d744be1be45ef5c1cc59f891ad37ca728cee2ca82856fa0313dabf3"
+        },
+        "responses": {
+          "bytes": 1829303,
+          "sha256": "c3e7e70e44369591100dc25a48b4c8763933a0366be1f61c78eeea260b092db8"
+        },
+        "subjects": {
+          "bytes": 13605,
+          "sha256": "7bcb3b37c282c467f4553aa4cfcd8cc8785d41ff3cb7d0c7910c94a2f18edab7"
+        }
+      },
+      "visible_subjects": 104
+    },
+    "mathvista_mini": {
+      "benchmark": "mathvista_mini",
+      "counts": {
+        "binary_trials": 268820,
+        "source_trials": 285000,
+        "ungraded": 16180
+      },
+      "native_items": 1000,
+      "native_subjects": 263,
+      "observed_visible_item_variants": 1000,
+      "organizer_slug": "mathvista",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 2986452,
+          "sha256": "059396829c7d2803c41ba82abf92c527e1b76f4dcb542e01ab04fb44f40cb61d"
+        },
+        "items.parquet": {
+          "bytes": 89386,
+          "sha256": "27e4361a5b8c06e3ef9efa4ab69eaa7a031e0386d000fff0dffc7d7b63d0d06c"
+        },
+        "subjects.parquet": {
+          "bytes": 8609,
+          "sha256": "2c2006c2de8aa700685638ed6cc5bc38cb695e6339a057bd73b6a7e6e6937d87"
+        },
+        "ungraded.parquet": {
+          "bytes": 312031,
+          "sha256": "e150b03a5e512f2e4a75b3c09603f215649a5fc16869cbd4d2c00207ce0c8e2b"
+        }
+      },
+      "receipt_sha256": "818d43539830e48f5ad13b32dadc345baf0c2228e3849d657429c72361d501a1",
+      "source": {
+        "benchmarks": {
+          "bytes": 17798,
+          "sha256": "8672d0481563d7277a30df6ff90d4d0a8d2b679830b37c3da543329bcf8b99cc"
+        },
+        "items": {
+          "bytes": 274317,
+          "sha256": "85fd39a1b18654bdaf29f557ceff3feafd846175cd40216de5320635a5660278"
+        },
+        "responses": {
+          "bytes": 5950545,
+          "sha256": "8c6c644c1a31d2da33d0a37f463dd0ae768589c5a863e444a739a6ef98334ec1"
+        },
+        "subjects": {
+          "bytes": 19248,
+          "sha256": "76ba546a61da459cc4a1efad05978f30a336814825aa8b8db38e485eb5a0121f"
+        }
+      },
+      "visible_subjects": 263
+    },
+    "medagentboard": {
+      "benchmark": "medagentboard",
+      "counts": {
+        "binary_trials": 7214,
+        "source_item_excluded": 9633,
+        "source_trials": 16847
+      },
+      "native_items": 2301,
+      "native_subjects": 83,
+      "observed_visible_item_variants": 761,
+      "organizer_slug": "medagentboard",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 81832,
+          "sha256": "725c2008d0636d8db3cafdd97db0d29ec8a10c7fefb0889eb8ff20643512416d"
+        },
+        "items.parquet": {
+          "bytes": 290603,
+          "sha256": "2ecd8ea7450c1e305b5db1397991db82032ad93ec8320bcf0fc5ea34ac9cd6e7"
+        },
+        "subjects.parquet": {
+          "bytes": 4623,
+          "sha256": "14404eac7457e9cdf5f45277579ef3565771fa2f5f92f0955676b976ac0d8d3b"
+        },
+        "ungraded.parquet": {
+          "bytes": 127008,
+          "sha256": "8566961718c0f950f3e15ce0a9e048820e9e2af8c33f964aca3572928f1bae77"
+        }
+      },
+      "receipt_sha256": "bf72e9553c9018df7e1ce2ba972ee48d6d709c50bdbea210cf958abe78218f74",
+      "source": {
+        "benchmarks": {
+          "bytes": 17271,
+          "sha256": "90fdca596554622630e11a362020b5722e8358ecfa262f3e5ddf4e72a9fb4ee4"
+        },
+        "items": {
+          "bytes": 2021340,
+          "sha256": "c2dfd5c8e811ec17fb6e4aca92ba5da4848799dee05898acffba5a71564f5c53"
+        },
+        "responses": {
+          "bytes": 383467,
+          "sha256": "b074345f5e3a2e1896c8dc5d643a07b720a8dd4ce3ec972cfd99eb1b3eae68b7"
+        },
+        "subjects": {
+          "bytes": 11703,
+          "sha256": "eca2936e00dd98f1772a2a50dbd3bb73e56d08b0b050154827c545394d934397"
+        }
+      },
+      "visible_subjects": 83
+    },
+    "medhelm_medcalc_bench": {
+      "benchmark": "medhelm_medcalc_bench",
+      "counts": {
+        "binary_trials": 13000,
+        "source_trials": 13000
+      },
+      "native_items": 992,
+      "native_subjects": 13,
+      "observed_visible_item_variants": 992,
+      "organizer_slug": "medcalc_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 143858,
+          "sha256": "e066d9a4d7962a54c1acdbcfc5c4331444ea5f2c0578d7973daee4ab2c9d6de9"
+        },
+        "items.parquet": {
+          "bytes": 867496,
+          "sha256": "2ea5517541e4ae1643b8d437d1b7dfd56f7d12aaae36848da51cb4ce5eca5ac1"
+        },
+        "subjects.parquet": {
+          "bytes": 4181,
+          "sha256": "8ad548f65278afc1dc7d6d469bf50c9a82650bbb8735421ebc64010218c79444"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "a8928f7b8d8fa904c7580a9f4da09b1682aba826bfc0b83cff2fba3f6353abc5",
+      "source": {
+        "benchmarks": {
+          "bytes": 16904,
+          "sha256": "ac8080ca5de2b91b6ec479b1e09ff9070d21329819ef0db47c08a7bf781e3521"
+        },
+        "items": {
+          "bytes": 1341826,
+          "sha256": "d6be49b18be83fe296a4ea23af2c691884fc4da18a5a9af15e8dde6e747bb4fa"
+        },
+        "responses": {
+          "bytes": 288090,
+          "sha256": "45a7af2fe75a38d670bc073e5f117f920bd4fa48fba14ebc8e0352803d4bba14"
+        },
+        "subjects": {
+          "bytes": 9928,
+          "sha256": "a80fc0c652d0d4c4774b139c9c68fa5c01462027a425f5cbecd57f56691c2e0a"
+        }
+      },
+      "visible_subjects": 13
+    },
+    "moe_cap": {
+      "benchmark": "moe_cap",
+      "counts": {
+        "binary_trials": 58088,
+        "source_item_excluded": 7150,
+        "source_trials": 65238
+      },
+      "native_items": 10065,
+      "native_subjects": 50,
+      "observed_visible_item_variants": 9216,
+      "organizer_slug": "moe_cap",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 807316,
+          "sha256": "d2d5563d18fa51f1ab76bd57d0bc39fc42b97978179cbbb8067e169a7f534697"
+        },
+        "items.parquet": {
+          "bytes": 2134060,
+          "sha256": "cc955728c275dc588894dfbdb36954910e88614c86409e890232efd1c21f8a3f"
+        },
+        "subjects.parquet": {
+          "bytes": 6458,
+          "sha256": "162ff87fef03abdee1cf5c6a55ffa7fc34267da47285655e09353971c73d3344"
+        },
+        "ungraded.parquet": {
+          "bytes": 92288,
+          "sha256": "6c3ab887a6676ba66d98b2ccd501b312d9d355199b794ddc40c77b9ef005d236"
+        }
+      },
+      "receipt_sha256": "2f2edbdd8e330042b871f9247bdae152588e75f6da7df134d43bf3b9eb9601b4",
+      "source": {
+        "benchmarks": {
+          "bytes": 16350,
+          "sha256": "9614a6eaf1d3df791111011db5e51345c24da486ad460b9ed5a81f955159e97c"
+        },
+        "items": {
+          "bytes": 6152495,
+          "sha256": "a121f8ef9114a23962327d05decc3db0207abcb0be905350fbff082e085a7005"
+        },
+        "responses": {
+          "bytes": 2036795,
+          "sha256": "dca6ca833b2e1c1f217b80d282f6a4268e8532dbc31d23990181ee4f97cce0e2"
+        },
+        "subjects": {
+          "bytes": 12403,
+          "sha256": "c5c4617ca9b3fca7ee7639dc81a10a77c59cb234a655578887e6f4fc4af70264"
+        }
+      },
+      "visible_subjects": 50
+    },
+    "multi_swebench": {
+      "benchmark": "multi_swebench",
+      "counts": {
+        "binary_trials": 57975,
+        "source_trials": 57975
+      },
+      "native_items": 2127,
+      "native_subjects": 82,
+      "observed_visible_item_variants": 2127,
+      "organizer_slug": "multi_swe_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 667584,
+          "sha256": "3b70b13330ee1ac1dd683dbc4141f948c40edbac52744526f640ae3e89ae9f81"
+        },
+        "items.parquet": {
+          "bytes": 1181379,
+          "sha256": "17c5086ec4b4ca1cf1d96d4d34a729271e4dcfe94d6c2ad649246bbef427246c"
+        },
+        "subjects.parquet": {
+          "bytes": 3216,
+          "sha256": "932c4721fc92ac7e8f5114124491a44bd9c13e100d440b7a4fdd70c7df8f7c2a"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "6bec247cc688b8b7a79e23c09f90d8ab6f4095b76d2461b2a0fdb64e6c793ad8",
+      "source": {
+        "benchmarks": {
+          "bytes": 17027,
+          "sha256": "ad1c8d39f85ff0e1a2fc82c7293a6d4f3751d912e46cbf2c6bbb193b1d9c6416"
+        },
+        "items": {
+          "bytes": 59055510,
+          "sha256": "21cc67f8c5811cfff671ae0dae34056aadd1f876918c64fce4a4a3b3a28c27b0"
+        },
+        "responses": {
+          "bytes": 1222393,
+          "sha256": "3925964852cede82d958b828f7eaa5f3cc2923a7b8f0e63e783b78a44c028f60"
+        },
+        "subjects": {
+          "bytes": 9456,
+          "sha256": "06eca4d34e9201ff58c62923a7d76dc315cb9748b308aab21e43e111e3faac49"
+        }
+      },
+      "visible_subjects": 82
+    },
+    "radar": {
+      "benchmark": "radar",
+      "counts": {
+        "binary_trials": 1,
+        "source_trials": 1
+      },
+      "native_items": 1,
+      "native_subjects": 1,
+      "observed_visible_item_variants": 1,
+      "organizer_slug": "radar",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 1316,
+          "sha256": "f5381cf98faf8b6e391cd3b50418532920a2a2ab2beef4b148195f8cd7d536f6"
+        },
+        "items.parquet": {
+          "bytes": 7373,
+          "sha256": "5e5d02ee35e0943eea57a32c3489b7f0a87bdabdeb14abd747fe293fc4655a87"
+        },
+        "subjects.parquet": {
+          "bytes": 3068,
+          "sha256": "7c9c36e94e4c889333f70b6167498477f34fcf2b5d29f8bd2dac03d8625d58f4"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "230023eca1d842f4c1abc73b4a75934bec6c645261151a16449aee1a1c76ac77",
+      "source": {
+        "benchmarks": {
+          "bytes": 16419,
+          "sha256": "11ec81b4c22052b829dc56a7748fe476edd9c1e6db12b1a304a524c8f944dfbd"
+        },
+        "items": {
+          "bytes": 17581,
+          "sha256": "b51abb29d3b386d53035e83b39e0b59b982d6a86b5e83d3908f628214ebb3b69"
+        },
+        "responses": {
+          "bytes": 5551,
+          "sha256": "49832c5d09fd9966da476d4a26f6197a93658c36c0dc0767a04da596b225ea51"
+        },
+        "subjects": {
+          "bytes": 8232,
+          "sha256": "314b4e66be4c4af32a9667c423729bcce20e979f5e38ff7f819fd456186b46c1"
+        }
+      },
+      "visible_subjects": 1
+    },
+    "statqa": {
+      "benchmark": "statqa",
+      "counts": {
+        "binary_trials": 44194,
+        "source_trials": 53498,
+        "ungraded": 9304
+      },
+      "native_items": 1183,
+      "native_subjects": 46,
+      "observed_visible_item_variants": 1158,
+      "organizer_slug": "statqa",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 541733,
+          "sha256": "ca5756c15434b447ce7bc9f364cad03191d6edea3696b45e0c37a520b6bda6f2"
+        },
+        "items.parquet": {
+          "bytes": 116311,
+          "sha256": "94fefd66e3dafbb45755b35605d6ecacba4686f0de049e4cdb646ee856a82b6d"
+        },
+        "subjects.parquet": {
+          "bytes": 4039,
+          "sha256": "3d1bca49d6187e6783e1ba898a0d2a2ff54b55fe0243b44297bbc07828696cc4"
+        },
+        "ungraded.parquet": {
+          "bytes": 130951,
+          "sha256": "d97cd1b790bc8a525617c236ec248ca335b1de170cd5b1de0a39671e5a80416e"
+        }
+      },
+      "receipt_sha256": "15622473e33e3e395161f8a9d1e3844063d50594fd7631be8475ced449e3c34f",
+      "source": {
+        "benchmarks": {
+          "bytes": 18768,
+          "sha256": "f86fde7a597216027eed6b8f9bb614db5092eb90c725a041cdd5e3d990707314"
+        },
+        "items": {
+          "bytes": 696538,
+          "sha256": "56d495ac71c3c741ce45b78d309bfa3d4654042df276db64f94c1e9a08554691"
+        },
+        "responses": {
+          "bytes": 1208767,
+          "sha256": "e4132481cc3d73f0b9846d1a2184f2dd5ee794abca7049251b863739b6fb4521"
+        },
+        "subjects": {
+          "bytes": 9893,
+          "sha256": "f2ef9f0fffd3ed524f16dfe4bdb6e9f7e4841edc07db4f6124df8453eb0af6ed"
+        }
+      },
+      "visible_subjects": 46
+    },
+    "subjective_qa": {
+      "benchmark": "subjective_qa",
+      "counts": {
+        "binary_trials": 16164,
+        "source_trials": 16168,
+        "ungraded": 4
+      },
+      "native_items": 10921,
+      "native_subjects": 5,
+      "observed_visible_item_variants": 10920,
+      "organizer_slug": "subjective_qa",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 222606,
+          "sha256": "afdc9f30ecb29807deb91dac96e3b9b96b5365ddb0fcfa7e9c576fab45bc1d9c"
+        },
+        "items.parquet": {
+          "bytes": 4475570,
+          "sha256": "2280e39251a762cce72c79a775afcb8835e9c61fbc2a74c4365faf0b5a38e8a1"
+        },
+        "subjects.parquet": {
+          "bytes": 2479,
+          "sha256": "8e5c858980e10de5d22cff6134e710d9f289c026f65086817e846184348e995f"
+        },
+        "ungraded.parquet": {
+          "bytes": 2333,
+          "sha256": "d523f6c3199ba37b9aa0d1cab7011488195e878d7aa521cf8ddfc7cfabf05a10"
+        }
+      },
+      "receipt_sha256": "46763dcf04b2498b2d4e50c85240329cd2e864fb484450ec063a8f2e98b86597",
+      "source": {
+        "benchmarks": {
+          "bytes": 16857,
+          "sha256": "8f090bb8298082c69775df0f3e569463894d878064b20ed07bf13c0908830ac3"
+        },
+        "items": {
+          "bytes": 7750739,
+          "sha256": "7f882b006454dc4e55c9ecedf43d0055299fa76fdf011ff1497d1822fc6af992"
+        },
+        "responses": {
+          "bytes": 531545,
+          "sha256": "f0cd3cfc0d5407838c2e7ce28ad8c0b1d057efb07bc5fa8e0d40839362330d40"
+        },
+        "subjects": {
+          "bytes": 8269,
+          "sha256": "be915fa6be3f75d1df963309ae23a48b5e2bf8421b7e5a7991d774d9e3d1b614"
+        }
+      },
+      "visible_subjects": 5
+    },
+    "tau2_bench": {
+      "benchmark": "tau2_bench",
+      "counts": {
+        "binary_trials": 23210,
+        "source_trials": 23342,
+        "ungraded": 132
+      },
+      "native_items": 2388,
+      "native_subjects": 31,
+      "observed_visible_item_variants": 2894,
+      "organizer_slug": "tau2_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 284730,
+          "sha256": "66aa19d2af1b326957a0a9dd402dabda784e3fb903d7bf1cf3a8c917b6314e84"
+        },
+        "items.parquet": {
+          "bytes": 570225,
+          "sha256": "982289abd05ff4b40d399dbf4c51c01ae739bd247812474057f8fa7d747b1f91"
+        },
+        "subjects.parquet": {
+          "bytes": 6749,
+          "sha256": "2f2da6a7b9e82f059976cfd7739749ce4690360d2b5f8757c850a12b4e409828"
+        },
+        "ungraded.parquet": {
+          "bytes": 4985,
+          "sha256": "2c59f272c6bf31e052a3d9fef2c87bc7a184a2b3ff2aa7e36f785db592e4fe21"
+        }
+      },
+      "receipt_sha256": "22f7fd9c3794f672036cf526a04343a97c7281abe518bef9973d47f1a49bf50d",
+      "source": {
+        "benchmarks": {
+          "bytes": 16891,
+          "sha256": "385680f2cb3b14aeebac40a1289935789ff0b1cf9e19bf0f924c8b4f8d1cb618"
+        },
+        "items": {
+          "bytes": 8084868,
+          "sha256": "fe6c77d369d041a0a1c1d8ea76c07091fb4b7ea415fee6008618f77a5a9b438a"
+        },
+        "responses": {
+          "bytes": 544938,
+          "sha256": "9f72ea3e5a25161f5e0304a7f6ab4e67f2ad733229747f44d88dac0cf95e2376"
+        },
+        "subjects": {
+          "bytes": 12735,
+          "sha256": "ffc5e6a51d192d268474618f0c767c382672ef090fadfe1e781e21a6e2eac587"
+        }
+      },
+      "visible_subjects": 31
+    },
+    "taubench": {
+      "benchmark": "taubench",
+      "counts": {
+        "binary_trials": 1980,
+        "condition_excluded": 2350,
+        "source_trials": 4330
+      },
+      "native_items": 201,
+      "native_subjects": 49,
+      "observed_visible_item_variants": 164,
+      "organizer_slug": "tau_bench",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 22116,
+          "sha256": "df8f0aff096a464ec155387430fa23e2ed1f556b77332325554a4684717731e3"
+        },
+        "items.parquet": {
+          "bytes": 27004,
+          "sha256": "b4b7a8b7b6f503f5585cbf288e452c09cd70f9c428ba856784e79a716f846319"
+        },
+        "subjects.parquet": {
+          "bytes": 6718,
+          "sha256": "a8bae7d9a1a756ae891db41a0fa4ee23d4e22ad4408d6523017031500910b3ef"
+        },
+        "ungraded.parquet": {
+          "bytes": 26927,
+          "sha256": "b53ccc0c11c255151f9b3b85f01646f9ee3fb1fe603bf67043d3445899b0047d"
+        }
+      },
+      "receipt_sha256": "87964a8ee2f79c4fd20dc66690cebcd6b45cce80a03b0c127ab097d4072b7d1c",
+      "source": {
+        "benchmarks": {
+          "bytes": 17406,
+          "sha256": "97b0df180f57c189a1c3c6ea995cb7b3a64069cfb9d89202e64a45111aa8e496"
+        },
+        "items": {
+          "bytes": 85082,
+          "sha256": "a532e73d595f69d38c84060ec73085003bdd61848bb194fdd6a0a9ff5afc4b44"
+        },
+        "responses": {
+          "bytes": 193234,
+          "sha256": "55a421a56723edaebe488d50afeb1bd16e9751cc666467653dcb2c7e71697b02"
+        },
+        "subjects": {
+          "bytes": 12955,
+          "sha256": "3b1f8eede9c84a63540ea24a93e8c654d8fd766357975896f221ecab7bdd78cf"
+        }
+      },
+      "visible_subjects": 49
+    },
+    "vhelm": {
+      "benchmark": "vhelm",
+      "counts": {
+        "binary_trials": 405790,
+        "source_item_excluded": 525688,
+        "source_trials": 931478
+      },
+      "native_items": 93127,
+      "native_subjects": 112,
+      "observed_visible_item_variants": 36886,
+      "organizer_slug": "vhelm",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 5839260,
+          "sha256": "4da43fb2e415fb8ee7c775d868914c052f68dade3d68f1fda56890a53319ada5"
+        },
+        "items.parquet": {
+          "bytes": 1608128,
+          "sha256": "cfc86db8825f9330f3f09bfcb9b93750d584be592ab4b3c61a61f081a98376fe"
+        },
+        "subjects.parquet": {
+          "bytes": 7300,
+          "sha256": "f6b917c32e1ee55dd4cb2cb06f8db75877d2e06b20cd3acf266335b5ac79f45f"
+        },
+        "ungraded.parquet": {
+          "bytes": 10820361,
+          "sha256": "0f3bae4b12dc80b5883347ac25a037d37a3fc40bff5200f86f5d4138bb8f1825"
+        }
+      },
+      "receipt_sha256": "2d21971416de1945dcdaebcc0172111bc64e7ef405ef261bb24f43836d3ecc70",
+      "source": {
+        "benchmarks": {
+          "bytes": 16771,
+          "sha256": "a20154bb6387ab6574f5cf3d34077dd8387bbb4e3012697ca59a57c8fcf79b62"
+        },
+        "items": {
+          "bytes": 18309466,
+          "sha256": "371d1f526e8fd5cfb2ef2839cce832bc4911012f89f62333a704672bd417dae7"
+        },
+        "responses": {
+          "bytes": 34898525,
+          "sha256": "ef80d5a6350624a3f8e2c74cb342845cd8948abcf737ea4040f69d38de81b410"
+        },
+        "subjects": {
+          "bytes": 14107,
+          "sha256": "c564fb69474e4ebc72fd3f5f420ac95baa2f78f4a41cb05a2c16be62c16ddaf2"
+        }
+      },
+      "visible_subjects": 112
+    },
+    "visual_riddles": {
+      "benchmark": "visual_riddles",
+      "counts": {
+        "binary_trials": 3186,
+        "source_trials": 3186
+      },
+      "native_items": 793,
+      "native_subjects": 8,
+      "observed_visible_item_variants": 793,
+      "organizer_slug": "visual_riddles",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 38877,
+          "sha256": "135764a014bf2ae5b6357aa47d65a3b70d1d4b8bf1c79c57c2b80335acf83ad5"
+        },
+        "items.parquet": {
+          "bytes": 85248,
+          "sha256": "0ac6843d3775413ce5e05771fc3598b091b08e74f9985c26aa7dd14326a14f4f"
+        },
+        "subjects.parquet": {
+          "bytes": 2410,
+          "sha256": "492244d4220cd49f2b8067512545177f08b7dc7de6b10cd6bcdd793d008b673d"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "5042fd2f774eb0384a3bd7493f775d9bc8a4ba3ba6e3102cc7bf57131002983a",
+      "source": {
+        "benchmarks": {
+          "bytes": 18236,
+          "sha256": "c33dce72f542b99af332c674c76dec10ca2b4f8035a13a094711025bd5f83c6a"
+        },
+        "items": {
+          "bytes": 264977,
+          "sha256": "d557d3f898f2266040e27424c52d93426f352eb67eb7f1a667f525b1c00b7f1b"
+        },
+        "responses": {
+          "bytes": 82018,
+          "sha256": "9377374e64ad60d3241d414df72260dc77f5942c73118f7e2f5079c015931fd8"
+        },
+        "subjects": {
+          "bytes": 7874,
+          "sha256": "7e999562146bd43aa89f2d0397f1cf9208fd6ee3cdcaf0edf487dcd76df80480"
+        }
+      },
+      "visible_subjects": 8
+    },
+    "wonderbread": {
+      "benchmark": "wonderbread",
+      "counts": {
+        "binary_trials": 14460,
+        "source_item_excluded": 6771,
+        "source_trials": 21231
+      },
+      "native_items": 9091,
+      "native_subjects": 38,
+      "observed_visible_item_variants": 6825,
+      "organizer_slug": "wonderbread",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 184414,
+          "sha256": "0272c6debea2ba475b54255899f55c9c4fb07412bfa2797f7fd3432ce3af33b0"
+        },
+        "items.parquet": {
+          "bytes": 694307,
+          "sha256": "f01d80155d47c4d3cab3a942a1de420c2f7262c6bcd9d138e114e8a36eb1676d"
+        },
+        "subjects.parquet": {
+          "bytes": 3286,
+          "sha256": "e5d79c77cf95bb734698697e95f8e6a2213fa2841546b4c1bfd8f4a26407ef5a"
+        },
+        "ungraded.parquet": {
+          "bytes": 101253,
+          "sha256": "af5e40b33f929bc2e5ce1ac8de726eb3e8c22d77dc5d6f1de692cc8b52a5e5a3"
+        }
+      },
+      "receipt_sha256": "dc3999c21f6a5a4072d059be8bdb9c816a6141fe3deca2b7e458df398cb89110",
+      "source": {
+        "benchmarks": {
+          "bytes": 16814,
+          "sha256": "f798c5ef890bd2559777e011fc50ead68be7a197cace4eb387fa7bb9b62a432d"
+        },
+        "items": {
+          "bytes": 10799057,
+          "sha256": "dacfd30db2fee1623410d819161672e671c6f65e6330ff0f6d2502e4a6f754eb"
+        },
+        "responses": {
+          "bytes": 605779,
+          "sha256": "9ab2aa261149ec448433e80f00a53dbf439366ebe5b2d984b398015208b27655"
+        },
+        "subjects": {
+          "bytes": 8869,
+          "sha256": "c3ab736b73a0c14d6541a1c1705b85b9c6d041443748364bb1a40aedde285d22"
+        }
+      },
+      "visible_subjects": 38
+    },
+    "workarena": {
+      "benchmark": "workarena",
+      "counts": {
+        "binary_trials": 475,
+        "source_trials": 475
+      },
+      "native_items": 385,
+      "native_subjects": 8,
+      "observed_visible_item_variants": 385,
+      "organizer_slug": "workarena",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 7503,
+          "sha256": "edd1ef975c403d70477fdbe8e3309c055d4b0e1a7df8b22da2433135f43e238d"
+        },
+        "items.parquet": {
+          "bytes": 29314,
+          "sha256": "2ba628a41831cd1fe6ede4cf19130367d58f2c9ff7948e942b88c3302a593893"
+        },
+        "subjects.parquet": {
+          "bytes": 13500,
+          "sha256": "1ca8f4d390818f3d8d72ba41a503a45e095ef5b086419a0e2db22fe29a194454"
+        },
+        "ungraded.parquet": {
+          "bytes": 520,
+          "sha256": "373e892ae9d3c1b4a6e4cce90365430c6873463ad9d7b5e1e4d46de87259e9f1"
+        }
+      },
+      "receipt_sha256": "827f0d71ce1aae183f757ba59ff7b8a13d4c595181e4da4abee05a1025a7ae1c",
+      "source": {
+        "benchmarks": {
+          "bytes": 18161,
+          "sha256": "98096cefd6f1df3499e1fd6222dd5fa06c773c5ae0c0e121027390e9eb97b03a"
+        },
+        "items": {
+          "bytes": 86657,
+          "sha256": "6e7224da6cd8589c87be19a505048b84710a412ab7fce495ecc31ec171dc4def"
+        },
+        "responses": {
+          "bytes": 21894,
+          "sha256": "938f16332824703433fec48ae2cc1fb1beb9d9f199d057110085d185b41c0a3c"
+        },
+        "subjects": {
+          "bytes": 19265,
+          "sha256": "87f88a783f77a352f4690b923b6ac9ba461b28bc609e05bb557a1b291a8f91f1"
+        }
+      },
+      "visible_subjects": 8
+    },
+    "worldcentralbanks": {
+      "benchmark": "worldcentralbanks",
+      "counts": {
+        "binary_trials": 405558,
+        "source_trials": 405600,
+        "ungraded": 42
+      },
+      "native_items": 119925,
+      "native_subjects": 10,
+      "observed_visible_item_variants": 119925,
+      "organizer_slug": "world_central_banks",
+      "outputs": {
+        "facts.parquet": {
+          "bytes": 4992304,
+          "sha256": "6d307067e6078d46871bc188d2c6afeafc293992c0df12dec19121698350cb86"
+        },
+        "items.parquet": {
+          "bytes": 8204277,
+          "sha256": "2ac814b6663bef938c59967340ffb359c26b35b766310edb1243d9193e4c7330"
+        },
+        "subjects.parquet": {
+          "bytes": 2736,
+          "sha256": "26faf032d91256c560d220c52ceedb4f02923678e9709bec11cd4be5ea22b505"
+        },
+        "ungraded.parquet": {
+          "bytes": 9154,
+          "sha256": "b1568cc9253c2637d1f62b54ac0be934d596369240a022b2edef6a786c91e9fc"
+        }
+      },
+      "receipt_sha256": "af4ddf3a947ef6dbe24b0ebbe3a9f4b4aeec717960b5641d1420ba4fce92f4ac",
+      "source": {
+        "benchmarks": {
+          "bytes": 17021,
+          "sha256": "a4aa3edd51d1d19ca6fab5512b91e1706df0a92ed7207b8eac32300d67bee67a"
+        },
+        "items": {
+          "bytes": 37275231,
+          "sha256": "22a1db8a94797d9c542ee79dfe33fdbfd26776d8f05f7cae4e07ff87e9ed9aa0"
+        },
+        "responses": {
+          "bytes": 10418569,
+          "sha256": "0f7fbd80f776f63323db167267107765d3e304f4a89d262cd51473ef73912887"
+        },
+        "subjects": {
+          "bytes": 8370,
+          "sha256": "cdc872cb4ee7f9faa744aa93065f8df3c9b500b09a013c0157ca8a48ca61fa8b"
+        }
+      },
+      "visible_subjects": 10
+    }
+  }
+}

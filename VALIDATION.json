@@ -1,0 +1,37 @@
+{
+  "scope": "prepared public release, before publication",
+  "selected_submission": 1033935,
+  "candidate_archive_sha256": "23546eb90c7469fe7ea2704879775885f1b32e3277b4b7b3a1015aa1c7c6297b",
+  "report_commit": "994b107750b267862d0b982a90d07133c20d6f83",
+  "pdf_pages": 18,
+  "main_text_pages": 8,
+  "references_start": 9,
+  "pdf_build_exit_code": 0,
+  "source_diagram_and_author_edits": "preserved",
+  "source_registry": {
+    "benchmarks": 44,
+    "lineages": 36,
+    "native_files": 160,
+    "projected_files": 176
+  },
+  "native_development_source_files": 15,
+  "inference_status": "passed: exact candidate, all budgets, guards, process agreement, clean CPU install",
+  "training_smoke_status": "passed: native Rasch and CAIMIRA fits on 48 synthetic trials, learned state roundtrip and repeat seed",
+  "publication_status": "repository exists; contents upload pending",
+  "collaborator_status": "invitation pending",
+  "official_compliance": "PARTIAL; see docs/COMPLIANCE.md",
+  "clean_packaged_source_build": "passed; all18page texts agree with included PDF",
+  "credential_pattern_scan": {
+    "files_and_members": 296,
+    "hits": 0
+  },
+  "preserved_shared_outputs": "original tables and figure match exact base bytes",
+  "publishing_local_mock_cases": 10,
+  "network_download_of_training_corpus": "outside executed checks",
+  "report_source_base": "e4f3d6b15ad45b2583127b529d5fb88d82b4deb4",
+  "pdf_sha256": "d04438f26a5609ea5f9bd0eb2582bb06f35dd3ace535a0421f36c8d55cd5585a",
+  "publisher_unit_cases": 12,
+  "publisher_end_to_end_mock_cases": 4,
+  "private_repository_pdf_links": 0,
+  "private_draft_bibliography_entries": 0
+}
